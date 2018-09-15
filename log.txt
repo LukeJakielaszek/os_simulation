@@ -1,0 +1,207 @@
+Processed config file [config.txt]
+Initialized constants
+Initialized Heap
+Initialized Subsystems
+Running Simulation...
+
+Job 1 entered simulation at 0
+Job 1 finished at CPU at 14
+Job 2 entered simulation at 19
+Job 3 entered simulation at 24
+Job 1 finished at DISK 1 at 32
+Job 2 finished at CPU at 38
+Job 4 entered simulation at 43
+Job 2 finished at DISK 1 at 54
+Job 3 finished at CPU at 63
+Job 5 entered simulation at 80
+Job 1 finished at CPU at 83
+Job 3 finished at DISK 1 at 85
+Job 6 entered simulation at 97
+Job 1 finished at DISK 2 at 103
+Job 4 finished at CPU at 104
+Job 7 entered simulation at 116
+Job 2 finished at CPU at 121
+Job 4 finished at DISK 1 at 128
+Job 2 finished at DISK 2 at 132
+Job 8 entered simulation at 136
+Job 5 finished at CPU at 139
+Job 9 entered simulation at 141
+Job 5 finished at DISK 1 at 147
+Job 3 finished at CPU at 162
+Job 10 entered simulation at 171
+Job 3 finished at DISK 1 at 173
+Job 6 finished at CPU at 186
+Job 6 finished at DISK 1 at 199
+Job 11 entered simulation at 204
+Job 1 finished at CPU at 210
+Job 12 entered simulation at 217
+Job 7 finished at CPU at 219
+Job 13 entered simulation at 220
+Job 1 finished at DISK 1 at 231
+Job 7 finished at DISK 2 at 238
+Job 4 finished at CPU at 241
+Job 14 entered simulation at 242
+Job 2 finished at CPU at 254
+Job 2 finished at DISK 2 at 261
+Job 8 finished at CPU at 263
+Job 4 finished at DISK 1 at 265
+Job 15 entered simulation at 270
+Job 16 entered simulation at 274
+Job 8 finished at DISK 2 at 287
+Job 9 finished at CPU at 288
+Job 17 entered simulation at 291
+Job 9 finished at DISK 1 at 306
+Job 5 finished at CPU at 312
+Job 5 finished at DISK 1 at 321
+Job 10 finished at CPU at 321
+Job 18 entered simulation at 328
+Job 3 finished at CPU at 334
+Job 19 entered simulation at 335
+Job 10 finished at DISK 1 at 345
+Job 20 entered simulation at 347
+Job 6 finished at CPU at 353
+Job 3 finished at DISK 2 at 359
+Job 11 finished at CPU at 360
+Job 21 entered simulation at 365
+Job 6 finished at DISK 1 at 366
+Job 11 finished at DISK 2 at 371
+Job 22 entered simulation at 376
+Job 12 finished at CPU at 384
+Job 23 entered simulation at 396
+Job 12 finished at DISK 1 at 401
+Job 13 finished at CPU at 402
+Job 1 finished at CPU at 418
+Job 13 finished at DISK 1 at 420
+Job 24 entered simulation at 422
+Job 25 entered simulation at 422
+Job 1 finished at DISK 2 at 436
+Job 7 finished at CPU at 437
+Job 26 entered simulation at 441
+Job 7 finished at DISK 1 at 450
+Job 14 finished at CPU at 455
+Job 27 entered simulation at 457
+Job 2 finished at CPU at 465
+Job 2 finished at DISK 2 at 472
+Job 28 entered simulation at 472
+Job 4 finished at CPU at 480
+Job 14 finished at DISK 1 at 480
+Job 15 finished at CPU at 493
+Job 29 entered simulation at 495
+Job 30 entered simulation at 502
+Job 4 finished at DISK 2 at 503
+Job 16 finished at CPU at 506
+Job 15 finished at DISK 1 at 509
+Job 16 finished at DISK 2 at 514
+Job 31 entered simulation at 518
+Job 8 finished at CPU at 528
+Job 17 finished at CPU at 535
+Job 33 entered simulation at 537
+Job 32 entered simulation at 538
+Job 8 finished at DISK 1 at 548
+Job 17 finished at DISK 2 at 549
+Job 9 finished at CPU at 555
+Job 9 finished at DISK 1 at 561
+Job 5 finished at CPU at 567
+Job 34 entered simulation at 568
+Job 18 finished at CPU at 572
+Job 5 finished at DISK 1 at 572
+Job 35 entered simulation at 574
+Job 18 finished at DISK 2 at 581
+Job 19 finished at CPU at 585
+Job 37 entered simulation at 590
+Job 36 entered simulation at 592
+Job 10 finished at CPU at 598
+Job 19 finished at DISK 1 at 598
+Job 38 entered simulation at 613
+Job 20 finished at CPU at 613
+Job 10 finished at DISK 2 at 613
+Job 39 entered simulation at 616
+Job 3 finished at CPU at 625
+Job 20 finished at DISK 1 at 635
+Job 40 entered simulation at 636
+Job 3 finished at DISK 2 at 641
+Job 21 finished at CPU at 649
+Job 6 finished at CPU at 656
+Job 41 entered simulation at 657
+Job 42 entered simulation at 666
+Job 6 finished at DISK 2 at 671
+Job 21 finished at DISK 1 at 674
+Job 11 finished at CPU at 678
+Job 43 entered simulation at 682
+Job 22 finished at CPU at 689
+Job 22 finished at DISK 2 at 695
+Job 44 entered simulation at 700
+Job 23 finished at CPU at 701
+Job 11 finished at DISK 1 at 703
+Job 45 entered simulation at 713
+Job 12 finished at CPU at 714
+Job 12 finished at DISK 1 at 720
+Job 23 finished at DISK 2 at 721
+Job 13 finished at CPU at 731
+Job 46 entered simulation at 734
+Job 24 finished at CPU at 736
+Job 13 finished at DISK 1 at 736
+Job 47 entered simulation at 739
+Job 24 finished at DISK 2 at 746
+Job 25 finished at CPU at 751
+Job 48 entered simulation at 753
+Job 49 entered simulation at 756
+Job 1 finished at CPU at 762
+Job 50 entered simulation at 766
+Job 1 finished at DISK 2 at 768
+Job 25 finished at DISK 1 at 775
+Job 26 finished at CPU at 784
+Job 51 entered simulation at 790
+Job 26 finished at DISK 1 at 801
+Job 7 finished at CPU at 805
+Job 52 entered simulation at 807
+Job 27 finished at CPU at 816
+Job 53 entered simulation at 824
+Job 2 finished at CPU at 827
+Job 7 finished at DISK 1 at 830
+Job 27 finished at DISK 2 at 830
+Job 54 entered simulation at 835
+Job 28 finished at CPU at 845
+Job 55 entered simulation at 848
+Job 2 finished at DISK 2 at 850
+Job 14 finished at CPU at 852
+Job 28 finished at DISK 1 at 853
+Job 29 finished at CPU at 860
+Job 56 entered simulation at 867
+Job 30 finished at CPU at 869
+Job 14 finished at DISK 2 at 872
+Job 57 entered simulation at 875
+Job 4 finished at CPU at 875
+Job 58 entered simulation at 878
+Job 29 finished at DISK 1 at 879
+Job 30 finished at DISK 2 at 881
+Job 59 entered simulation at 883
+Job 4 finished at DISK 2 at 897
+Job 15 finished at CPU at 899
+Job 15 finished at DISK 1 at 906
+Job 60 entered simulation at 907
+Job 16 finished at CPU at 913
+Job 61 entered simulation at 917
+Job 31 finished at CPU at 919
+Job 16 finished at DISK 1 at 924
+Job 33 finished at CPU at 924
+Job 62 entered simulation at 929
+Job 31 finished at DISK 2 at 935
+Job 32 finished at CPU at 938
+Job 63 entered simulation at 940
+Job 33 finished at DISK 1 at 942
+Job 64 entered simulation at 942
+Job 8 finished at CPU at 944
+Job 65 entered simulation at 950
+Job 17 finished at CPU at 954
+Job 66 entered simulation at 955
+Job 32 finished at DISK 2 at 963
+Job 8 finished at DISK 1 at 963
+Job 9 finished at CPU at 976
+Job 17 finished at DISK 2 at 977
+Job 67 entered simulation at 990
+Job 9 finished at DISK 1 at 992
+Job 34 finished at CPU at 995
+Job 68 entered simulation at 998
+
+Simulation complete

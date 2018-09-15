@@ -53,9 +53,33 @@ hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
 		       hnode * heap, int quit_prob, int arr_min, int arr_max);
 
 int main(char argc, char ** argv){
+  // opens log file
+  FILE *log_file;
+
+  // clears log_file
+  log_file = fopen(argv[2], "w");
+  // prints error if log file fails to open
+  if(log_file == NULL){
+    printf("ERROR: Failed to open [%s]\n", argv[2]);
+    exit(-1);
+  }
+  
+  fclose(log_file);
+  
+  // opens log file for append
+  log_file = fopen(argv[2], "a");
+
+  // prints error if log file fails to open
+  if(log_file == NULL){
+    printf("ERROR: Failed to open [%s]\n", argv[2]);
+    exit(-1);
+  }
+
   // reads config values from txt file
   double * config_vals = read_config(argv[1]);
 
+  fprintf(log_file, "Processed config file [%s]\n", argv[1]);
+  
   // initializes config value constants
   const int SEED = (int)config_vals[0];
   const int INIT_TIME = (int)config_vals[1];
@@ -75,6 +99,8 @@ int main(char argc, char ** argv){
 
   // initializes random number generators.
   srand(SEED);
+
+  fprintf(log_file, "Initialized constants\n");
   
   // creates heap for job time ordering
   hnode * heap = create_heap();
@@ -83,24 +109,11 @@ int main(char argc, char ** argv){
   heap = push(heap, num_jobs, JOB_ENTERS, INIT_TIME);
   heap = push(heap, -1, SIM_FIN, FIN_TIME);
 
+  fprintf(log_file, "Initialized Heap\n");
+  
   // initializes simulation timer
   sim_time = INIT_TIME;
 
-  // opens log file
-  FILE *log_file;
-
-  // clears log_file
-  log_file = fopen(argv[2], "w");
-  fclose(log_file);
-  
-  // opens log file for append
-  log_file = fopen(argv[2], "a");
-
-  // prints error if log file fails to open
-  if(log_file == NULL){
-    printf("ERROR: Failed to open [%s]\n", argv[2]);
-    exit(-1);
-  }
 
   // creates cpu subsystem
   sub_system * cpu = create_sub(JOB_FIN_CPU, CPU_MIN, CPU_MAX);
@@ -111,19 +124,21 @@ int main(char argc, char ** argv){
   // creates disk2 subsystem
   sub_system * disk2 = create_sub(JOB_FIN_D2, DISK2_MIN, DISK2_MAX);
 
+  fprintf(log_file, "Initialized Subsystems\n");
+  
+  fprintf(log_file, "Running Simulation...\n\n");
+  
   // simulation loop
   while(1){
-    print_heap(heap);
-    
     // gets next process
     hnode * next_process = pop(heap);
-
+    
     // increments sim_time
     sim_time = next_process->time;
-
+    
     // calls handler function based on process type
     if(next_process->type == SIM_FIN){
-      printf("SIMULATION COMPLETE\n");
+      fprintf(log_file, "\nSimulation complete\n");
 
       // frees allocated memory
       free(heap);
@@ -136,14 +151,26 @@ int main(char argc, char ** argv){
       
       return 0;
     }else if(next_process->type == JOB_ENTERS){
+      // logs event
+      fprintf(log_file, "Job %d entered simulation at %d\n", next_process->id,
+	      next_process->time);
+
       // handles job arrival event
       heap = job_arrives_cpu(next_process->id, cpu, heap, log_file,
 			 ARRIVE_MIN, ARRIVE_MAX);
     }else if(next_process->type == JOB_FIN_CPU){
+      // logs event
+      fprintf(log_file, "Job %d finished at CPU at %d\n", next_process->id,
+	      next_process->time);
+      
       //handles job finishes at cpu event
       heap = job_finish_cpu(cpu, disk1, disk2, heap, QUIT_PROB, ARRIVE_MIN,
 			    ARRIVE_MAX);
     }else if(next_process->type == JOB_FIN_D1){
+      // logs event
+      fprintf(log_file, "Job %d finished at DISK 1 at %d\n", next_process->id,
+	      next_process->time);
+      
       //adds finished disk1 job to cpu or cpu queue
       heap = job_arrives_cpu(disk1->cur_id, cpu, heap, log_file, ARRIVE_MIN,
 			     ARRIVE_MAX);
@@ -151,6 +178,10 @@ int main(char argc, char ** argv){
       // finds next job or sits in idle
       heap = job_finish_disk(disk1, cpu, heap);
     }else if(next_process->type == JOB_FIN_D2){
+      // logs event
+      fprintf(log_file, "Job %d finished at DISK 2 at %d\n", next_process->id,
+	      next_process->time);
+      
       //adds finished disk1 job to cpu or cpu queue
       heap = job_arrives_cpu(disk2->cur_id, cpu, heap, log_file, ARRIVE_MIN,
 			     ARRIVE_MAX);
