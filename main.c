@@ -25,16 +25,31 @@ typedef struct sub_system{
 
   // tracks type of finish to add to heap
   int fin_type;
+
+  // subsystems corresponding queue
+  qnode * queue;
+
+  // min time for a job to process
+  int min_time;
+
+  // max time for a job to process
+  int max_time;
   
 }sub_system;
 
 // prototypes
 int gen_rand_int(int min, int max);
 int can_exit(double prob);
-hnode * job_arrives(int id, sub_system * cpu, hnode * root,
-		    FILE * log_file, int min_time, int max_time, int arr_min,
-		    int arr_max);
-sub_system * create_sub(int type);
+hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
+			FILE * log_file, int arr_min, int arr_max);
+sub_system * create_sub(int type, int min_time, int max_time);
+int compare_qs(qnode * q1, qnode * q2);
+hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
+		       int max_time);
+hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
+		       hnode * heap, int quit_prob);
+hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
+			int id);
 
 int main(char argc, char ** argv){
   // reads config values from txt file
@@ -63,17 +78,8 @@ int main(char argc, char ** argv){
   // creates heap for job time ordering
   hnode * heap = create_heap();
 
-  // creates fifo queue for cpu
-  qnode * cpu_q = make_queue();
-
-  // creates fifo queue for disk1
-  qnode * disk1_q = make_queue();
-  
-  // creates fifo queue for disk2
-  qnode * disk2_q = make_queue();
-
   // initializes heap job1 and end time
-  heap = push(heap, 1, JOB_ENTERS, INIT_TIME);
+  heap = push(heap, num_jobs, JOB_ENTERS, INIT_TIME);
   heap = push(heap, -1, SIM_FIN, FIN_TIME);
 
   // initializes simulation timer
@@ -96,13 +102,13 @@ int main(char argc, char ** argv){
   }
 
   // creates cpu subsystem
-  sub_system * cpu = create_sub(JOB_FIN_CPU);
+  sub_system * cpu = create_sub(JOB_FIN_CPU, CPU_MIN, CPU_MAX);
 
   // creates disk1 subsystem
-  sub_system * disk1 = create_sub(JOB_FIN_D1);
+  sub_system * disk1 = create_sub(JOB_FIN_D1, DISK1_MIN, DISK1_MAX);
 
   // creates disk2 subsystem
-  sub_system * disk2 = create_sub(JOB_FIN_D2);
+  sub_system * disk2 = create_sub(JOB_FIN_D2, DISK2_MIN, DISK2_MAX);
 
   // simulation loop
   while(1){
@@ -118,64 +124,138 @@ int main(char argc, char ** argv){
     if(next_process->type == SIM_FIN){
       printf("SIMULATION COMPLETE\n");
 
+      // frees allocated memory
+      free(heap);
+      free(cpu);
+      free(disk1);
+      free(disk2);
+      
       // closes log file
       fclose(log_file);
       
       return 0;
     }else if(next_process->type == JOB_ENTERS){
       // handles job arrival event
-      heap = job_arrives(next_process->id, cpu, heap, log_file,
-			 CPU_MIN, CPU_MAX, ARRIVE_MIN, ARRIVE_MAX);
+      heap = job_arrives_cpu(next_process->id, cpu, heap, log_file,
+			 ARRIVE_MIN, ARRIVE_MAX);
+    }else if(next_process->type == JOB_FIN_CPU){
+      heap = job_finish_cpu(cpu, disk1, disk2, heap, QUIT_PROB);
+    }else{
+      printf("Error: Process of unknown type %d.\n", next_process->type);
+      exit(-1);
     }
-    
   }
 }
 
-// adds job to the subsystem or its corresponding queue
-hnode * job_arrives(int id, sub_system * sub, hnode * heap,
-		    FILE * log_file, int min_time, int max_time, int arr_min,
-		    int arr_max){
-  if(sub->is_busy){
-
+hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
+			int id){
+  if(d1->is_busy && d2->is_busy){
+    // append to smallest queue
+  }else if(d1->is_busy == 0){
+    // append to d1 queue
   }else{
-    // if sub_system is not busy, add job directly to sub.
+    // append to d2 queue
+  }
+
+  return heap;
+}
+
+hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
+		       hnode * heap, int quit_prob){
+  if(can_exit(quit_prob)){
+    // log job leaving simulation.
+    printf("Job %d leaving simulation.\n", cpu->cur_id);
+  }else{
+    // add job to disk.
+    heap = job_arrive_disk(d1, d2, heap, cpu->cur_id);
+  }
+  
+  // sets subsystem to not busy if queue is empty, else grabs
+  // next item in queue and updates subsystem
+  if(isEmpty(cpu->queue)){
+    cpu->is_busy = 0;
+    cpu->cur_id = -1;
+  }else{
+    //dequeues next job
+    int next_id = dequeue(cpu->queue);
+
+    // updates cpu with new job info
+    cpu->cur_id = next_id;
+    cpu->is_busy = 1;
+
+    // creates job finish time for new job
+    heap = create_job_fin(cpu, heap, cpu->min_time, cpu->max_time);
+  }
+
+  return heap;
+}
+
+// returns 1 if left q is larger than right, returns 0 otherwise
+int compare_qs(qnode * q1, qnode * q2){
+  int q1_size = count_queue(q1);
+  int q2_size = count_queue(q2);
+
+  if(q1_size > q2_size){
+    return 1;
+  }else{
+    return 0;
+  }
+}
+
+hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
+		       int max_time){
+  int fin_time = gen_rand_int(min_time, max_time) + sim_time;
+
+  // pushes job finish time onto heap
+  heap = push(heap, sub->cur_id, sub->fin_type, fin_time);
+
+  return heap;
+}
+
+// adds job to the subsystem or its corresponding queue
+hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
+		    FILE * log_file, int arr_min, int arr_max){
+  // places job in corresponding queue
+  if(sub->is_busy){
+    enqueue(sub->queue, id);
+  }else{
+    // add job directly to subsystem.
     sub->cur_id = id;
 
     // set sub_system to busy
     sub->is_busy = 1;
 
-    //determines finished time for job
-    int fin_time;
-    if(sub->fin_type == JOB_FIN_CPU){
-      // for cpu subsystem
-      fin_time = gen_rand_int(min_time, max_time) + sim_time;
-      
-    }else if(sub->fin_type == JOB_FIN_D1){
-      // for d1 subsystem
-      fin_time = gen_rand_int(min_time, max_time) + sim_time;
-
-    }else{
-      // for d2 subsystem
-      fin_time = gen_rand_int(min_time, max_time) + sim_time;
-    }
-    
-    // pushes job finish time onto heap
-    heap = push(heap, sub->cur_id, sub->fin_type, fin_time);
+    // append job finish time to heap
+    heap = create_job_fin(sub, heap, sub->min_time, sub->max_time);
 
     // creates new job to add to heap
-    int arr_time = gen_rand_int(arr_min, arr_max);
+    int arr_time = gen_rand_int(arr_min, arr_max) + sim_time;
+      
+    // increments global job count
+    num_jobs++;
+
+    // pushes new job to heap, this will make jobs grow linearly
+    heap = push(heap, num_jobs, JOB_ENTERS, arr_time);
   }
-  
+
+  // returns altered heap
+  return heap;
 }
 
-sub_system * create_sub(int type){
+sub_system * create_sub(int type, int min_time, int max_time){
   sub_system * temp;
 
   temp = (sub_system*)malloc(sizeof(sub_system));
 
+  // creates fifo queue for subsystem  
+  qnode * sub_q = make_queue();
+
   temp->cur_id = -1;
   temp->is_busy = 0;
   temp->fin_type = type;
+  temp->queue = sub_q;
+  temp->min_time = min_time;
+  temp->max_time = max_time;
 
   return temp;
 }
