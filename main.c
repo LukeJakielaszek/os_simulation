@@ -47,10 +47,12 @@ int compare_qs(qnode * q1, qnode * q2);
 hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
 		       int max_time);
 hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
-			int id);
-hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap);
+			int id, FILE * log_file);
+hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap,
+			FILE * log_file);
 hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
-		       hnode * heap, int quit_prob, int arr_min, int arr_max);
+		       hnode * heap, double quit_prob, int arr_min,
+		       int arr_max, FILE * log_file);
 
 int main(char argc, char ** argv){
   // opens log file
@@ -157,7 +159,7 @@ int main(char argc, char ** argv){
 
       // handles job arrival event
       heap = job_arrives_cpu(next_process->id, cpu, heap, log_file,
-			 ARRIVE_MIN, ARRIVE_MAX);
+			     ARRIVE_MIN, ARRIVE_MAX);
     }else if(next_process->type == JOB_FIN_CPU){
       // logs event
       fprintf(log_file, "Job %d finished at CPU at %d\n", next_process->id,
@@ -165,7 +167,7 @@ int main(char argc, char ** argv){
       
       //handles job finishes at cpu event
       heap = job_finish_cpu(cpu, disk1, disk2, heap, QUIT_PROB, ARRIVE_MIN,
-			    ARRIVE_MAX);
+			    ARRIVE_MAX, log_file);
     }else if(next_process->type == JOB_FIN_D1){
       // logs event
       fprintf(log_file, "Job %d finished at DISK 1 at %d\n", next_process->id,
@@ -176,7 +178,7 @@ int main(char argc, char ** argv){
 			     ARRIVE_MAX);
 
       // finds next job or sits in idle
-      heap = job_finish_disk(disk1, cpu, heap);
+      heap = job_finish_disk(disk1, cpu, heap, log_file);
     }else if(next_process->type == JOB_FIN_D2){
       // logs event
       fprintf(log_file, "Job %d finished at DISK 2 at %d\n", next_process->id,
@@ -187,7 +189,7 @@ int main(char argc, char ** argv){
 			     ARRIVE_MAX);
 
       // finds next job or sits in idle
-      heap = job_finish_disk(disk2, cpu, heap);
+      heap = job_finish_disk(disk2, cpu, heap, log_file);
     }else{
       printf("Error: Process of unknown type %d.\n", next_process->type);
       exit(-1);
@@ -195,7 +197,8 @@ int main(char argc, char ** argv){
   }
 }
 
-hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap){
+hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap,
+			FILE * log_file){
   if(isEmpty(disk->queue)){
     disk->is_busy = 0;
     disk->cur_id = -1;
@@ -203,6 +206,10 @@ hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap){
     disk->cur_id = dequeue(disk->queue);
     disk->is_busy = 1;
 
+    // logs event
+    fprintf(log_file, "Job %d enters disk %d from queue at %d.\n",
+	    disk->cur_id, disk->fin_type, sim_time);
+    
     // add new job fin time to heap
     heap = create_job_fin(disk, heap, disk->min_time, disk->max_time);
   }
@@ -211,16 +218,24 @@ hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap){
 }
 
 hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
-			int id){
+			int id, FILE * log_file){
   // determines where to place job for disks
   if(d1->is_busy && d2->is_busy){
     // appends job to smallest queue
     if(compare_qs(d1->queue, d2->queue)){
       // append to d1
       enqueue(d1->queue, id);
+
+      // log event
+      fprintf(log_file, "Job %d placed into DISK 1 queue at %d\n", id,
+	      sim_time);
     }else{
       // append to d2
       enqueue(d2->queue, id);
+
+      // log event
+      fprintf(log_file, "Job %d placed into DISK 2 queue at %d\n", id,
+	      sim_time);
     }
       
   }else if(d1->is_busy == 0){
@@ -230,7 +245,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
 
     // add fin time to heap
     heap = create_job_fin(d1, heap, d1->min_time, d1->max_time);
-    
+
+    fprintf(log_file, "Job %d placed directly into DISK 1 at %d\n",
+	    id, sim_time);
   }else{
     // add job directly to d2
     d2->is_busy = 1;
@@ -238,19 +255,24 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
 
     // add fin time to heap
     heap = create_job_fin(d2, heap, d2->min_time, d2->max_time);
+
+    fprintf(log_file, "Job %d placed directly into DISK 2 at %d\n", id,
+	    sim_time);
   }
 
   return heap;
 }
 
 hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
-		       hnode * heap, int quit_prob, int arr_min, int arr_max){
+		       hnode * heap, double quit_prob, int arr_min,
+		       int arr_max, FILE * log_file){
   if(can_exit(quit_prob)){
     // log job leaving simulation.
-    printf("Job %d leaving simulation.\n", cpu->cur_id);
+    fprintf(log_file, "Job %d leaving simulation at %d.\n", cpu->cur_id,
+	    sim_time);
   }else{
     // add job to disk.
-    heap = job_arrive_disk(d1, d2, heap, cpu->cur_id);
+    heap = job_arrive_disk(d1, d2, heap, cpu->cur_id, log_file);
   }
   
   // sets subsystem to not busy if queue is empty, else grabs
@@ -269,6 +291,10 @@ hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
     // creates job finish time for new job
     heap = create_job_fin(cpu, heap, cpu->min_time, cpu->max_time);
 
+    // logs event
+    fprintf(log_file, "Job %d enters CPU from queue at %d.\n", cpu->cur_id,
+	    sim_time);
+    
     // creates new job to add to heap
     int arr_time = gen_rand_int(arr_min, arr_max) + sim_time;
       
@@ -310,7 +336,12 @@ hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
   // places job in corresponding queue
   if(sub->is_busy){
     enqueue(sub->queue, id);
+
+    // logs enqueueing
+    fprintf(log_file, "job %d placed in cpu queue at %d\n", id, sim_time);
   }else{
+    fprintf(log_file, "job %d placed directly into cpu at %d\n", id, sim_time);
+    
     // add job directly to subsystem.
     sub->cur_id = id;
 
@@ -322,7 +353,7 @@ hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
 
     // creates new job to add to heap
     int arr_time = gen_rand_int(arr_min, arr_max) + sim_time;
-      
+    
     // increments global job count
     num_jobs++;
 

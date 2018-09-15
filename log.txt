@@ -5,203 +5,4323 @@ Initialized Subsystems
 Running Simulation...
 
 Job 1 entered simulation at 0
+job 1 placed directly into cpu at 0
 Job 1 finished at CPU at 14
+Job 1 placed directly into DISK 1 at 14
 Job 2 entered simulation at 19
-Job 3 entered simulation at 24
-Job 1 finished at DISK 1 at 32
-Job 2 finished at CPU at 38
-Job 4 entered simulation at 43
-Job 2 finished at DISK 1 at 54
-Job 3 finished at CPU at 63
-Job 5 entered simulation at 80
-Job 1 finished at CPU at 83
-Job 3 finished at DISK 1 at 85
-Job 6 entered simulation at 97
-Job 1 finished at DISK 2 at 103
-Job 4 finished at CPU at 104
-Job 7 entered simulation at 116
-Job 2 finished at CPU at 121
-Job 4 finished at DISK 1 at 128
-Job 2 finished at DISK 2 at 132
-Job 8 entered simulation at 136
-Job 5 finished at CPU at 139
-Job 9 entered simulation at 141
-Job 5 finished at DISK 1 at 147
-Job 3 finished at CPU at 162
-Job 10 entered simulation at 171
-Job 3 finished at DISK 1 at 173
-Job 6 finished at CPU at 186
-Job 6 finished at DISK 1 at 199
-Job 11 entered simulation at 204
-Job 1 finished at CPU at 210
-Job 12 entered simulation at 217
-Job 7 finished at CPU at 219
-Job 13 entered simulation at 220
-Job 1 finished at DISK 1 at 231
-Job 7 finished at DISK 2 at 238
-Job 4 finished at CPU at 241
-Job 14 entered simulation at 242
-Job 2 finished at CPU at 254
-Job 2 finished at DISK 2 at 261
-Job 8 finished at CPU at 263
-Job 4 finished at DISK 1 at 265
-Job 15 entered simulation at 270
-Job 16 entered simulation at 274
-Job 8 finished at DISK 2 at 287
-Job 9 finished at CPU at 288
-Job 17 entered simulation at 291
-Job 9 finished at DISK 1 at 306
-Job 5 finished at CPU at 312
-Job 5 finished at DISK 1 at 321
-Job 10 finished at CPU at 321
-Job 18 entered simulation at 328
-Job 3 finished at CPU at 334
-Job 19 entered simulation at 335
-Job 10 finished at DISK 1 at 345
-Job 20 entered simulation at 347
-Job 6 finished at CPU at 353
-Job 3 finished at DISK 2 at 359
-Job 11 finished at CPU at 360
-Job 21 entered simulation at 365
-Job 6 finished at DISK 1 at 366
-Job 11 finished at DISK 2 at 371
-Job 22 entered simulation at 376
-Job 12 finished at CPU at 384
-Job 23 entered simulation at 396
-Job 12 finished at DISK 1 at 401
-Job 13 finished at CPU at 402
-Job 1 finished at CPU at 418
-Job 13 finished at DISK 1 at 420
-Job 24 entered simulation at 422
-Job 25 entered simulation at 422
-Job 1 finished at DISK 2 at 436
-Job 7 finished at CPU at 437
-Job 26 entered simulation at 441
-Job 7 finished at DISK 1 at 450
-Job 14 finished at CPU at 455
-Job 27 entered simulation at 457
-Job 2 finished at CPU at 465
-Job 2 finished at DISK 2 at 472
-Job 28 entered simulation at 472
-Job 4 finished at CPU at 480
-Job 14 finished at DISK 1 at 480
-Job 15 finished at CPU at 493
-Job 29 entered simulation at 495
-Job 30 entered simulation at 502
-Job 4 finished at DISK 2 at 503
-Job 16 finished at CPU at 506
-Job 15 finished at DISK 1 at 509
-Job 16 finished at DISK 2 at 514
-Job 31 entered simulation at 518
-Job 8 finished at CPU at 528
-Job 17 finished at CPU at 535
-Job 33 entered simulation at 537
-Job 32 entered simulation at 538
-Job 8 finished at DISK 1 at 548
-Job 17 finished at DISK 2 at 549
-Job 9 finished at CPU at 555
-Job 9 finished at DISK 1 at 561
-Job 5 finished at CPU at 567
-Job 34 entered simulation at 568
-Job 18 finished at CPU at 572
-Job 5 finished at DISK 1 at 572
-Job 35 entered simulation at 574
-Job 18 finished at DISK 2 at 581
-Job 19 finished at CPU at 585
-Job 37 entered simulation at 590
-Job 36 entered simulation at 592
-Job 10 finished at CPU at 598
-Job 19 finished at DISK 1 at 598
-Job 38 entered simulation at 613
-Job 20 finished at CPU at 613
-Job 10 finished at DISK 2 at 613
-Job 39 entered simulation at 616
-Job 3 finished at CPU at 625
-Job 20 finished at DISK 1 at 635
-Job 40 entered simulation at 636
-Job 3 finished at DISK 2 at 641
-Job 21 finished at CPU at 649
-Job 6 finished at CPU at 656
-Job 41 entered simulation at 657
-Job 42 entered simulation at 666
-Job 6 finished at DISK 2 at 671
-Job 21 finished at DISK 1 at 674
-Job 11 finished at CPU at 678
-Job 43 entered simulation at 682
-Job 22 finished at CPU at 689
-Job 22 finished at DISK 2 at 695
-Job 44 entered simulation at 700
-Job 23 finished at CPU at 701
-Job 11 finished at DISK 1 at 703
-Job 45 entered simulation at 713
-Job 12 finished at CPU at 714
-Job 12 finished at DISK 1 at 720
-Job 23 finished at DISK 2 at 721
-Job 13 finished at CPU at 731
-Job 46 entered simulation at 734
-Job 24 finished at CPU at 736
-Job 13 finished at DISK 1 at 736
-Job 47 entered simulation at 739
-Job 24 finished at DISK 2 at 746
-Job 25 finished at CPU at 751
-Job 48 entered simulation at 753
-Job 49 entered simulation at 756
-Job 1 finished at CPU at 762
-Job 50 entered simulation at 766
-Job 1 finished at DISK 2 at 768
-Job 25 finished at DISK 1 at 775
-Job 26 finished at CPU at 784
-Job 51 entered simulation at 790
-Job 26 finished at DISK 1 at 801
-Job 7 finished at CPU at 805
-Job 52 entered simulation at 807
-Job 27 finished at CPU at 816
-Job 53 entered simulation at 824
-Job 2 finished at CPU at 827
-Job 7 finished at DISK 1 at 830
-Job 27 finished at DISK 2 at 830
-Job 54 entered simulation at 835
-Job 28 finished at CPU at 845
-Job 55 entered simulation at 848
-Job 2 finished at DISK 2 at 850
-Job 14 finished at CPU at 852
-Job 28 finished at DISK 1 at 853
-Job 29 finished at CPU at 860
-Job 56 entered simulation at 867
-Job 30 finished at CPU at 869
-Job 14 finished at DISK 2 at 872
-Job 57 entered simulation at 875
-Job 4 finished at CPU at 875
-Job 58 entered simulation at 878
-Job 29 finished at DISK 1 at 879
-Job 30 finished at DISK 2 at 881
-Job 59 entered simulation at 883
-Job 4 finished at DISK 2 at 897
-Job 15 finished at CPU at 899
-Job 15 finished at DISK 1 at 906
-Job 60 entered simulation at 907
-Job 16 finished at CPU at 913
-Job 61 entered simulation at 917
-Job 31 finished at CPU at 919
-Job 16 finished at DISK 1 at 924
-Job 33 finished at CPU at 924
-Job 62 entered simulation at 929
-Job 31 finished at DISK 2 at 935
-Job 32 finished at CPU at 938
-Job 63 entered simulation at 940
-Job 33 finished at DISK 1 at 942
-Job 64 entered simulation at 942
-Job 8 finished at CPU at 944
-Job 65 entered simulation at 950
-Job 17 finished at CPU at 954
-Job 66 entered simulation at 955
-Job 32 finished at DISK 2 at 963
-Job 8 finished at DISK 1 at 963
-Job 9 finished at CPU at 976
-Job 17 finished at DISK 2 at 977
-Job 67 entered simulation at 990
-Job 9 finished at DISK 1 at 992
-Job 34 finished at CPU at 995
-Job 68 entered simulation at 998
+job 2 placed directly into cpu at 19
+Job 2 finished at CPU at 28
+Job 2 placed directly into DISK 2 at 28
+Job 3 entered simulation at 31
+job 3 placed directly into cpu at 31
+Job 1 finished at DISK 1 at 33
+job 1 placed in cpu queue at 33
+Job 2 finished at DISK 2 at 37
+job 2 placed in cpu queue at 37
+Job 4 entered simulation at 47
+job 4 placed in cpu queue at 47
+Job 3 finished at CPU at 53
+Job 3 placed directly into DISK 1 at 53
+Job 1 enters CPU from queue at 53.
+Job 5 entered simulation at 67
+job 5 placed in cpu queue at 67
+Job 3 finished at DISK 1 at 73
+job 3 placed in cpu queue at 73
+Job 1 finished at CPU at 74
+Job 1 placed directly into DISK 1 at 74
+Job 2 enters CPU from queue at 74.
+Job 6 entered simulation at 80
+job 6 placed in cpu queue at 80
+Job 1 finished at DISK 1 at 91
+job 1 placed in cpu queue at 91
+Job 2 finished at CPU at 91
+Job 2 placed directly into DISK 1 at 91
+Job 4 enters CPU from queue at 91.
+Job 4 finished at CPU at 99
+Job 4 leaving simulation at 99.
+Job 5 enters CPU from queue at 99.
+Job 7 entered simulation at 110
+job 7 placed in cpu queue at 110
+Job 5 finished at CPU at 110
+Job 5 placed directly into DISK 2 at 110
+Job 3 enters CPU from queue at 110.
+Job 2 finished at DISK 1 at 111
+job 2 placed in cpu queue at 111
+Job 8 entered simulation at 118
+job 8 placed in cpu queue at 118
+Job 5 finished at DISK 2 at 123
+job 5 placed in cpu queue at 123
+Job 9 entered simulation at 128
+job 9 placed in cpu queue at 128
+Job 3 finished at CPU at 134
+Job 3 placed directly into DISK 1 at 134
+Job 6 enters CPU from queue at 134.
+Job 3 finished at DISK 1 at 143
+job 3 placed in cpu queue at 143
+Job 6 finished at CPU at 145
+Job 6 placed directly into DISK 1 at 145
+Job 1 enters CPU from queue at 145.
+Job 10 entered simulation at 149
+job 10 placed in cpu queue at 149
+Job 6 finished at DISK 1 at 150
+job 6 placed in cpu queue at 150
+Job 11 entered simulation at 153
+job 11 placed in cpu queue at 153
+Job 1 finished at CPU at 169
+Job 1 leaving simulation at 169.
+Job 7 enters CPU from queue at 169.
+Job 12 entered simulation at 174
+job 12 placed in cpu queue at 174
+Job 7 finished at CPU at 176
+Job 7 placed directly into DISK 1 at 176
+Job 2 enters CPU from queue at 176.
+Job 13 entered simulation at 187
+job 13 placed in cpu queue at 187
+Job 7 finished at DISK 1 at 200
+job 7 placed in cpu queue at 200
+Job 2 finished at CPU at 201
+Job 2 placed directly into DISK 1 at 201
+Job 8 enters CPU from queue at 201.
+Job 14 entered simulation at 206
+job 14 placed in cpu queue at 206
+Job 8 finished at CPU at 209
+Job 8 placed directly into DISK 2 at 209
+Job 5 enters CPU from queue at 209.
+Job 15 entered simulation at 218
+job 15 placed in cpu queue at 218
+Job 2 finished at DISK 1 at 225
+job 2 placed in cpu queue at 225
+Job 8 finished at DISK 2 at 230
+job 8 placed in cpu queue at 230
+Job 5 finished at CPU at 233
+Job 5 placed directly into DISK 1 at 233
+Job 9 enters CPU from queue at 233.
+Job 16 entered simulation at 246
+job 16 placed in cpu queue at 246
+Job 9 finished at CPU at 252
+Job 9 placed directly into DISK 2 at 252
+Job 3 enters CPU from queue at 252.
+Job 5 finished at DISK 1 at 258
+job 5 placed in cpu queue at 258
+Job 17 entered simulation at 258
+job 17 placed in cpu queue at 258
+Job 9 finished at DISK 2 at 259
+job 9 placed in cpu queue at 259
+Job 3 finished at CPU at 268
+Job 3 placed directly into DISK 1 at 268
+Job 10 enters CPU from queue at 268.
+Job 18 entered simulation at 281
+job 18 placed in cpu queue at 281
+Job 10 finished at CPU at 285
+Job 10 placed directly into DISK 2 at 285
+Job 6 enters CPU from queue at 285.
+Job 3 finished at DISK 1 at 288
+job 3 placed in cpu queue at 288
+Job 6 finished at CPU at 301
+Job 6 placed directly into DISK 1 at 301
+Job 11 enters CPU from queue at 301.
+Job 10 finished at DISK 2 at 303
+job 10 placed in cpu queue at 303
+Job 19 entered simulation at 305
+job 19 placed in cpu queue at 305
+Job 11 finished at CPU at 310
+Job 11 placed directly into DISK 2 at 310
+Job 12 enters CPU from queue at 310.
+Job 20 entered simulation at 310
+job 20 placed in cpu queue at 310
+Job 21 entered simulation at 316
+job 21 placed in cpu queue at 316
+Job 11 finished at DISK 2 at 318
+job 11 placed in cpu queue at 318
+Job 6 finished at DISK 1 at 320
+job 6 placed in cpu queue at 320
+Job 12 finished at CPU at 335
+Job 12 leaving simulation at 335.
+Job 13 enters CPU from queue at 335.
+Job 13 finished at CPU at 342
+Job 13 placed directly into DISK 1 at 342
+Job 7 enters CPU from queue at 342.
+Job 22 entered simulation at 345
+job 22 placed in cpu queue at 345
+Job 7 finished at CPU at 355
+Job 7 placed directly into DISK 2 at 355
+Job 14 enters CPU from queue at 355.
+Job 23 entered simulation at 357
+job 23 placed in cpu queue at 357
+Job 24 entered simulation at 359
+job 24 placed in cpu queue at 359
+Job 13 finished at DISK 1 at 365
+job 13 placed in cpu queue at 365
+Job 7 finished at DISK 2 at 368
+job 7 placed in cpu queue at 368
+Job 14 finished at CPU at 368
+Job 14 placed directly into DISK 1 at 368
+Job 15 enters CPU from queue at 368.
+Job 25 entered simulation at 371
+job 25 placed in cpu queue at 371
+Job 14 finished at DISK 1 at 384
+job 14 placed in cpu queue at 384
+Job 15 finished at CPU at 388
+Job 15 placed directly into DISK 1 at 388
+Job 2 enters CPU from queue at 388.
+Job 26 entered simulation at 390
+job 26 placed in cpu queue at 390
+Job 15 finished at DISK 1 at 402
+job 15 placed in cpu queue at 402
+Job 2 finished at CPU at 408
+Job 2 leaving simulation at 408.
+Job 8 enters CPU from queue at 408.
+Job 8 finished at CPU at 420
+Job 8 leaving simulation at 420.
+Job 16 enters CPU from queue at 420.
+Job 27 entered simulation at 421
+job 27 placed in cpu queue at 421
+Job 16 finished at CPU at 425
+Job 16 placed directly into DISK 1 at 425
+Job 5 enters CPU from queue at 425.
+Job 28 entered simulation at 427
+job 28 placed in cpu queue at 427
+Job 29 entered simulation at 433
+job 29 placed in cpu queue at 433
+Job 16 finished at DISK 1 at 438
+job 16 placed in cpu queue at 438
+Job 5 finished at CPU at 450
+Job 5 placed directly into DISK 1 at 450
+Job 17 enters CPU from queue at 450.
+Job 5 finished at DISK 1 at 459
+job 5 placed in cpu queue at 459
+Job 30 entered simulation at 460
+job 30 placed in cpu queue at 460
+Job 17 finished at CPU at 465
+Job 17 placed directly into DISK 1 at 465
+Job 9 enters CPU from queue at 465.
+Job 31 entered simulation at 468
+job 31 placed in cpu queue at 468
+Job 9 finished at CPU at 477
+Job 9 placed directly into DISK 2 at 477
+Job 18 enters CPU from queue at 477.
+Job 17 finished at DISK 1 at 487
+job 17 placed in cpu queue at 487
+Job 18 finished at CPU at 493
+Job 18 leaving simulation at 493.
+Job 3 enters CPU from queue at 493.
+Job 32 entered simulation at 497
+job 32 placed in cpu queue at 497
+Job 9 finished at DISK 2 at 501
+job 9 placed in cpu queue at 501
+Job 33 entered simulation at 504
+job 33 placed in cpu queue at 504
+Job 3 finished at CPU at 505
+Job 3 placed directly into DISK 1 at 505
+Job 10 enters CPU from queue at 505.
+Job 34 entered simulation at 511
+job 34 placed in cpu queue at 511
+Job 3 finished at DISK 1 at 519
+job 3 placed in cpu queue at 519
+Job 10 finished at CPU at 530
+Job 10 leaving simulation at 530.
+Job 19 enters CPU from queue at 530.
+Job 19 finished at CPU at 536
+Job 19 placed directly into DISK 1 at 536
+Job 20 enters CPU from queue at 536.
+Job 35 entered simulation at 538
+job 35 placed in cpu queue at 538
+Job 36 entered simulation at 548
+job 36 placed in cpu queue at 548
+Job 20 finished at CPU at 549
+Job 20 leaving simulation at 549.
+Job 21 enters CPU from queue at 549.
+Job 19 finished at DISK 1 at 556
+job 19 placed in cpu queue at 556
+Job 21 finished at CPU at 566
+Job 21 leaving simulation at 566.
+Job 11 enters CPU from queue at 566.
+Job 37 entered simulation at 569
+job 37 placed in cpu queue at 569
+Job 11 finished at CPU at 571
+Job 11 placed directly into DISK 1 at 571
+Job 6 enters CPU from queue at 571.
+Job 38 entered simulation at 574
+job 38 placed in cpu queue at 574
+Job 11 finished at DISK 1 at 586
+job 11 placed in cpu queue at 586
+Job 39 entered simulation at 590
+job 39 placed in cpu queue at 590
+Job 6 finished at CPU at 593
+Job 6 placed directly into DISK 1 at 593
+Job 22 enters CPU from queue at 593.
+Job 22 finished at CPU at 599
+Job 22 leaving simulation at 599.
+Job 23 enters CPU from queue at 599.
+Job 6 finished at DISK 1 at 602
+job 6 placed in cpu queue at 602
+Job 40 entered simulation at 610
+job 40 placed in cpu queue at 610
+Job 41 entered simulation at 615
+job 41 placed in cpu queue at 615
+Job 23 finished at CPU at 616
+Job 23 placed directly into DISK 1 at 616
+Job 24 enters CPU from queue at 616.
+Job 42 entered simulation at 618
+job 42 placed in cpu queue at 618
+Job 24 finished at CPU at 627
+Job 24 placed directly into DISK 2 at 627
+Job 13 enters CPU from queue at 627.
+Job 24 finished at DISK 2 at 638
+job 24 placed in cpu queue at 638
+Job 13 finished at CPU at 639
+Job 13 placed directly into DISK 2 at 639
+Job 7 enters CPU from queue at 639.
+Job 43 entered simulation at 640
+job 43 placed in cpu queue at 640
+Job 23 finished at DISK 1 at 641
+job 23 placed in cpu queue at 641
+Job 44 entered simulation at 642
+job 44 placed in cpu queue at 642
+Job 7 finished at CPU at 647
+Job 7 leaving simulation at 647.
+Job 25 enters CPU from queue at 647.
+Job 45 entered simulation at 651
+job 45 placed in cpu queue at 651
+Job 13 finished at DISK 2 at 659
+job 13 placed in cpu queue at 659
+Job 25 finished at CPU at 667
+Job 25 placed directly into DISK 1 at 667
+Job 14 enters CPU from queue at 667.
+Job 14 finished at CPU at 676
+Job 14 leaving simulation at 676.
+Job 26 enters CPU from queue at 676.
+Job 47 entered simulation at 681
+job 47 placed in cpu queue at 681
+Job 46 entered simulation at 682
+job 46 placed in cpu queue at 682
+Job 25 finished at DISK 1 at 686
+job 25 placed in cpu queue at 686
+Job 26 finished at CPU at 690
+Job 26 placed directly into DISK 1 at 690
+Job 15 enters CPU from queue at 690.
+Job 48 entered simulation at 693
+job 48 placed in cpu queue at 693
+Job 26 finished at DISK 1 at 702
+job 26 placed in cpu queue at 702
+Job 15 finished at CPU at 706
+Job 15 placed directly into DISK 1 at 706
+Job 27 enters CPU from queue at 706.
+Job 49 entered simulation at 708
+job 49 placed in cpu queue at 708
+Job 27 finished at CPU at 717
+Job 27 leaving simulation at 717.
+Job 28 enters CPU from queue at 717.
+Job 15 finished at DISK 1 at 718
+job 15 placed in cpu queue at 718
+Job 50 entered simulation at 718
+job 50 placed in cpu queue at 718
+Job 28 finished at CPU at 733
+Job 28 placed directly into DISK 1 at 733
+Job 29 enters CPU from queue at 733.
+Job 29 finished at CPU at 747
+Job 29 placed directly into DISK 2 at 747
+Job 16 enters CPU from queue at 747.
+Job 51 entered simulation at 749
+job 51 placed in cpu queue at 749
+Job 28 finished at DISK 1 at 751
+job 28 placed in cpu queue at 751
+Job 29 finished at DISK 2 at 753
+job 29 placed in cpu queue at 753
+Job 16 finished at CPU at 755
+Job 16 placed directly into DISK 1 at 755
+Job 5 enters CPU from queue at 755.
+Job 53 entered simulation at 756
+job 53 placed in cpu queue at 756
+Job 52 entered simulation at 762
+job 52 placed in cpu queue at 762
+Job 16 finished at DISK 1 at 766
+job 16 placed in cpu queue at 766
+Job 5 finished at CPU at 777
+Job 5 placed directly into DISK 1 at 777
+Job 30 enters CPU from queue at 777.
+Job 54 entered simulation at 791
+job 54 placed in cpu queue at 791
+Job 5 finished at DISK 1 at 793
+job 5 placed in cpu queue at 793
+Job 30 finished at CPU at 796
+Job 30 placed directly into DISK 1 at 796
+Job 31 enters CPU from queue at 796.
+Job 31 finished at CPU at 803
+Job 31 placed directly into DISK 2 at 803
+Job 17 enters CPU from queue at 803.
+Job 55 entered simulation at 806
+job 55 placed in cpu queue at 806
+Job 17 finished at CPU at 808
+Job 17 placed into DISK 2 queue at 808
+Job 32 enters CPU from queue at 808.
+Job 57 entered simulation at 811
+job 57 placed in cpu queue at 811
+Job 30 finished at DISK 1 at 817
+job 30 placed in cpu queue at 817
+Job 31 finished at DISK 2 at 818
+job 31 placed in cpu queue at 818
+Job 17 enters disk 3 from queue at 818.
+Job 56 entered simulation at 820
+job 56 placed in cpu queue at 820
+Job 32 finished at CPU at 821
+Job 32 placed directly into DISK 1 at 821
+Job 9 enters CPU from queue at 821.
+Job 58 entered simulation at 823
+job 58 placed in cpu queue at 823
+Job 9 finished at CPU at 826
+Job 9 placed into DISK 2 queue at 826
+Job 33 enters CPU from queue at 826.
+Job 32 finished at DISK 1 at 839
+job 32 placed in cpu queue at 839
+Job 33 finished at CPU at 841
+Job 33 placed directly into DISK 1 at 841
+Job 34 enters CPU from queue at 841.
+Job 59 entered simulation at 843
+job 59 placed in cpu queue at 843
+Job 17 finished at DISK 2 at 843
+job 17 placed in cpu queue at 843
+Job 9 enters disk 3 from queue at 843.
+Job 34 finished at CPU at 846
+Job 34 placed into DISK 2 queue at 846
+Job 3 enters CPU from queue at 846.
+Job 33 finished at DISK 1 at 858
+job 33 placed in cpu queue at 858
+Job 60 entered simulation at 861
+job 60 placed in cpu queue at 861
+Job 61 entered simulation at 864
+job 61 placed in cpu queue at 864
+Job 9 finished at DISK 2 at 865
+job 9 placed in cpu queue at 865
+Job 34 enters disk 3 from queue at 865.
+Job 3 finished at CPU at 867
+Job 3 placed directly into DISK 1 at 867
+Job 35 enters CPU from queue at 867.
+Job 62 entered simulation at 879
+job 62 placed in cpu queue at 879
+Job 35 finished at CPU at 881
+Job 35 placed into DISK 2 queue at 881
+Job 36 enters CPU from queue at 881.
+Job 3 finished at DISK 1 at 883
+job 3 placed in cpu queue at 883
+Job 63 entered simulation at 883
+job 63 placed in cpu queue at 883
+Job 34 finished at DISK 2 at 886
+job 34 placed in cpu queue at 886
+Job 35 enters disk 3 from queue at 886.
+Job 36 finished at CPU at 897
+Job 36 leaving simulation at 897.
+Job 19 enters CPU from queue at 897.
+Job 19 finished at CPU at 904
+Job 19 placed directly into DISK 1 at 904
+Job 37 enters CPU from queue at 904.
+Job 35 finished at DISK 2 at 911
+job 35 placed in cpu queue at 911
+Job 64 entered simulation at 914
+job 64 placed in cpu queue at 914
+Job 19 finished at DISK 1 at 919
+job 19 placed in cpu queue at 919
+Job 65 entered simulation at 924
+job 65 placed in cpu queue at 924
+Job 37 finished at CPU at 927
+Job 37 leaving simulation at 927.
+Job 38 enters CPU from queue at 927.
+Job 38 finished at CPU at 943
+Job 38 leaving simulation at 943.
+Job 11 enters CPU from queue at 943.
+Job 66 entered simulation at 947
+job 66 placed in cpu queue at 947
+Job 67 entered simulation at 953
+job 67 placed in cpu queue at 953
+Job 11 finished at CPU at 965
+Job 11 placed directly into DISK 1 at 965
+Job 39 enters CPU from queue at 965.
+Job 39 finished at CPU at 971
+Job 39 leaving simulation at 971.
+Job 6 enters CPU from queue at 971.
+Job 11 finished at DISK 1 at 972
+job 11 placed in cpu queue at 972
+Job 69 entered simulation at 978
+job 69 placed in cpu queue at 978
+Job 68 entered simulation at 985
+job 68 placed in cpu queue at 985
+Job 6 finished at CPU at 995
+Job 6 placed directly into DISK 1 at 995
+Job 40 enters CPU from queue at 995.
+Job 70 entered simulation at 1001
+job 70 placed in cpu queue at 1001
+Job 40 finished at CPU at 1002
+Job 40 placed directly into DISK 2 at 1002
+Job 41 enters CPU from queue at 1002.
+Job 6 finished at DISK 1 at 1015
+job 6 placed in cpu queue at 1015
+Job 71 entered simulation at 1015
+job 71 placed in cpu queue at 1015
+Job 40 finished at DISK 2 at 1018
+job 40 placed in cpu queue at 1018
+Job 41 finished at CPU at 1025
+Job 41 leaving simulation at 1025.
+Job 42 enters CPU from queue at 1025.
+Job 72 entered simulation at 1038
+job 72 placed in cpu queue at 1038
+Job 42 finished at CPU at 1049
+Job 42 leaving simulation at 1049.
+Job 24 enters CPU from queue at 1049.
+Job 24 finished at CPU at 1054
+Job 24 leaving simulation at 1054.
+Job 43 enters CPU from queue at 1054.
+Job 73 entered simulation at 1058
+job 73 placed in cpu queue at 1058
+Job 74 entered simulation at 1061
+job 74 placed in cpu queue at 1061
+Job 43 finished at CPU at 1070
+Job 43 leaving simulation at 1070.
+Job 23 enters CPU from queue at 1070.
+Job 23 finished at CPU at 1087
+Job 23 leaving simulation at 1087.
+Job 44 enters CPU from queue at 1087.
+Job 75 entered simulation at 1088
+job 75 placed in cpu queue at 1088
+Job 76 entered simulation at 1102
+job 76 placed in cpu queue at 1102
+Job 44 finished at CPU at 1107
+Job 44 placed directly into DISK 1 at 1107
+Job 45 enters CPU from queue at 1107.
+Job 77 entered simulation at 1119
+job 77 placed in cpu queue at 1119
+Job 44 finished at DISK 1 at 1127
+job 44 placed in cpu queue at 1127
+Job 45 finished at CPU at 1130
+Job 45 placed directly into DISK 1 at 1130
+Job 13 enters CPU from queue at 1130.
+Job 78 entered simulation at 1131
+job 78 placed in cpu queue at 1131
+Job 13 finished at CPU at 1145
+Job 13 placed directly into DISK 2 at 1145
+Job 47 enters CPU from queue at 1145.
+Job 79 entered simulation at 1149
+job 79 placed in cpu queue at 1149
+Job 47 finished at CPU at 1152
+Job 47 placed into DISK 2 queue at 1152
+Job 46 enters CPU from queue at 1152.
+Job 80 entered simulation at 1153
+job 80 placed in cpu queue at 1153
+Job 45 finished at DISK 1 at 1155
+job 45 placed in cpu queue at 1155
+Job 13 finished at DISK 2 at 1155
+job 13 placed in cpu queue at 1155
+Job 47 enters disk 3 from queue at 1155.
+Job 47 finished at DISK 2 at 1164
+job 47 placed in cpu queue at 1164
+Job 46 finished at CPU at 1171
+Job 46 placed directly into DISK 1 at 1171
+Job 25 enters CPU from queue at 1171.
+Job 81 entered simulation at 1190
+job 81 placed in cpu queue at 1190
+Job 25 finished at CPU at 1194
+Job 25 leaving simulation at 1194.
+Job 48 enters CPU from queue at 1194.
+Job 82 entered simulation at 1195
+job 82 placed in cpu queue at 1195
+Job 46 finished at DISK 1 at 1196
+job 46 placed in cpu queue at 1196
+Job 48 finished at CPU at 1205
+Job 48 placed directly into DISK 1 at 1205
+Job 26 enters CPU from queue at 1205.
+Job 83 entered simulation at 1209
+job 83 placed in cpu queue at 1209
+Job 26 finished at CPU at 1212
+Job 26 placed directly into DISK 2 at 1212
+Job 49 enters CPU from queue at 1212.
+Job 84 entered simulation at 1218
+job 84 placed in cpu queue at 1218
+Job 26 finished at DISK 2 at 1221
+job 26 placed in cpu queue at 1221
+Job 48 finished at DISK 1 at 1223
+job 48 placed in cpu queue at 1223
+Job 49 finished at CPU at 1236
+Job 49 placed directly into DISK 1 at 1236
+Job 15 enters CPU from queue at 1236.
+Job 15 finished at CPU at 1243
+Job 15 placed directly into DISK 2 at 1243
+Job 50 enters CPU from queue at 1243.
+Job 85 entered simulation at 1243
+job 85 placed in cpu queue at 1243
+Job 15 finished at DISK 2 at 1250
+job 15 placed in cpu queue at 1250
+Job 86 entered simulation at 1251
+job 86 placed in cpu queue at 1251
+Job 49 finished at DISK 1 at 1254
+job 49 placed in cpu queue at 1254
+Job 50 finished at CPU at 1265
+Job 50 leaving simulation at 1265.
+Job 51 enters CPU from queue at 1265.
+Job 51 finished at CPU at 1272
+Job 51 leaving simulation at 1272.
+Job 28 enters CPU from queue at 1272.
+Job 87 entered simulation at 1276
+job 87 placed in cpu queue at 1276
+Job 88 entered simulation at 1276
+job 88 placed in cpu queue at 1276
+Job 28 finished at CPU at 1291
+Job 28 placed directly into DISK 1 at 1291
+Job 29 enters CPU from queue at 1291.
+Job 89 entered simulation at 1295
+job 89 placed in cpu queue at 1295
+Job 28 finished at DISK 1 at 1315
+job 28 placed in cpu queue at 1315
+Job 29 finished at CPU at 1316
+Job 29 placed directly into DISK 1 at 1316
+Job 53 enters CPU from queue at 1316.
+Job 90 entered simulation at 1318
+job 90 placed in cpu queue at 1318
+Job 53 finished at CPU at 1325
+Job 53 placed directly into DISK 2 at 1325
+Job 52 enters CPU from queue at 1325.
+Job 91 entered simulation at 1327
+job 91 placed in cpu queue at 1327
+Job 29 finished at DISK 1 at 1339
+job 29 placed in cpu queue at 1339
+Job 52 finished at CPU at 1344
+Job 52 placed directly into DISK 1 at 1344
+Job 16 enters CPU from queue at 1344.
+Job 53 finished at DISK 2 at 1345
+job 53 placed in cpu queue at 1345
+Job 16 finished at CPU at 1354
+Job 16 placed directly into DISK 2 at 1354
+Job 54 enters CPU from queue at 1354.
+Job 52 finished at DISK 1 at 1354
+job 52 placed in cpu queue at 1354
+Job 92 entered simulation at 1362
+job 92 placed in cpu queue at 1362
+Job 93 entered simulation at 1368
+job 93 placed in cpu queue at 1368
+Job 54 finished at CPU at 1369
+Job 54 placed directly into DISK 1 at 1369
+Job 5 enters CPU from queue at 1369.
+Job 94 entered simulation at 1373
+job 94 placed in cpu queue at 1373
+Job 16 finished at DISK 2 at 1379
+job 16 placed in cpu queue at 1379
+Job 5 finished at CPU at 1390
+Job 5 placed directly into DISK 2 at 1390
+Job 55 enters CPU from queue at 1390.
+Job 54 finished at DISK 1 at 1392
+job 54 placed in cpu queue at 1392
+Job 55 finished at CPU at 1400
+Job 55 placed directly into DISK 1 at 1400
+Job 57 enters CPU from queue at 1400.
+Job 96 entered simulation at 1404
+job 96 placed in cpu queue at 1404
+Job 95 entered simulation at 1406
+job 95 placed in cpu queue at 1406
+Job 5 finished at DISK 2 at 1411
+job 5 placed in cpu queue at 1411
+Job 55 finished at DISK 1 at 1424
+job 55 placed in cpu queue at 1424
+Job 57 finished at CPU at 1425
+Job 57 placed directly into DISK 1 at 1425
+Job 30 enters CPU from queue at 1425.
+Job 30 finished at CPU at 1437
+Job 30 placed directly into DISK 2 at 1437
+Job 31 enters CPU from queue at 1437.
+Job 97 entered simulation at 1438
+job 97 placed in cpu queue at 1438
+Job 57 finished at DISK 1 at 1449
+job 57 placed in cpu queue at 1449
+Job 98 entered simulation at 1453
+job 98 placed in cpu queue at 1453
+Job 30 finished at DISK 2 at 1454
+job 30 placed in cpu queue at 1454
+Job 31 finished at CPU at 1456
+Job 31 placed directly into DISK 1 at 1456
+Job 56 enters CPU from queue at 1456.
+Job 99 entered simulation at 1462
+job 99 placed in cpu queue at 1462
+Job 31 finished at DISK 1 at 1469
+job 31 placed in cpu queue at 1469
+Job 56 finished at CPU at 1479
+Job 56 placed directly into DISK 1 at 1479
+Job 58 enters CPU from queue at 1479.
+Job 100 entered simulation at 1483
+job 100 placed in cpu queue at 1483
+Job 56 finished at DISK 1 at 1486
+job 56 placed in cpu queue at 1486
+Job 58 finished at CPU at 1486
+Job 58 leaving simulation at 1486.
+Job 32 enters CPU from queue at 1486.
+Job 32 finished at CPU at 1504
+Job 32 placed directly into DISK 1 at 1504
+Job 59 enters CPU from queue at 1504.
+Job 101 entered simulation at 1504
+job 101 placed in cpu queue at 1504
+Job 102 entered simulation at 1517
+job 102 placed in cpu queue at 1517
+Job 32 finished at DISK 1 at 1519
+job 32 placed in cpu queue at 1519
+Job 59 finished at CPU at 1522
+Job 59 placed directly into DISK 1 at 1522
+Job 17 enters CPU from queue at 1522.
+Job 103 entered simulation at 1533
+job 103 placed in cpu queue at 1533
+Job 59 finished at DISK 1 at 1535
+job 59 placed in cpu queue at 1535
+Job 17 finished at CPU at 1545
+Job 17 placed directly into DISK 1 at 1545
+Job 33 enters CPU from queue at 1545.
+Job 104 entered simulation at 1557
+job 104 placed in cpu queue at 1557
+Job 33 finished at CPU at 1560
+Job 33 placed directly into DISK 2 at 1560
+Job 60 enters CPU from queue at 1560.
+Job 17 finished at DISK 1 at 1566
+job 17 placed in cpu queue at 1566
+Job 105 entered simulation at 1567
+job 105 placed in cpu queue at 1567
+Job 33 finished at DISK 2 at 1574
+job 33 placed in cpu queue at 1574
+Job 60 finished at CPU at 1584
+Job 60 placed directly into DISK 1 at 1584
+Job 61 enters CPU from queue at 1584.
+Job 106 entered simulation at 1586
+job 106 placed in cpu queue at 1586
+Job 61 finished at CPU at 1589
+Job 61 placed directly into DISK 2 at 1589
+Job 9 enters CPU from queue at 1589.
+Job 107 entered simulation at 1592
+job 107 placed in cpu queue at 1592
+Job 60 finished at DISK 1 at 1600
+job 60 placed in cpu queue at 1600
+Job 61 finished at DISK 2 at 1603
+job 61 placed in cpu queue at 1603
+Job 9 finished at CPU at 1613
+Job 9 leaving simulation at 1613.
+Job 62 enters CPU from queue at 1613.
+Job 62 finished at CPU at 1619
+Job 62 placed directly into DISK 1 at 1619
+Job 3 enters CPU from queue at 1619.
+Job 108 entered simulation at 1619
+job 108 placed in cpu queue at 1619
+Job 109 entered simulation at 1623
+job 109 placed in cpu queue at 1623
+Job 62 finished at DISK 1 at 1628
+job 62 placed in cpu queue at 1628
+Job 3 finished at CPU at 1642
+Job 3 placed directly into DISK 1 at 1642
+Job 63 enters CPU from queue at 1642.
+Job 110 entered simulation at 1647
+job 110 placed in cpu queue at 1647
+Job 3 finished at DISK 1 at 1655
+job 3 placed in cpu queue at 1655
+Job 63 finished at CPU at 1663
+Job 63 leaving simulation at 1663.
+Job 34 enters CPU from queue at 1663.
+Job 111 entered simulation at 1666
+job 111 placed in cpu queue at 1666
+Job 34 finished at CPU at 1672
+Job 34 placed directly into DISK 1 at 1672
+Job 35 enters CPU from queue at 1672.
+Job 112 entered simulation at 1676
+job 112 placed in cpu queue at 1676
+Job 34 finished at DISK 1 at 1689
+job 34 placed in cpu queue at 1689
+Job 35 finished at CPU at 1696
+Job 35 leaving simulation at 1696.
+Job 64 enters CPU from queue at 1696.
+Job 113 entered simulation at 1709
+job 113 placed in cpu queue at 1709
+Job 64 finished at CPU at 1713
+Job 64 leaving simulation at 1713.
+Job 19 enters CPU from queue at 1713.
+Job 114 entered simulation at 1732
+job 114 placed in cpu queue at 1732
+Job 19 finished at CPU at 1736
+Job 19 placed directly into DISK 1 at 1736
+Job 65 enters CPU from queue at 1736.
+Job 115 entered simulation at 1746
+job 115 placed in cpu queue at 1746
+Job 19 finished at DISK 1 at 1759
+job 19 placed in cpu queue at 1759
+Job 65 finished at CPU at 1761
+Job 65 placed directly into DISK 1 at 1761
+Job 66 enters CPU from queue at 1761.
+Job 116 entered simulation at 1770
+job 116 placed in cpu queue at 1770
+Job 66 finished at CPU at 1779
+Job 66 leaving simulation at 1779.
+Job 67 enters CPU from queue at 1779.
+Job 65 finished at DISK 1 at 1785
+job 65 placed in cpu queue at 1785
+Job 117 entered simulation at 1795
+job 117 placed in cpu queue at 1795
+Job 67 finished at CPU at 1802
+Job 67 placed directly into DISK 1 at 1802
+Job 11 enters CPU from queue at 1802.
+Job 118 entered simulation at 1819
+job 118 placed in cpu queue at 1819
+Job 67 finished at DISK 1 at 1823
+job 67 placed in cpu queue at 1823
+Job 11 finished at CPU at 1826
+Job 11 leaving simulation at 1826.
+Job 69 enters CPU from queue at 1826.
+Job 119 entered simulation at 1828
+job 119 placed in cpu queue at 1828
+Job 69 finished at CPU at 1845
+Job 69 placed directly into DISK 1 at 1845
+Job 68 enters CPU from queue at 1845.
+Job 120 entered simulation at 1846
+job 120 placed in cpu queue at 1846
+Job 68 finished at CPU at 1853
+Job 68 placed directly into DISK 2 at 1853
+Job 70 enters CPU from queue at 1853.
+Job 68 finished at DISK 2 at 1860
+job 68 placed in cpu queue at 1860
+Job 70 finished at CPU at 1861
+Job 70 placed directly into DISK 2 at 1861
+Job 6 enters CPU from queue at 1861.
+Job 121 entered simulation at 1866
+job 121 placed in cpu queue at 1866
+Job 69 finished at DISK 1 at 1868
+job 69 placed in cpu queue at 1868
+Job 122 entered simulation at 1873
+job 122 placed in cpu queue at 1873
+Job 6 finished at CPU at 1881
+Job 6 placed directly into DISK 1 at 1881
+Job 71 enters CPU from queue at 1881.
+Job 70 finished at DISK 2 at 1883
+job 70 placed in cpu queue at 1883
+Job 6 finished at DISK 1 at 1894
+job 6 placed in cpu queue at 1894
+Job 71 finished at CPU at 1895
+Job 71 placed directly into DISK 1 at 1895
+Job 40 enters CPU from queue at 1895.
+Job 123 entered simulation at 1896
+job 123 placed in cpu queue at 1896
+Job 124 entered simulation at 1906
+job 124 placed in cpu queue at 1906
+Job 40 finished at CPU at 1914
+Job 40 placed directly into DISK 2 at 1914
+Job 72 enters CPU from queue at 1914.
+Job 71 finished at DISK 1 at 1916
+job 71 placed in cpu queue at 1916
+Job 72 finished at CPU at 1927
+Job 72 placed directly into DISK 1 at 1927
+Job 73 enters CPU from queue at 1927.
+Job 40 finished at DISK 2 at 1933
+job 40 placed in cpu queue at 1933
+Job 125 entered simulation at 1934
+job 125 placed in cpu queue at 1934
+Job 72 finished at DISK 1 at 1936
+job 72 placed in cpu queue at 1936
+Job 126 entered simulation at 1942
+job 126 placed in cpu queue at 1942
+Job 73 finished at CPU at 1951
+Job 73 placed directly into DISK 1 at 1951
+Job 74 enters CPU from queue at 1951.
+Job 127 entered simulation at 1965
+job 127 placed in cpu queue at 1965
+Job 73 finished at DISK 1 at 1968
+job 73 placed in cpu queue at 1968
+Job 74 finished at CPU at 1973
+Job 74 placed directly into DISK 1 at 1973
+Job 75 enters CPU from queue at 1973.
+Job 74 finished at DISK 1 at 1978
+job 74 placed in cpu queue at 1978
+Job 75 finished at CPU at 1992
+Job 75 leaving simulation at 1992.
+Job 76 enters CPU from queue at 1992.
+Job 128 entered simulation at 1993
+job 128 placed in cpu queue at 1993
+Job 129 entered simulation at 2005
+job 129 placed in cpu queue at 2005
+Job 76 finished at CPU at 2015
+Job 76 placed directly into DISK 1 at 2015
+Job 77 enters CPU from queue at 2015.
+Job 130 entered simulation at 2022
+job 130 placed in cpu queue at 2022
+Job 77 finished at CPU at 2028
+Job 77 placed directly into DISK 2 at 2028
+Job 44 enters CPU from queue at 2028.
+Job 131 entered simulation at 2032
+job 131 placed in cpu queue at 2032
+Job 76 finished at DISK 1 at 2034
+job 76 placed in cpu queue at 2034
+Job 44 finished at CPU at 2049
+Job 44 placed directly into DISK 1 at 2049
+Job 78 enters CPU from queue at 2049.
+Job 77 finished at DISK 2 at 2049
+job 77 placed in cpu queue at 2049
+Job 132 entered simulation at 2053
+job 132 placed in cpu queue at 2053
+Job 44 finished at DISK 1 at 2065
+job 44 placed in cpu queue at 2065
+Job 78 finished at CPU at 2071
+Job 78 placed directly into DISK 1 at 2071
+Job 79 enters CPU from queue at 2071.
+Job 78 finished at DISK 1 at 2087
+job 78 placed in cpu queue at 2087
+Job 133 entered simulation at 2087
+job 133 placed in cpu queue at 2087
+Job 79 finished at CPU at 2088
+Job 79 placed directly into DISK 1 at 2088
+Job 80 enters CPU from queue at 2088.
+Job 134 entered simulation at 2092
+job 134 placed in cpu queue at 2092
+Job 80 finished at CPU at 2107
+Job 80 leaving simulation at 2107.
+Job 45 enters CPU from queue at 2107.
+Job 79 finished at DISK 1 at 2109
+job 79 placed in cpu queue at 2109
+Job 45 finished at CPU at 2118
+Job 45 placed directly into DISK 1 at 2118
+Job 13 enters CPU from queue at 2118.
+Job 135 entered simulation at 2127
+job 135 placed in cpu queue at 2127
+Job 136 entered simulation at 2128
+job 136 placed in cpu queue at 2128
+Job 45 finished at DISK 1 at 2140
+job 45 placed in cpu queue at 2140
+Job 13 finished at CPU at 2143
+Job 13 placed directly into DISK 1 at 2143
+Job 47 enters CPU from queue at 2143.
+Job 13 finished at DISK 1 at 2149
+job 13 placed in cpu queue at 2149
+Job 137 entered simulation at 2153
+job 137 placed in cpu queue at 2153
+Job 47 finished at CPU at 2155
+Job 47 placed directly into DISK 1 at 2155
+Job 81 enters CPU from queue at 2155.
+Job 138 entered simulation at 2159
+job 138 placed in cpu queue at 2159
+Job 47 finished at DISK 1 at 2161
+job 47 placed in cpu queue at 2161
+Job 81 finished at CPU at 2177
+Job 81 placed directly into DISK 1 at 2177
+Job 82 enters CPU from queue at 2177.
+Job 139 entered simulation at 2191
+job 139 placed in cpu queue at 2191
+Job 81 finished at DISK 1 at 2195
+job 81 placed in cpu queue at 2195
+Job 82 finished at CPU at 2202
+Job 82 placed directly into DISK 1 at 2202
+Job 46 enters CPU from queue at 2202.
+Job 140 entered simulation at 2212
+job 140 placed in cpu queue at 2212
+Job 46 finished at CPU at 2217
+Job 46 placed directly into DISK 2 at 2217
+Job 83 enters CPU from queue at 2217.
+Job 82 finished at DISK 1 at 2218
+job 82 placed in cpu queue at 2218
+Job 141 entered simulation at 2220
+job 141 placed in cpu queue at 2220
+Job 46 finished at DISK 2 at 2222
+job 46 placed in cpu queue at 2222
+Job 83 finished at CPU at 2223
+Job 83 placed directly into DISK 1 at 2223
+Job 84 enters CPU from queue at 2223.
+Job 142 entered simulation at 2236
+job 142 placed in cpu queue at 2236
+Job 84 finished at CPU at 2245
+Job 84 leaving simulation at 2245.
+Job 26 enters CPU from queue at 2245.
+Job 83 finished at DISK 1 at 2246
+job 83 placed in cpu queue at 2246
+Job 26 finished at CPU at 2252
+Job 26 placed directly into DISK 1 at 2252
+Job 48 enters CPU from queue at 2252.
+Job 143 entered simulation at 2257
+job 143 placed in cpu queue at 2257
+Job 144 entered simulation at 2259
+job 144 placed in cpu queue at 2259
+Job 48 finished at CPU at 2269
+Job 48 placed directly into DISK 2 at 2269
+Job 85 enters CPU from queue at 2269.
+Job 145 entered simulation at 2274
+job 145 placed in cpu queue at 2274
+Job 26 finished at DISK 1 at 2276
+job 26 placed in cpu queue at 2276
+Job 48 finished at DISK 2 at 2287
+job 48 placed in cpu queue at 2287
+Job 85 finished at CPU at 2288
+Job 85 placed directly into DISK 1 at 2288
+Job 15 enters CPU from queue at 2288.
+Job 15 finished at CPU at 2294
+Job 15 placed directly into DISK 2 at 2294
+Job 86 enters CPU from queue at 2294.
+Job 146 entered simulation at 2303
+job 146 placed in cpu queue at 2303
+Job 85 finished at DISK 1 at 2308
+job 85 placed in cpu queue at 2308
+Job 147 entered simulation at 2312
+job 147 placed in cpu queue at 2312
+Job 15 finished at DISK 2 at 2313
+job 15 placed in cpu queue at 2313
+Job 86 finished at CPU at 2313
+Job 86 leaving simulation at 2313.
+Job 49 enters CPU from queue at 2313.
+Job 148 entered simulation at 2321
+job 148 placed in cpu queue at 2321
+Job 49 finished at CPU at 2322
+Job 49 placed directly into DISK 1 at 2322
+Job 87 enters CPU from queue at 2322.
+Job 149 entered simulation at 2334
+job 149 placed in cpu queue at 2334
+Job 87 finished at CPU at 2336
+Job 87 placed directly into DISK 2 at 2336
+Job 88 enters CPU from queue at 2336.
+Job 49 finished at DISK 1 at 2338
+job 49 placed in cpu queue at 2338
+Job 150 entered simulation at 2347
+job 150 placed in cpu queue at 2347
+Job 88 finished at CPU at 2350
+Job 88 placed directly into DISK 1 at 2350
+Job 89 enters CPU from queue at 2350.
+Job 151 entered simulation at 2353
+job 151 placed in cpu queue at 2353
+Job 87 finished at DISK 2 at 2360
+job 87 placed in cpu queue at 2360
+Job 88 finished at DISK 1 at 2364
+job 88 placed in cpu queue at 2364
+Job 89 finished at CPU at 2368
+Job 89 placed directly into DISK 1 at 2368
+Job 28 enters CPU from queue at 2368.
+Job 152 entered simulation at 2381
+job 152 placed in cpu queue at 2381
+Job 89 finished at DISK 1 at 2384
+job 89 placed in cpu queue at 2384
+Job 28 finished at CPU at 2387
+Job 28 placed directly into DISK 1 at 2387
+Job 90 enters CPU from queue at 2387.
+Job 90 finished at CPU at 2398
+Job 90 placed directly into DISK 2 at 2398
+Job 91 enters CPU from queue at 2398.
+Job 153 entered simulation at 2398
+job 153 placed in cpu queue at 2398
+Job 28 finished at DISK 1 at 2399
+job 28 placed in cpu queue at 2399
+Job 90 finished at DISK 2 at 2403
+job 90 placed in cpu queue at 2403
+Job 154 entered simulation at 2410
+job 154 placed in cpu queue at 2410
+Job 91 finished at CPU at 2415
+Job 91 placed directly into DISK 1 at 2415
+Job 29 enters CPU from queue at 2415.
+Job 155 entered simulation at 2419
+job 155 placed in cpu queue at 2419
+Job 29 finished at CPU at 2425
+Job 29 placed directly into DISK 2 at 2425
+Job 53 enters CPU from queue at 2425.
+Job 91 finished at DISK 1 at 2426
+job 91 placed in cpu queue at 2426
+Job 29 finished at DISK 2 at 2440
+job 29 placed in cpu queue at 2440
+Job 53 finished at CPU at 2441
+Job 53 leaving simulation at 2441.
+Job 52 enters CPU from queue at 2441.
+Job 156 entered simulation at 2442
+job 156 placed in cpu queue at 2442
+Job 157 entered simulation at 2450
+job 157 placed in cpu queue at 2450
+Job 52 finished at CPU at 2466
+Job 52 placed directly into DISK 1 at 2466
+Job 92 enters CPU from queue at 2466.
+Job 158 entered simulation at 2472
+job 158 placed in cpu queue at 2472
+Job 92 finished at CPU at 2488
+Job 92 placed directly into DISK 2 at 2488
+Job 93 enters CPU from queue at 2488.
+Job 52 finished at DISK 1 at 2489
+job 52 placed in cpu queue at 2489
+Job 92 finished at DISK 2 at 2499
+job 92 placed in cpu queue at 2499
+Job 159 entered simulation at 2500
+job 159 placed in cpu queue at 2500
+Job 93 finished at CPU at 2512
+Job 93 placed directly into DISK 1 at 2512
+Job 94 enters CPU from queue at 2512.
+Job 160 entered simulation at 2516
+job 160 placed in cpu queue at 2516
+Job 94 finished at CPU at 2522
+Job 94 placed directly into DISK 2 at 2522
+Job 16 enters CPU from queue at 2522.
+Job 93 finished at DISK 1 at 2526
+job 93 placed in cpu queue at 2526
+Job 161 entered simulation at 2529
+job 161 placed in cpu queue at 2529
+Job 16 finished at CPU at 2536
+Job 16 placed directly into DISK 1 at 2536
+Job 54 enters CPU from queue at 2536.
+Job 162 entered simulation at 2538
+job 162 placed in cpu queue at 2538
+Job 94 finished at DISK 2 at 2539
+job 94 placed in cpu queue at 2539
+Job 16 finished at DISK 1 at 2551
+job 16 placed in cpu queue at 2551
+Job 54 finished at CPU at 2560
+Job 54 placed directly into DISK 1 at 2560
+Job 96 enters CPU from queue at 2560.
+Job 54 finished at DISK 1 at 2570
+job 54 placed in cpu queue at 2570
+Job 96 finished at CPU at 2572
+Job 96 placed directly into DISK 1 at 2572
+Job 95 enters CPU from queue at 2572.
+Job 163 entered simulation at 2579
+job 163 placed in cpu queue at 2579
+Job 164 entered simulation at 2581
+job 164 placed in cpu queue at 2581
+Job 95 finished at CPU at 2586
+Job 95 placed directly into DISK 2 at 2586
+Job 5 enters CPU from queue at 2586.
+Job 96 finished at DISK 1 at 2595
+job 96 placed in cpu queue at 2595
+Job 95 finished at DISK 2 at 2600
+job 95 placed in cpu queue at 2600
+Job 165 entered simulation at 2601
+job 165 placed in cpu queue at 2601
+Job 5 finished at CPU at 2607
+Job 5 placed directly into DISK 1 at 2607
+Job 55 enters CPU from queue at 2607.
+Job 55 finished at CPU at 2612
+Job 55 placed directly into DISK 2 at 2612
+Job 97 enters CPU from queue at 2612.
+Job 166 entered simulation at 2623
+job 166 placed in cpu queue at 2623
+Job 97 finished at CPU at 2623
+Job 97 placed into DISK 2 queue at 2623
+Job 57 enters CPU from queue at 2623.
+Job 167 entered simulation at 2623
+job 167 placed in cpu queue at 2623
+Job 5 finished at DISK 1 at 2625
+job 5 placed in cpu queue at 2625
+Job 55 finished at DISK 2 at 2636
+job 55 placed in cpu queue at 2636
+Job 97 enters disk 3 from queue at 2636.
+Job 168 entered simulation at 2637
+job 168 placed in cpu queue at 2637
+Job 57 finished at CPU at 2639
+Job 57 leaving simulation at 2639.
+Job 98 enters CPU from queue at 2639.
+Job 97 finished at DISK 2 at 2645
+job 97 placed in cpu queue at 2645
+Job 98 finished at CPU at 2646
+Job 98 placed directly into DISK 1 at 2646
+Job 30 enters CPU from queue at 2646.
+Job 169 entered simulation at 2651
+job 169 placed in cpu queue at 2651
+Job 30 finished at CPU at 2661
+Job 30 placed directly into DISK 2 at 2661
+Job 99 enters CPU from queue at 2661.
+Job 170 entered simulation at 2662
+job 170 placed in cpu queue at 2662
+Job 98 finished at DISK 1 at 2663
+job 98 placed in cpu queue at 2663
+Job 171 entered simulation at 2667
+job 171 placed in cpu queue at 2667
+Job 99 finished at CPU at 2668
+Job 99 placed directly into DISK 1 at 2668
+Job 31 enters CPU from queue at 2668.
+Job 99 finished at DISK 1 at 2673
+job 99 placed in cpu queue at 2673
+Job 30 finished at DISK 2 at 2681
+job 30 placed in cpu queue at 2681
+Job 172 entered simulation at 2684
+job 172 placed in cpu queue at 2684
+Job 31 finished at CPU at 2688
+Job 31 placed directly into DISK 1 at 2688
+Job 100 enters CPU from queue at 2688.
+Job 31 finished at DISK 1 at 2697
+job 31 placed in cpu queue at 2697
+Job 173 entered simulation at 2703
+job 173 placed in cpu queue at 2703
+Job 100 finished at CPU at 2704
+Job 100 placed directly into DISK 1 at 2704
+Job 56 enters CPU from queue at 2704.
+Job 174 entered simulation at 2710
+job 174 placed in cpu queue at 2710
+Job 100 finished at DISK 1 at 2713
+job 100 placed in cpu queue at 2713
+Job 56 finished at CPU at 2725
+Job 56 leaving simulation at 2725.
+Job 101 enters CPU from queue at 2725.
+Job 175 entered simulation at 2738
+job 175 placed in cpu queue at 2738
+Job 101 finished at CPU at 2744
+Job 101 placed directly into DISK 1 at 2744
+Job 102 enters CPU from queue at 2744.
+Job 101 finished at DISK 1 at 2751
+job 101 placed in cpu queue at 2751
+Job 176 entered simulation at 2751
+job 176 placed in cpu queue at 2751
+Job 102 finished at CPU at 2752
+Job 102 placed directly into DISK 1 at 2752
+Job 32 enters CPU from queue at 2752.
+Job 102 finished at DISK 1 at 2764
+job 102 placed in cpu queue at 2764
+Job 32 finished at CPU at 2766
+Job 32 leaving simulation at 2766.
+Job 103 enters CPU from queue at 2766.
+Job 177 entered simulation at 2770
+job 177 placed in cpu queue at 2770
+Job 103 finished at CPU at 2772
+Job 103 placed directly into DISK 1 at 2772
+Job 59 enters CPU from queue at 2772.
+Job 178 entered simulation at 2774
+job 178 placed in cpu queue at 2774
+Job 59 finished at CPU at 2779
+Job 59 placed directly into DISK 2 at 2779
+Job 104 enters CPU from queue at 2779.
+Job 103 finished at DISK 1 at 2786
+job 103 placed in cpu queue at 2786
+Job 180 entered simulation at 2789
+job 180 placed in cpu queue at 2789
+Job 179 entered simulation at 2791
+job 179 placed in cpu queue at 2791
+Job 59 finished at DISK 2 at 2794
+job 59 placed in cpu queue at 2794
+Job 104 finished at CPU at 2803
+Job 104 placed directly into DISK 1 at 2803
+Job 17 enters CPU from queue at 2803.
+Job 181 entered simulation at 2819
+job 181 placed in cpu queue at 2819
+Job 17 finished at CPU at 2822
+Job 17 placed directly into DISK 2 at 2822
+Job 105 enters CPU from queue at 2822.
+Job 104 finished at DISK 1 at 2827
+job 104 placed in cpu queue at 2827
+Job 105 finished at CPU at 2827
+Job 105 placed directly into DISK 1 at 2827
+Job 33 enters CPU from queue at 2827.
+Job 183 entered simulation at 2830
+job 183 placed in cpu queue at 2830
+Job 17 finished at DISK 2 at 2831
+job 17 placed in cpu queue at 2831
+Job 182 entered simulation at 2831
+job 182 placed in cpu queue at 2831
+Job 105 finished at DISK 1 at 2835
+job 105 placed in cpu queue at 2835
+Job 33 finished at CPU at 2835
+Job 33 placed directly into DISK 1 at 2835
+Job 106 enters CPU from queue at 2835.
+Job 184 entered simulation at 2838
+job 184 placed in cpu queue at 2838
+Job 33 finished at DISK 1 at 2845
+job 33 placed in cpu queue at 2845
+Job 106 finished at CPU at 2846
+Job 106 placed directly into DISK 1 at 2846
+Job 107 enters CPU from queue at 2846.
+Job 185 entered simulation at 2856
+job 185 placed in cpu queue at 2856
+Job 107 finished at CPU at 2862
+Job 107 placed directly into DISK 2 at 2862
+Job 60 enters CPU from queue at 2862.
+Job 106 finished at DISK 1 at 2865
+job 106 placed in cpu queue at 2865
+Job 186 entered simulation at 2872
+job 186 placed in cpu queue at 2872
+Job 107 finished at DISK 2 at 2879
+job 107 placed in cpu queue at 2879
+Job 60 finished at CPU at 2884
+Job 60 leaving simulation at 2884.
+Job 61 enters CPU from queue at 2884.
+Job 187 entered simulation at 2893
+job 187 placed in cpu queue at 2893
+Job 61 finished at CPU at 2909
+Job 61 placed directly into DISK 1 at 2909
+Job 108 enters CPU from queue at 2909.
+Job 188 entered simulation at 2915
+job 188 placed in cpu queue at 2915
+Job 108 finished at CPU at 2921
+Job 108 placed directly into DISK 2 at 2921
+Job 109 enters CPU from queue at 2921.
+Job 61 finished at DISK 1 at 2923
+job 61 placed in cpu queue at 2923
+Job 189 entered simulation at 2931
+job 189 placed in cpu queue at 2931
+Job 108 finished at DISK 2 at 2932
+job 108 placed in cpu queue at 2932
+Job 109 finished at CPU at 2945
+Job 109 placed directly into DISK 1 at 2945
+Job 62 enters CPU from queue at 2945.
+Job 109 finished at DISK 1 at 2953
+job 109 placed in cpu queue at 2953
+Job 190 entered simulation at 2954
+job 190 placed in cpu queue at 2954
+Job 62 finished at CPU at 2960
+Job 62 placed directly into DISK 1 at 2960
+Job 110 enters CPU from queue at 2960.
+Job 110 finished at CPU at 2977
+Job 110 placed directly into DISK 2 at 2977
+Job 3 enters CPU from queue at 2977.
+Job 191 entered simulation at 2978
+job 191 placed in cpu queue at 2978
+Job 62 finished at DISK 1 at 2978
+job 62 placed in cpu queue at 2978
+Job 3 finished at CPU at 2985
+Job 3 placed directly into DISK 1 at 2985
+Job 111 enters CPU from queue at 2985.
+Job 192 entered simulation at 2989
+job 192 placed in cpu queue at 2989
+Job 111 finished at CPU at 2992
+Job 111 placed into DISK 2 queue at 2992
+Job 112 enters CPU from queue at 2992.
+Job 110 finished at DISK 2 at 2999
+job 110 placed in cpu queue at 2999
+Job 111 enters disk 3 from queue at 2999.
+Job 193 entered simulation at 3004
+job 193 placed in cpu queue at 3004
+Job 111 finished at DISK 2 at 3004
+job 111 placed in cpu queue at 3004
+Job 3 finished at DISK 1 at 3007
+job 3 placed in cpu queue at 3007
+Job 194 entered simulation at 3008
+job 194 placed in cpu queue at 3008
+Job 112 finished at CPU at 3012
+Job 112 placed directly into DISK 1 at 3012
+Job 34 enters CPU from queue at 3012.
+Job 195 entered simulation at 3023
+job 195 placed in cpu queue at 3023
+Job 34 finished at CPU at 3026
+Job 34 placed directly into DISK 2 at 3026
+Job 113 enters CPU from queue at 3026.
+Job 112 finished at DISK 1 at 3033
+job 112 placed in cpu queue at 3033
+Job 196 entered simulation at 3045
+job 196 placed in cpu queue at 3045
+Job 113 finished at CPU at 3047
+Job 113 leaving simulation at 3047.
+Job 114 enters CPU from queue at 3047.
+Job 34 finished at DISK 2 at 3048
+job 34 placed in cpu queue at 3048
+Job 197 entered simulation at 3056
+job 197 placed in cpu queue at 3056
+Job 114 finished at CPU at 3067
+Job 114 leaving simulation at 3067.
+Job 115 enters CPU from queue at 3067.
+Job 198 entered simulation at 3086
+job 198 placed in cpu queue at 3086
+Job 115 finished at CPU at 3091
+Job 115 placed directly into DISK 1 at 3091
+Job 19 enters CPU from queue at 3091.
+Job 199 entered simulation at 3094
+job 199 placed in cpu queue at 3094
+Job 19 finished at CPU at 3107
+Job 19 placed directly into DISK 2 at 3107
+Job 116 enters CPU from queue at 3107.
+Job 115 finished at DISK 1 at 3109
+job 115 placed in cpu queue at 3109
+Job 19 finished at DISK 2 at 3112
+job 19 placed in cpu queue at 3112
+Job 200 entered simulation at 3121
+job 200 placed in cpu queue at 3121
+Job 116 finished at CPU at 3132
+Job 116 placed directly into DISK 1 at 3132
+Job 65 enters CPU from queue at 3132.
+Job 116 finished at DISK 1 at 3145
+job 116 placed in cpu queue at 3145
+Job 201 entered simulation at 3146
+job 201 placed in cpu queue at 3146
+Job 65 finished at CPU at 3147
+Job 65 placed directly into DISK 1 at 3147
+Job 117 enters CPU from queue at 3147.
+Job 202 entered simulation at 3150
+job 202 placed in cpu queue at 3150
+Job 65 finished at DISK 1 at 3153
+job 65 placed in cpu queue at 3153
+Job 117 finished at CPU at 3160
+Job 117 leaving simulation at 3160.
+Job 118 enters CPU from queue at 3160.
+Job 118 finished at CPU at 3169
+Job 118 placed directly into DISK 1 at 3169
+Job 67 enters CPU from queue at 3169.
+Job 67 finished at CPU at 3177
+Job 67 placed directly into DISK 2 at 3177
+Job 119 enters CPU from queue at 3177.
+Job 204 entered simulation at 3177
+job 204 placed in cpu queue at 3177
+Job 203 entered simulation at 3179
+job 203 placed in cpu queue at 3179
+Job 205 entered simulation at 3182
+job 205 placed in cpu queue at 3182
+Job 67 finished at DISK 2 at 3184
+job 67 placed in cpu queue at 3184
+Job 118 finished at DISK 1 at 3189
+job 118 placed in cpu queue at 3189
+Job 119 finished at CPU at 3191
+Job 119 placed directly into DISK 1 at 3191
+Job 120 enters CPU from queue at 3191.
+Job 120 finished at CPU at 3199
+Job 120 leaving simulation at 3199.
+Job 68 enters CPU from queue at 3199.
+Job 207 entered simulation at 3200
+job 207 placed in cpu queue at 3200
+Job 206 entered simulation at 3201
+job 206 placed in cpu queue at 3201
+Job 119 finished at DISK 1 at 3207
+job 119 placed in cpu queue at 3207
+Job 68 finished at CPU at 3220
+Job 68 leaving simulation at 3220.
+Job 121 enters CPU from queue at 3220.
+Job 208 entered simulation at 3221
+job 208 placed in cpu queue at 3221
+Job 121 finished at CPU at 3231
+Job 121 leaving simulation at 3231.
+Job 69 enters CPU from queue at 3231.
+Job 209 entered simulation at 3244
+job 209 placed in cpu queue at 3244
+Job 69 finished at CPU at 3256
+Job 69 placed directly into DISK 1 at 3256
+Job 122 enters CPU from queue at 3256.
+Job 122 finished at CPU at 3267
+Job 122 placed directly into DISK 2 at 3267
+Job 70 enters CPU from queue at 3267.
+Job 69 finished at DISK 1 at 3270
+job 69 placed in cpu queue at 3270
+Job 70 finished at CPU at 3273
+Job 70 placed directly into DISK 1 at 3273
+Job 6 enters CPU from queue at 3273.
+Job 210 entered simulation at 3275
+job 210 placed in cpu queue at 3275
+Job 70 finished at DISK 1 at 3278
+job 70 placed in cpu queue at 3278
+Job 211 entered simulation at 3280
+job 211 placed in cpu queue at 3280
+Job 6 finished at CPU at 3281
+Job 6 leaving simulation at 3281.
+Job 123 enters CPU from queue at 3281.
+Job 213 entered simulation at 3285
+job 213 placed in cpu queue at 3285
+Job 212 entered simulation at 3287
+job 212 placed in cpu queue at 3287
+Job 122 finished at DISK 2 at 3287
+job 122 placed in cpu queue at 3287
+Job 123 finished at CPU at 3297
+Job 123 placed directly into DISK 1 at 3297
+Job 124 enters CPU from queue at 3297.
+Job 123 finished at DISK 1 at 3302
+job 123 placed in cpu queue at 3302
+Job 124 finished at CPU at 3310
+Job 124 placed directly into DISK 1 at 3310
+Job 71 enters CPU from queue at 3310.
+Job 214 entered simulation at 3314
+job 214 placed in cpu queue at 3314
+Job 71 finished at CPU at 3321
+Job 71 placed directly into DISK 2 at 3321
+Job 40 enters CPU from queue at 3321.
+Job 215 entered simulation at 3324
+job 215 placed in cpu queue at 3324
+Job 124 finished at DISK 1 at 3327
+job 124 placed in cpu queue at 3327
+Job 71 finished at DISK 2 at 3332
+job 71 placed in cpu queue at 3332
+Job 216 entered simulation at 3335
+job 216 placed in cpu queue at 3335
+Job 40 finished at CPU at 3344
+Job 40 placed directly into DISK 1 at 3344
+Job 125 enters CPU from queue at 3344.
+Job 40 finished at DISK 1 at 3349
+job 40 placed in cpu queue at 3349
+Job 125 finished at CPU at 3361
+Job 125 placed directly into DISK 1 at 3361
+Job 72 enters CPU from queue at 3361.
+Job 217 entered simulation at 3364
+job 217 placed in cpu queue at 3364
+Job 125 finished at DISK 1 at 3367
+job 125 placed in cpu queue at 3367
+Job 72 finished at CPU at 3372
+Job 72 placed directly into DISK 1 at 3372
+Job 126 enters CPU from queue at 3372.
+Job 218 entered simulation at 3373
+job 218 placed in cpu queue at 3373
+Job 72 finished at DISK 1 at 3377
+job 72 placed in cpu queue at 3377
+Job 219 entered simulation at 3378
+job 219 placed in cpu queue at 3378
+Job 126 finished at CPU at 3390
+Job 126 placed directly into DISK 1 at 3390
+Job 127 enters CPU from queue at 3390.
+Job 220 entered simulation at 3403
+job 220 placed in cpu queue at 3403
+Job 127 finished at CPU at 3404
+Job 127 placed directly into DISK 2 at 3404
+Job 73 enters CPU from queue at 3404.
+Job 221 entered simulation at 3406
+job 221 placed in cpu queue at 3406
+Job 126 finished at DISK 1 at 3408
+job 126 placed in cpu queue at 3408
+Job 73 finished at CPU at 3425
+Job 73 leaving simulation at 3425.
+Job 74 enters CPU from queue at 3425.
+Job 127 finished at DISK 2 at 3429
+job 127 placed in cpu queue at 3429
+Job 74 finished at CPU at 3434
+Job 74 placed directly into DISK 1 at 3434
+Job 128 enters CPU from queue at 3434.
+Job 223 entered simulation at 3440
+job 223 placed in cpu queue at 3440
+Job 128 finished at CPU at 3443
+Job 128 leaving simulation at 3443.
+Job 129 enters CPU from queue at 3443.
+Job 222 entered simulation at 3444
+job 222 placed in cpu queue at 3444
+Job 224 entered simulation at 3447
+job 224 placed in cpu queue at 3447
+Job 74 finished at DISK 1 at 3455
+job 74 placed in cpu queue at 3455
+Job 129 finished at CPU at 3459
+Job 129 placed directly into DISK 1 at 3459
+Job 130 enters CPU from queue at 3459.
+Job 130 finished at CPU at 3468
+Job 130 placed directly into DISK 2 at 3468
+Job 131 enters CPU from queue at 3468.
+Job 225 entered simulation at 3468
+job 225 placed in cpu queue at 3468
+Job 226 entered simulation at 3473
+job 226 placed in cpu queue at 3473
+Job 129 finished at DISK 1 at 3483
+job 129 placed in cpu queue at 3483
+Job 131 finished at CPU at 3484
+Job 131 placed directly into DISK 1 at 3484
+Job 76 enters CPU from queue at 3484.
+Job 227 entered simulation at 3485
+job 227 placed in cpu queue at 3485
+Job 130 finished at DISK 2 at 3490
+job 130 placed in cpu queue at 3490
+Job 131 finished at DISK 1 at 3492
+job 131 placed in cpu queue at 3492
+Job 76 finished at CPU at 3494
+Job 76 placed directly into DISK 1 at 3494
+Job 77 enters CPU from queue at 3494.
+Job 76 finished at DISK 1 at 3503
+job 76 placed in cpu queue at 3503
+Job 228 entered simulation at 3512
+job 228 placed in cpu queue at 3512
+Job 77 finished at CPU at 3512
+Job 77 placed directly into DISK 1 at 3512
+Job 132 enters CPU from queue at 3512.
+Job 77 finished at DISK 1 at 3526
+job 77 placed in cpu queue at 3526
+Job 229 entered simulation at 3526
+job 229 placed in cpu queue at 3526
+Job 132 finished at CPU at 3535
+Job 132 placed directly into DISK 1 at 3535
+Job 44 enters CPU from queue at 3535.
+Job 230 entered simulation at 3545
+job 230 placed in cpu queue at 3545
+Job 132 finished at DISK 1 at 3558
+job 132 placed in cpu queue at 3558
+Job 44 finished at CPU at 3558
+Job 44 placed directly into DISK 1 at 3558
+Job 78 enters CPU from queue at 3558.
+Job 231 entered simulation at 3575
+job 231 placed in cpu queue at 3575
+Job 44 finished at DISK 1 at 3577
+job 44 placed in cpu queue at 3577
+Job 78 finished at CPU at 3577
+Job 78 placed directly into DISK 1 at 3577
+Job 133 enters CPU from queue at 3577.
+Job 78 finished at DISK 1 at 3587
+job 78 placed in cpu queue at 3587
+Job 232 entered simulation at 3591
+job 232 placed in cpu queue at 3591
+Job 133 finished at CPU at 3602
+Job 133 leaving simulation at 3602.
+Job 134 enters CPU from queue at 3602.
+Job 233 entered simulation at 3605
+job 233 placed in cpu queue at 3605
+Job 134 finished at CPU at 3611
+Job 134 leaving simulation at 3611.
+Job 79 enters CPU from queue at 3611.
+Job 79 finished at CPU at 3616
+Job 79 placed directly into DISK 1 at 3616
+Job 135 enters CPU from queue at 3616.
+Job 234 entered simulation at 3624
+job 234 placed in cpu queue at 3624
+Job 235 entered simulation at 3627
+job 235 placed in cpu queue at 3627
+Job 79 finished at DISK 1 at 3630
+job 79 placed in cpu queue at 3630
+Job 135 finished at CPU at 3637
+Job 135 placed directly into DISK 1 at 3637
+Job 136 enters CPU from queue at 3637.
+Job 236 entered simulation at 3640
+job 236 placed in cpu queue at 3640
+Job 135 finished at DISK 1 at 3646
+job 135 placed in cpu queue at 3646
+Job 136 finished at CPU at 3658
+Job 136 leaving simulation at 3658.
+Job 45 enters CPU from queue at 3658.
+Job 237 entered simulation at 3670
+job 237 placed in cpu queue at 3670
+Job 45 finished at CPU at 3676
+Job 45 placed directly into DISK 1 at 3676
+Job 13 enters CPU from queue at 3676.
+Job 13 finished at CPU at 3683
+Job 13 leaving simulation at 3683.
+Job 137 enters CPU from queue at 3683.
+Job 45 finished at DISK 1 at 3687
+job 45 placed in cpu queue at 3687
+Job 239 entered simulation at 3692
+job 239 placed in cpu queue at 3692
+Job 238 entered simulation at 3694
+job 238 placed in cpu queue at 3694
+Job 137 finished at CPU at 3700
+Job 137 placed directly into DISK 1 at 3700
+Job 138 enters CPU from queue at 3700.
+Job 138 finished at CPU at 3709
+Job 138 placed directly into DISK 2 at 3709
+Job 47 enters CPU from queue at 3709.
+Job 137 finished at DISK 1 at 3711
+job 137 placed in cpu queue at 3711
+Job 240 entered simulation at 3714
+job 240 placed in cpu queue at 3714
+Job 138 finished at DISK 2 at 3717
+job 138 placed in cpu queue at 3717
+Job 47 finished at CPU at 3721
+Job 47 placed directly into DISK 1 at 3721
+Job 139 enters CPU from queue at 3721.
+Job 241 entered simulation at 3723
+job 241 placed in cpu queue at 3723
+Job 242 entered simulation at 3730
+job 242 placed in cpu queue at 3730
+Job 47 finished at DISK 1 at 3735
+job 47 placed in cpu queue at 3735
+Job 139 finished at CPU at 3741
+Job 139 leaving simulation at 3741.
+Job 81 enters CPU from queue at 3741.
+Job 81 finished at CPU at 3747
+Job 81 placed directly into DISK 1 at 3747
+Job 140 enters CPU from queue at 3747.
+Job 244 entered simulation at 3750
+job 244 placed in cpu queue at 3750
+Job 140 finished at CPU at 3758
+Job 140 placed directly into DISK 2 at 3758
+Job 82 enters CPU from queue at 3758.
+Job 243 entered simulation at 3759
+job 243 placed in cpu queue at 3759
+Job 245 entered simulation at 3759
+job 245 placed in cpu queue at 3759
+Job 81 finished at DISK 1 at 3764
+job 81 placed in cpu queue at 3764
+Job 82 finished at CPU at 3768
+Job 82 placed directly into DISK 1 at 3768
+Job 141 enters CPU from queue at 3768.
+Job 140 finished at DISK 2 at 3771
+job 140 placed in cpu queue at 3771
+Job 246 entered simulation at 3771
+job 246 placed in cpu queue at 3771
+Job 82 finished at DISK 1 at 3777
+job 82 placed in cpu queue at 3777
+Job 141 finished at CPU at 3779
+Job 141 leaving simulation at 3779.
+Job 46 enters CPU from queue at 3779.
+Job 46 finished at CPU at 3794
+Job 46 placed directly into DISK 1 at 3794
+Job 142 enters CPU from queue at 3794.
+Job 247 entered simulation at 3794
+job 247 placed in cpu queue at 3794
+Job 142 finished at CPU at 3799
+Job 142 leaving simulation at 3799.
+Job 83 enters CPU from queue at 3799.
+Job 46 finished at DISK 1 at 3806
+job 46 placed in cpu queue at 3806
+Job 248 entered simulation at 3809
+job 248 placed in cpu queue at 3809
+Job 83 finished at CPU at 3815
+Job 83 placed directly into DISK 1 at 3815
+Job 143 enters CPU from queue at 3815.
+Job 249 entered simulation at 3818
+job 249 placed in cpu queue at 3818
+Job 83 finished at DISK 1 at 3824
+job 83 placed in cpu queue at 3824
+Job 143 finished at CPU at 3826
+Job 143 placed directly into DISK 1 at 3826
+Job 144 enters CPU from queue at 3826.
+Job 251 entered simulation at 3827
+job 251 placed in cpu queue at 3827
+Job 250 entered simulation at 3832
+job 250 placed in cpu queue at 3832
+Job 143 finished at DISK 1 at 3846
+job 143 placed in cpu queue at 3846
+Job 144 finished at CPU at 3850
+Job 144 placed directly into DISK 1 at 3850
+Job 145 enters CPU from queue at 3850.
+Job 145 finished at CPU at 3868
+Job 145 placed directly into DISK 2 at 3868
+Job 26 enters CPU from queue at 3868.
+Job 252 entered simulation at 3868
+job 252 placed in cpu queue at 3868
+Job 144 finished at DISK 1 at 3871
+job 144 placed in cpu queue at 3871
+Job 253 entered simulation at 3872
+job 253 placed in cpu queue at 3872
+Job 145 finished at DISK 2 at 3873
+job 145 placed in cpu queue at 3873
+Job 26 finished at CPU at 3879
+Job 26 leaving simulation at 3879.
+Job 48 enters CPU from queue at 3879.
+Job 254 entered simulation at 3888
+job 254 placed in cpu queue at 3888
+Job 48 finished at CPU at 3890
+Job 48 placed directly into DISK 1 at 3890
+Job 146 enters CPU from queue at 3890.
+Job 48 finished at DISK 1 at 3903
+job 48 placed in cpu queue at 3903
+Job 146 finished at CPU at 3905
+Job 146 leaving simulation at 3905.
+Job 85 enters CPU from queue at 3905.
+Job 255 entered simulation at 3907
+job 255 placed in cpu queue at 3907
+Job 256 entered simulation at 3909
+job 256 placed in cpu queue at 3909
+Job 85 finished at CPU at 3910
+Job 85 leaving simulation at 3910.
+Job 147 enters CPU from queue at 3910.
+Job 257 entered simulation at 3915
+job 257 placed in cpu queue at 3915
+Job 147 finished at CPU at 3931
+Job 147 placed directly into DISK 1 at 3931
+Job 15 enters CPU from queue at 3931.
+Job 15 finished at CPU at 3948
+Job 15 placed directly into DISK 2 at 3948
+Job 148 enters CPU from queue at 3948.
+Job 258 entered simulation at 3949
+job 258 placed in cpu queue at 3949
+Job 147 finished at DISK 1 at 3950
+job 147 placed in cpu queue at 3950
+Job 15 finished at DISK 2 at 3961
+job 15 placed in cpu queue at 3961
+Job 259 entered simulation at 3963
+job 259 placed in cpu queue at 3963
+Job 148 finished at CPU at 3971
+Job 148 placed directly into DISK 1 at 3971
+Job 149 enters CPU from queue at 3971.
+Job 260 entered simulation at 3974
+job 260 placed in cpu queue at 3974
+Job 149 finished at CPU at 3982
+Job 149 placed directly into DISK 2 at 3982
+Job 49 enters CPU from queue at 3982.
+Job 49 finished at CPU at 3988
+Job 49 placed into DISK 2 queue at 3988
+Job 150 enters CPU from queue at 3988.
+Job 149 finished at DISK 2 at 3991
+job 149 placed in cpu queue at 3991
+Job 49 enters disk 3 from queue at 3991.
+Job 261 entered simulation at 3993
+job 261 placed in cpu queue at 3993
+Job 148 finished at DISK 1 at 3994
+job 148 placed in cpu queue at 3994
+Job 150 finished at CPU at 3997
+Job 150 placed directly into DISK 1 at 3997
+Job 151 enters CPU from queue at 3997.
+Job 262 entered simulation at 4000
+job 262 placed in cpu queue at 4000
+Job 263 entered simulation at 4001
+job 263 placed in cpu queue at 4001
+Job 151 finished at CPU at 4007
+Job 151 placed into DISK 2 queue at 4007
+Job 87 enters CPU from queue at 4007.
+Job 264 entered simulation at 4012
+job 264 placed in cpu queue at 4012
+Job 49 finished at DISK 2 at 4013
+job 49 placed in cpu queue at 4013
+Job 151 enters disk 3 from queue at 4013.
+Job 87 finished at CPU at 4020
+Job 87 placed into DISK 2 queue at 4020
+Job 88 enters CPU from queue at 4020.
+Job 150 finished at DISK 1 at 4021
+job 150 placed in cpu queue at 4021
+Job 265 entered simulation at 4024
+job 265 placed in cpu queue at 4024
+Job 151 finished at DISK 2 at 4038
+job 151 placed in cpu queue at 4038
+Job 87 enters disk 3 from queue at 4038.
+Job 88 finished at CPU at 4045
+Job 88 placed directly into DISK 1 at 4045
+Job 152 enters CPU from queue at 4045.
+Job 87 finished at DISK 2 at 4047
+job 87 placed in cpu queue at 4047
+Job 152 finished at CPU at 4052
+Job 152 leaving simulation at 4052.
+Job 89 enters CPU from queue at 4052.
+Job 266 entered simulation at 4058
+job 266 placed in cpu queue at 4058
+Job 267 entered simulation at 4059
+job 267 placed in cpu queue at 4059
+Job 88 finished at DISK 1 at 4065
+job 88 placed in cpu queue at 4065
+Job 89 finished at CPU at 4077
+Job 89 placed directly into DISK 1 at 4077
+Job 153 enters CPU from queue at 4077.
+Job 268 entered simulation at 4089
+job 268 placed in cpu queue at 4089
+Job 153 finished at CPU at 4095
+Job 153 placed directly into DISK 2 at 4095
+Job 28 enters CPU from queue at 4095.
+Job 89 finished at DISK 1 at 4100
+job 89 placed in cpu queue at 4100
+Job 28 finished at CPU at 4113
+Job 28 placed directly into DISK 1 at 4113
+Job 90 enters CPU from queue at 4113.
+Job 269 entered simulation at 4114
+job 269 placed in cpu queue at 4114
+Job 270 entered simulation at 4117
+job 270 placed in cpu queue at 4117
+Job 153 finished at DISK 2 at 4117
+job 153 placed in cpu queue at 4117
+Job 90 finished at CPU at 4128
+Job 90 placed directly into DISK 2 at 4128
+Job 154 enters CPU from queue at 4128.
+Job 28 finished at DISK 1 at 4136
+job 28 placed in cpu queue at 4136
+Job 154 finished at CPU at 4141
+Job 154 placed directly into DISK 1 at 4141
+Job 155 enters CPU from queue at 4141.
+Job 271 entered simulation at 4142
+job 271 placed in cpu queue at 4142
+Job 90 finished at DISK 2 at 4142
+job 90 placed in cpu queue at 4142
+Job 272 entered simulation at 4145
+job 272 placed in cpu queue at 4145
+Job 154 finished at DISK 1 at 4162
+job 154 placed in cpu queue at 4162
+Job 155 finished at CPU at 4164
+Job 155 placed directly into DISK 1 at 4164
+Job 91 enters CPU from queue at 4164.
+Job 91 finished at CPU at 4175
+Job 91 placed directly into DISK 2 at 4175
+Job 29 enters CPU from queue at 4175.
+Job 273 entered simulation at 4175
+job 273 placed in cpu queue at 4175
+Job 274 entered simulation at 4178
+job 274 placed in cpu queue at 4178
+Job 91 finished at DISK 2 at 4181
+job 91 placed in cpu queue at 4181
+Job 155 finished at DISK 1 at 4187
+job 155 placed in cpu queue at 4187
+Job 29 finished at CPU at 4193
+Job 29 placed directly into DISK 1 at 4193
+Job 156 enters CPU from queue at 4193.
+Job 156 finished at CPU at 4207
+Job 156 placed directly into DISK 2 at 4207
+Job 157 enters CPU from queue at 4207.
+Job 275 entered simulation at 4207
+job 275 placed in cpu queue at 4207
+Job 29 finished at DISK 1 at 4210
+job 29 placed in cpu queue at 4210
+Job 156 finished at DISK 2 at 4213
+job 156 placed in cpu queue at 4213
+Job 157 finished at CPU at 4217
+Job 157 placed directly into DISK 1 at 4217
+Job 158 enters CPU from queue at 4217.
+Job 277 entered simulation at 4223
+job 277 placed in cpu queue at 4223
+Job 276 entered simulation at 4225
+job 276 placed in cpu queue at 4225
+Job 158 finished at CPU at 4239
+Job 158 placed directly into DISK 2 at 4239
+Job 52 enters CPU from queue at 4239.
+Job 157 finished at DISK 1 at 4241
+job 157 placed in cpu queue at 4241
+Job 278 entered simulation at 4246
+job 278 placed in cpu queue at 4246
+Job 158 finished at DISK 2 at 4251
+job 158 placed in cpu queue at 4251
+Job 52 finished at CPU at 4253
+Job 52 placed directly into DISK 1 at 4253
+Job 92 enters CPU from queue at 4253.
+Job 92 finished at CPU at 4258
+Job 92 placed directly into DISK 2 at 4258
+Job 159 enters CPU from queue at 4258.
+Job 159 finished at CPU at 4266
+Job 159 placed into DISK 2 queue at 4266
+Job 160 enters CPU from queue at 4266.
+Job 279 entered simulation at 4273
+job 279 placed in cpu queue at 4273
+Job 52 finished at DISK 1 at 4275
+job 52 placed in cpu queue at 4275
+Job 281 entered simulation at 4277
+job 281 placed in cpu queue at 4277
+Job 280 entered simulation at 4278
+job 280 placed in cpu queue at 4278
+Job 160 finished at CPU at 4281
+Job 160 placed directly into DISK 1 at 4281
+Job 93 enters CPU from queue at 4281.
+Job 92 finished at DISK 2 at 4282
+job 92 placed in cpu queue at 4282
+Job 159 enters disk 3 from queue at 4282.
+Job 282 entered simulation at 4289
+job 282 placed in cpu queue at 4289
+Job 93 finished at CPU at 4289
+Job 93 placed into DISK 2 queue at 4289
+Job 161 enters CPU from queue at 4289.
+Job 160 finished at DISK 1 at 4297
+job 160 placed in cpu queue at 4297
+Job 283 entered simulation at 4298
+job 283 placed in cpu queue at 4298
+Job 159 finished at DISK 2 at 4303
+job 159 placed in cpu queue at 4303
+Job 93 enters disk 3 from queue at 4303.
+Job 161 finished at CPU at 4311
+Job 161 placed directly into DISK 1 at 4311
+Job 162 enters CPU from queue at 4311.
+Job 93 finished at DISK 2 at 4312
+job 93 placed in cpu queue at 4312
+Job 162 finished at CPU at 4318
+Job 162 placed directly into DISK 2 at 4318
+Job 94 enters CPU from queue at 4318.
+Job 94 finished at CPU at 4325
+Job 94 placed into DISK 2 queue at 4325
+Job 16 enters CPU from queue at 4325.
+Job 285 entered simulation at 4327
+job 285 placed in cpu queue at 4327
+Job 284 entered simulation at 4329
+job 284 placed in cpu queue at 4329
+Job 161 finished at DISK 1 at 4330
+job 161 placed in cpu queue at 4330
+Job 286 entered simulation at 4340
+job 286 placed in cpu queue at 4340
+Job 162 finished at DISK 2 at 4342
+job 162 placed in cpu queue at 4342
+Job 94 enters disk 3 from queue at 4342.
+Job 16 finished at CPU at 4342
+Job 16 placed directly into DISK 1 at 4342
+Job 54 enters CPU from queue at 4342.
+Job 287 entered simulation at 4344
+job 287 placed in cpu queue at 4344
+Job 54 finished at CPU at 4347
+Job 54 placed into DISK 2 queue at 4347
+Job 163 enters CPU from queue at 4347.
+Job 94 finished at DISK 2 at 4347
+job 94 placed in cpu queue at 4347
+Job 54 enters disk 3 from queue at 4347.
+Job 288 entered simulation at 4349
+job 288 placed in cpu queue at 4349
+Job 163 finished at CPU at 4355
+Job 163 placed into DISK 2 queue at 4355
+Job 164 enters CPU from queue at 4355.
+Job 54 finished at DISK 2 at 4360
+job 54 placed in cpu queue at 4360
+Job 163 enters disk 3 from queue at 4360.
+Job 16 finished at DISK 1 at 4362
+job 16 placed in cpu queue at 4362
+Job 163 finished at DISK 2 at 4369
+job 163 placed in cpu queue at 4369
+Job 289 entered simulation at 4369
+job 289 placed in cpu queue at 4369
+Job 164 finished at CPU at 4371
+Job 164 placed directly into DISK 1 at 4371
+Job 96 enters CPU from queue at 4371.
+Job 164 finished at DISK 1 at 4377
+job 164 placed in cpu queue at 4377
+Job 290 entered simulation at 4381
+job 290 placed in cpu queue at 4381
+Job 96 finished at CPU at 4396
+Job 96 placed directly into DISK 1 at 4396
+Job 95 enters CPU from queue at 4396.
+Job 96 finished at DISK 1 at 4409
+job 96 placed in cpu queue at 4409
+Job 291 entered simulation at 4414
+job 291 placed in cpu queue at 4414
+Job 95 finished at CPU at 4415
+Job 95 leaving simulation at 4415.
+Job 165 enters CPU from queue at 4415.
+Job 292 entered simulation at 4430
+job 292 placed in cpu queue at 4430
+Job 165 finished at CPU at 4436
+Job 165 placed directly into DISK 1 at 4436
+Job 166 enters CPU from queue at 4436.
+Job 293 entered simulation at 4440
+job 293 placed in cpu queue at 4440
+Job 165 finished at DISK 1 at 4456
+job 165 placed in cpu queue at 4456
+Job 166 finished at CPU at 4459
+Job 166 placed directly into DISK 1 at 4459
+Job 167 enters CPU from queue at 4459.
+Job 294 entered simulation at 4460
+job 294 placed in cpu queue at 4460
+Job 166 finished at DISK 1 at 4473
+job 166 placed in cpu queue at 4473
+Job 167 finished at CPU at 4483
+Job 167 placed directly into DISK 1 at 4483
+Job 5 enters CPU from queue at 4483.
+Job 5 finished at CPU at 4489
+Job 5 placed directly into DISK 2 at 4489
+Job 55 enters CPU from queue at 4489.
+Job 5 finished at DISK 2 at 4499
+job 5 placed in cpu queue at 4499
+Job 295 entered simulation at 4502
+job 295 placed in cpu queue at 4502
+Job 167 finished at DISK 1 at 4502
+job 167 placed in cpu queue at 4502
+Job 296 entered simulation at 4505
+job 296 placed in cpu queue at 4505
+Job 55 finished at CPU at 4514
+Job 55 placed directly into DISK 1 at 4514
+Job 168 enters CPU from queue at 4514.
+Job 297 entered simulation at 4517
+job 297 placed in cpu queue at 4517
+Job 168 finished at CPU at 4528
+Job 168 placed directly into DISK 2 at 4528
+Job 97 enters CPU from queue at 4528.
+Job 55 finished at DISK 1 at 4530
+job 55 placed in cpu queue at 4530
+Job 97 finished at CPU at 4534
+Job 97 placed directly into DISK 1 at 4534
+Job 169 enters CPU from queue at 4534.
+Job 299 entered simulation at 4541
+job 299 placed in cpu queue at 4541
+Job 298 entered simulation at 4543
+job 298 placed in cpu queue at 4543
+Job 168 finished at DISK 2 at 4544
+job 168 placed in cpu queue at 4544
+Job 169 finished at CPU at 4547
+Job 169 placed directly into DISK 2 at 4547
+Job 170 enters CPU from queue at 4547.
+Job 97 finished at DISK 1 at 4549
+job 97 placed in cpu queue at 4549
+Job 170 finished at CPU at 4552
+Job 170 placed directly into DISK 1 at 4552
+Job 98 enters CPU from queue at 4552.
+Job 300 entered simulation at 4556
+job 300 placed in cpu queue at 4556
+Job 169 finished at DISK 2 at 4556
+job 169 placed in cpu queue at 4556
+Job 98 finished at CPU at 4569
+Job 98 placed directly into DISK 2 at 4569
+Job 171 enters CPU from queue at 4569.
+Job 301 entered simulation at 4571
+job 301 placed in cpu queue at 4571
+Job 302 entered simulation at 4573
+job 302 placed in cpu queue at 4573
+Job 170 finished at DISK 1 at 4575
+job 170 placed in cpu queue at 4575
+Job 98 finished at DISK 2 at 4585
+job 98 placed in cpu queue at 4585
+Job 171 finished at CPU at 4594
+Job 171 placed directly into DISK 1 at 4594
+Job 99 enters CPU from queue at 4594.
+Job 171 finished at DISK 1 at 4600
+job 171 placed in cpu queue at 4600
+Job 99 finished at CPU at 4601
+Job 99 placed directly into DISK 1 at 4601
+Job 30 enters CPU from queue at 4601.
+Job 303 entered simulation at 4606
+job 303 placed in cpu queue at 4606
+Job 304 entered simulation at 4606
+job 304 placed in cpu queue at 4606
+Job 99 finished at DISK 1 at 4608
+job 99 placed in cpu queue at 4608
+Job 30 finished at CPU at 4613
+Job 30 placed directly into DISK 1 at 4613
+Job 172 enters CPU from queue at 4613.
+Job 172 finished at CPU at 4624
+Job 172 placed directly into DISK 2 at 4624
+Job 31 enters CPU from queue at 4624.
+Job 305 entered simulation at 4632
+job 305 placed in cpu queue at 4632
+Job 30 finished at DISK 1 at 4634
+job 30 placed in cpu queue at 4634
+Job 172 finished at DISK 2 at 4637
+job 172 placed in cpu queue at 4637
+Job 306 entered simulation at 4640
+job 306 placed in cpu queue at 4640
+Job 31 finished at CPU at 4642
+Job 31 placed directly into DISK 1 at 4642
+Job 173 enters CPU from queue at 4642.
+Job 31 finished at DISK 1 at 4648
+job 31 placed in cpu queue at 4648
+Job 173 finished at CPU at 4649
+Job 173 placed directly into DISK 1 at 4649
+Job 174 enters CPU from queue at 4649.
+Job 307 entered simulation at 4654
+job 307 placed in cpu queue at 4654
+Job 308 entered simulation at 4654
+job 308 placed in cpu queue at 4654
+Job 173 finished at DISK 1 at 4656
+job 173 placed in cpu queue at 4656
+Job 174 finished at CPU at 4674
+Job 174 leaving simulation at 4674.
+Job 100 enters CPU from queue at 4674.
+Job 309 entered simulation at 4678
+job 309 placed in cpu queue at 4678
+Job 100 finished at CPU at 4691
+Job 100 placed directly into DISK 1 at 4691
+Job 175 enters CPU from queue at 4691.
+Job 100 finished at DISK 1 at 4698
+job 100 placed in cpu queue at 4698
+Job 175 finished at CPU at 4698
+Job 175 placed directly into DISK 1 at 4698
+Job 101 enters CPU from queue at 4698.
+Job 310 entered simulation at 4702
+job 310 placed in cpu queue at 4702
+Job 175 finished at DISK 1 at 4706
+job 175 placed in cpu queue at 4706
+Job 101 finished at CPU at 4716
+Job 101 placed directly into DISK 1 at 4716
+Job 176 enters CPU from queue at 4716.
+Job 311 entered simulation at 4717
+job 311 placed in cpu queue at 4717
+Job 176 finished at CPU at 4726
+Job 176 placed directly into DISK 2 at 4726
+Job 102 enters CPU from queue at 4726.
+Job 312 entered simulation at 4730
+job 312 placed in cpu queue at 4730
+Job 102 finished at CPU at 4731
+Job 102 placed into DISK 2 queue at 4731
+Job 177 enters CPU from queue at 4731.
+Job 176 finished at DISK 2 at 4732
+job 176 placed in cpu queue at 4732
+Job 102 enters disk 3 from queue at 4732.
+Job 314 entered simulation at 4733
+job 314 placed in cpu queue at 4733
+Job 313 entered simulation at 4735
+job 313 placed in cpu queue at 4735
+Job 101 finished at DISK 1 at 4737
+job 101 placed in cpu queue at 4737
+Job 102 finished at DISK 2 at 4741
+job 102 placed in cpu queue at 4741
+Job 177 finished at CPU at 4744
+Job 177 placed directly into DISK 1 at 4744
+Job 178 enters CPU from queue at 4744.
+Job 177 finished at DISK 1 at 4752
+job 177 placed in cpu queue at 4752
+Job 178 finished at CPU at 4755
+Job 178 placed directly into DISK 1 at 4755
+Job 103 enters CPU from queue at 4755.
+Job 315 entered simulation at 4762
+job 315 placed in cpu queue at 4762
+Job 316 entered simulation at 4769
+job 316 placed in cpu queue at 4769
+Job 178 finished at DISK 1 at 4769
+job 178 placed in cpu queue at 4769
+Job 103 finished at CPU at 4778
+Job 103 placed directly into DISK 1 at 4778
+Job 180 enters CPU from queue at 4778.
+Job 103 finished at DISK 1 at 4792
+job 103 placed in cpu queue at 4792
+Job 317 entered simulation at 4794
+job 317 placed in cpu queue at 4794
+Job 180 finished at CPU at 4800
+Job 180 placed directly into DISK 1 at 4800
+Job 179 enters CPU from queue at 4800.
+Job 179 finished at CPU at 4812
+Job 179 leaving simulation at 4812.
+Job 59 enters CPU from queue at 4812.
+Job 59 finished at CPU at 4817
+Job 59 placed directly into DISK 2 at 4817
+Job 181 enters CPU from queue at 4817.
+Job 318 entered simulation at 4819
+job 318 placed in cpu queue at 4819
+Job 320 entered simulation at 4824
+job 320 placed in cpu queue at 4824
+Job 181 finished at CPU at 4824
+Job 181 placed into DISK 2 queue at 4824
+Job 104 enters CPU from queue at 4824.
+Job 180 finished at DISK 1 at 4825
+job 180 placed in cpu queue at 4825
+Job 319 entered simulation at 4829
+job 319 placed in cpu queue at 4829
+Job 321 entered simulation at 4831
+job 321 placed in cpu queue at 4831
+Job 104 finished at CPU at 4832
+Job 104 placed directly into DISK 1 at 4832
+Job 183 enters CPU from queue at 4832.
+Job 59 finished at DISK 2 at 4838
+job 59 placed in cpu queue at 4838
+Job 181 enters disk 3 from queue at 4838.
+Job 322 entered simulation at 4848
+job 322 placed in cpu queue at 4848
+Job 104 finished at DISK 1 at 4848
+job 104 placed in cpu queue at 4848
+Job 183 finished at CPU at 4852
+Job 183 leaving simulation at 4852.
+Job 17 enters CPU from queue at 4852.
+Job 323 entered simulation at 4854
+job 323 placed in cpu queue at 4854
+Job 181 finished at DISK 2 at 4858
+job 181 placed in cpu queue at 4858
+Job 17 finished at CPU at 4876
+Job 17 placed directly into DISK 1 at 4876
+Job 182 enters CPU from queue at 4876.
+Job 17 finished at DISK 1 at 4888
+job 17 placed in cpu queue at 4888
+Job 182 finished at CPU at 4891
+Job 182 leaving simulation at 4891.
+Job 105 enters CPU from queue at 4891.
+Job 324 entered simulation at 4893
+job 324 placed in cpu queue at 4893
+Job 325 entered simulation at 4897
+job 325 placed in cpu queue at 4897
+Job 105 finished at CPU at 4916
+Job 105 placed directly into DISK 1 at 4916
+Job 184 enters CPU from queue at 4916.
+Job 326 entered simulation at 4933
+job 326 placed in cpu queue at 4933
+Job 105 finished at DISK 1 at 4936
+job 105 placed in cpu queue at 4936
+Job 184 finished at CPU at 4939
+Job 184 leaving simulation at 4939.
+Job 33 enters CPU from queue at 4939.
+Job 327 entered simulation at 4959
+job 327 placed in cpu queue at 4959
+Job 33 finished at CPU at 4960
+Job 33 leaving simulation at 4960.
+Job 185 enters CPU from queue at 4960.
+Job 328 entered simulation at 4973
+job 328 placed in cpu queue at 4973
+Job 185 finished at CPU at 4978
+Job 185 placed directly into DISK 1 at 4978
+Job 106 enters CPU from queue at 4978.
+Job 329 entered simulation at 4981
+job 329 placed in cpu queue at 4981
+Job 185 finished at DISK 1 at 4998
+job 185 placed in cpu queue at 4998
+Job 106 finished at CPU at 5002
+Job 106 placed directly into DISK 1 at 5002
+Job 186 enters CPU from queue at 5002.
+Job 106 finished at DISK 1 at 5012
+job 106 placed in cpu queue at 5012
+Job 330 entered simulation at 5012
+job 330 placed in cpu queue at 5012
+Job 186 finished at CPU at 5024
+Job 186 leaving simulation at 5024.
+Job 107 enters CPU from queue at 5024.
+Job 331 entered simulation at 5029
+job 331 placed in cpu queue at 5029
+Job 107 finished at CPU at 5041
+Job 107 leaving simulation at 5041.
+Job 187 enters CPU from queue at 5041.
+Job 332 entered simulation at 5048
+job 332 placed in cpu queue at 5048
+Job 187 finished at CPU at 5057
+Job 187 leaving simulation at 5057.
+Job 188 enters CPU from queue at 5057.
+Job 333 entered simulation at 5074
+job 333 placed in cpu queue at 5074
+Job 188 finished at CPU at 5081
+Job 188 placed directly into DISK 1 at 5081
+Job 61 enters CPU from queue at 5081.
+Job 334 entered simulation at 5084
+job 334 placed in cpu queue at 5084
+Job 61 finished at CPU at 5101
+Job 61 placed directly into DISK 2 at 5101
+Job 189 enters CPU from queue at 5101.
+Job 188 finished at DISK 1 at 5106
+job 188 placed in cpu queue at 5106
+Job 189 finished at CPU at 5106
+Job 189 placed directly into DISK 1 at 5106
+Job 108 enters CPU from queue at 5106.
+Job 335 entered simulation at 5115
+job 335 placed in cpu queue at 5115
+Job 61 finished at DISK 2 at 5116
+job 61 placed in cpu queue at 5116
+Job 336 entered simulation at 5120
+job 336 placed in cpu queue at 5120
+Job 108 finished at CPU at 5124
+Job 108 placed directly into DISK 2 at 5124
+Job 109 enters CPU from queue at 5124.
+Job 189 finished at DISK 1 at 5128
+job 189 placed in cpu queue at 5128
+Job 337 entered simulation at 5129
+job 337 placed in cpu queue at 5129
+Job 108 finished at DISK 2 at 5134
+job 108 placed in cpu queue at 5134
+Job 109 finished at CPU at 5140
+Job 109 leaving simulation at 5140.
+Job 190 enters CPU from queue at 5140.
+Job 338 entered simulation at 5143
+job 338 placed in cpu queue at 5143
+Job 190 finished at CPU at 5160
+Job 190 placed directly into DISK 1 at 5160
+Job 191 enters CPU from queue at 5160.
+Job 339 entered simulation at 5170
+job 339 placed in cpu queue at 5170
+Job 190 finished at DISK 1 at 5176
+job 190 placed in cpu queue at 5176
+Job 191 finished at CPU at 5178
+Job 191 leaving simulation at 5178.
+Job 62 enters CPU from queue at 5178.
+Job 340 entered simulation at 5190
+job 340 placed in cpu queue at 5190
+Job 62 finished at CPU at 5201
+Job 62 placed directly into DISK 1 at 5201
+Job 192 enters CPU from queue at 5201.
+Job 62 finished at DISK 1 at 5209
+job 62 placed in cpu queue at 5209
+Job 341 entered simulation at 5214
+job 341 placed in cpu queue at 5214
+Job 192 finished at CPU at 5218
+Job 192 placed directly into DISK 1 at 5218
+Job 110 enters CPU from queue at 5218.
+Job 192 finished at DISK 1 at 5232
+job 192 placed in cpu queue at 5232
+Job 342 entered simulation at 5233
+job 342 placed in cpu queue at 5233
+Job 110 finished at CPU at 5235
+Job 110 placed directly into DISK 1 at 5235
+Job 193 enters CPU from queue at 5235.
+Job 193 finished at CPU at 5245
+Job 193 leaving simulation at 5245.
+Job 111 enters CPU from queue at 5245.
+Job 343 entered simulation at 5247
+job 343 placed in cpu queue at 5247
+Job 110 finished at DISK 1 at 5248
+job 110 placed in cpu queue at 5248
+Job 344 entered simulation at 5253
+job 344 placed in cpu queue at 5253
+Job 111 finished at CPU at 5268
+Job 111 placed directly into DISK 1 at 5268
+Job 3 enters CPU from queue at 5268.
+Job 111 finished at DISK 1 at 5284
+job 111 placed in cpu queue at 5284
+Job 345 entered simulation at 5287
+job 345 placed in cpu queue at 5287
+Job 3 finished at CPU at 5290
+Job 3 leaving simulation at 5290.
+Job 194 enters CPU from queue at 5290.
+Job 346 entered simulation at 5293
+job 346 placed in cpu queue at 5293
+Job 194 finished at CPU at 5296
+Job 194 placed directly into DISK 1 at 5296
+Job 195 enters CPU from queue at 5296.
+Job 347 entered simulation at 5304
+job 347 placed in cpu queue at 5304
+Job 194 finished at DISK 1 at 5305
+job 194 placed in cpu queue at 5305
+Job 195 finished at CPU at 5313
+Job 195 placed directly into DISK 1 at 5313
+Job 112 enters CPU from queue at 5313.
+Job 195 finished at DISK 1 at 5319
+job 195 placed in cpu queue at 5319
+Job 348 entered simulation at 5328
+job 348 placed in cpu queue at 5328
+Job 112 finished at CPU at 5329
+Job 112 placed directly into DISK 1 at 5329
+Job 196 enters CPU from queue at 5329.
+Job 349 entered simulation at 5334
+job 349 placed in cpu queue at 5334
+Job 112 finished at DISK 1 at 5339
+job 112 placed in cpu queue at 5339
+Job 196 finished at CPU at 5353
+Job 196 placed directly into DISK 1 at 5353
+Job 34 enters CPU from queue at 5353.
+Job 350 entered simulation at 5362
+job 350 placed in cpu queue at 5362
+Job 34 finished at CPU at 5371
+Job 34 placed directly into DISK 2 at 5371
+Job 197 enters CPU from queue at 5371.
+Job 196 finished at DISK 1 at 5376
+job 196 placed in cpu queue at 5376
+Job 34 finished at DISK 2 at 5380
+job 34 placed in cpu queue at 5380
+Job 351 entered simulation at 5390
+job 351 placed in cpu queue at 5390
+Job 197 finished at CPU at 5393
+Job 197 placed directly into DISK 1 at 5393
+Job 198 enters CPU from queue at 5393.
+Job 352 entered simulation at 5396
+job 352 placed in cpu queue at 5396
+Job 198 finished at CPU at 5414
+Job 198 placed directly into DISK 2 at 5414
+Job 199 enters CPU from queue at 5414.
+Job 197 finished at DISK 1 at 5416
+job 197 placed in cpu queue at 5416
+Job 353 entered simulation at 5424
+job 353 placed in cpu queue at 5424
+Job 198 finished at DISK 2 at 5425
+job 198 placed in cpu queue at 5425
+Job 199 finished at CPU at 5439
+Job 199 placed directly into DISK 1 at 5439
+Job 115 enters CPU from queue at 5439.
+Job 199 finished at DISK 1 at 5444
+job 199 placed in cpu queue at 5444
+Job 354 entered simulation at 5444
+job 354 placed in cpu queue at 5444
+Job 115 finished at CPU at 5456
+Job 115 placed directly into DISK 1 at 5456
+Job 19 enters CPU from queue at 5456.
+Job 355 entered simulation at 5459
+job 355 placed in cpu queue at 5459
+Job 115 finished at DISK 1 at 5464
+job 115 placed in cpu queue at 5464
+Job 19 finished at CPU at 5474
+Job 19 placed directly into DISK 1 at 5474
+Job 200 enters CPU from queue at 5474.
+Job 19 finished at DISK 1 at 5482
+job 19 placed in cpu queue at 5482
+Job 356 entered simulation at 5492
+job 356 placed in cpu queue at 5492
+Job 200 finished at CPU at 5496
+Job 200 placed directly into DISK 1 at 5496
+Job 116 enters CPU from queue at 5496.
+Job 357 entered simulation at 5502
+job 357 placed in cpu queue at 5502
+Job 116 finished at CPU at 5503
+Job 116 placed directly into DISK 2 at 5503
+Job 201 enters CPU from queue at 5503.
+Job 358 entered simulation at 5509
+job 358 placed in cpu queue at 5509
+Job 200 finished at DISK 1 at 5516
+job 200 placed in cpu queue at 5516
+Job 201 finished at CPU at 5522
+Job 201 placed directly into DISK 1 at 5522
+Job 202 enters CPU from queue at 5522.
+Job 116 finished at DISK 2 at 5523
+job 116 placed in cpu queue at 5523
+Job 202 finished at CPU at 5530
+Job 202 placed directly into DISK 2 at 5530
+Job 65 enters CPU from queue at 5530.
+Job 359 entered simulation at 5537
+job 359 placed in cpu queue at 5537
+Job 201 finished at DISK 1 at 5538
+job 201 placed in cpu queue at 5538
+Job 360 entered simulation at 5550
+job 360 placed in cpu queue at 5550
+Job 65 finished at CPU at 5553
+Job 65 placed directly into DISK 1 at 5553
+Job 204 enters CPU from queue at 5553.
+Job 202 finished at DISK 2 at 5555
+job 202 placed in cpu queue at 5555
+Job 361 entered simulation at 5567
+job 361 placed in cpu queue at 5567
+Job 204 finished at CPU at 5567
+Job 204 placed directly into DISK 2 at 5567
+Job 203 enters CPU from queue at 5567.
+Job 362 entered simulation at 5571
+job 362 placed in cpu queue at 5571
+Job 204 finished at DISK 2 at 5573
+job 204 placed in cpu queue at 5573
+Job 65 finished at DISK 1 at 5575
+job 65 placed in cpu queue at 5575
+Job 203 finished at CPU at 5591
+Job 203 placed directly into DISK 1 at 5591
+Job 205 enters CPU from queue at 5591.
+Job 205 finished at CPU at 5601
+Job 205 placed directly into DISK 2 at 5601
+Job 67 enters CPU from queue at 5601.
+Job 363 entered simulation at 5601
+job 363 placed in cpu queue at 5601
+Job 364 entered simulation at 5605
+job 364 placed in cpu queue at 5605
+Job 205 finished at DISK 2 at 5607
+job 205 placed in cpu queue at 5607
+Job 203 finished at DISK 1 at 5607
+job 203 placed in cpu queue at 5607
+Job 67 finished at CPU at 5613
+Job 67 placed directly into DISK 1 at 5613
+Job 118 enters CPU from queue at 5613.
+Job 365 entered simulation at 5623
+job 365 placed in cpu queue at 5623
+Job 67 finished at DISK 1 at 5627
+job 67 placed in cpu queue at 5627
+Job 118 finished at CPU at 5627
+Job 118 placed directly into DISK 1 at 5627
+Job 207 enters CPU from queue at 5627.
+Job 366 entered simulation at 5631
+job 366 placed in cpu queue at 5631
+Job 118 finished at DISK 1 at 5634
+job 118 placed in cpu queue at 5634
+Job 207 finished at CPU at 5647
+Job 207 placed directly into DISK 1 at 5647
+Job 206 enters CPU from queue at 5647.
+Job 367 entered simulation at 5649
+job 367 placed in cpu queue at 5649
+Job 206 finished at CPU at 5670
+Job 206 placed directly into DISK 2 at 5670
+Job 119 enters CPU from queue at 5670.
+Job 207 finished at DISK 1 at 5671
+job 207 placed in cpu queue at 5671
+Job 368 entered simulation at 5674
+job 368 placed in cpu queue at 5674
+Job 119 finished at CPU at 5676
+Job 119 placed directly into DISK 1 at 5676
+Job 208 enters CPU from queue at 5676.
+Job 369 entered simulation at 5686
+job 369 placed in cpu queue at 5686
+Job 206 finished at DISK 2 at 5690
+job 206 placed in cpu queue at 5690
+Job 119 finished at DISK 1 at 5691
+job 119 placed in cpu queue at 5691
+Job 208 finished at CPU at 5698
+Job 208 placed directly into DISK 1 at 5698
+Job 209 enters CPU from queue at 5698.
+Job 370 entered simulation at 5714
+job 370 placed in cpu queue at 5714
+Job 209 finished at CPU at 5716
+Job 209 placed directly into DISK 2 at 5716
+Job 69 enters CPU from queue at 5716.
+Job 371 entered simulation at 5718
+job 371 placed in cpu queue at 5718
+Job 208 finished at DISK 1 at 5719
+job 208 placed in cpu queue at 5719
+Job 69 finished at CPU at 5726
+Job 69 placed directly into DISK 1 at 5726
+Job 210 enters CPU from queue at 5726.
+Job 210 finished at CPU at 5735
+Job 210 leaving simulation at 5735.
+Job 70 enters CPU from queue at 5735.
+Job 209 finished at DISK 2 at 5739
+job 209 placed in cpu queue at 5739
+Job 373 entered simulation at 5742
+job 373 placed in cpu queue at 5742
+Job 372 entered simulation at 5743
+job 372 placed in cpu queue at 5743
+Job 69 finished at DISK 1 at 5744
+job 69 placed in cpu queue at 5744
+Job 70 finished at CPU at 5753
+Job 70 placed directly into DISK 1 at 5753
+Job 211 enters CPU from queue at 5753.
+Job 211 finished at CPU at 5759
+Job 211 placed directly into DISK 2 at 5759
+Job 213 enters CPU from queue at 5759.
+Job 374 entered simulation at 5763
+job 374 placed in cpu queue at 5763
+Job 211 finished at DISK 2 at 5764
+job 211 placed in cpu queue at 5764
+Job 213 finished at CPU at 5771
+Job 213 placed directly into DISK 2 at 5771
+Job 212 enters CPU from queue at 5771.
+Job 375 entered simulation at 5771
+job 375 placed in cpu queue at 5771
+Job 376 entered simulation at 5773
+job 376 placed in cpu queue at 5773
+Job 70 finished at DISK 1 at 5774
+job 70 placed in cpu queue at 5774
+Job 213 finished at DISK 2 at 5778
+job 213 placed in cpu queue at 5778
+Job 212 finished at CPU at 5789
+Job 212 placed directly into DISK 1 at 5789
+Job 122 enters CPU from queue at 5789.
+Job 377 entered simulation at 5793
+job 377 placed in cpu queue at 5793
+Job 212 finished at DISK 1 at 5797
+job 212 placed in cpu queue at 5797
+Job 122 finished at CPU at 5812
+Job 122 placed directly into DISK 1 at 5812
+Job 123 enters CPU from queue at 5812.
+Job 378 entered simulation at 5823
+job 378 placed in cpu queue at 5823
+Job 122 finished at DISK 1 at 5831
+job 122 placed in cpu queue at 5831
+Job 123 finished at CPU at 5834
+Job 123 leaving simulation at 5834.
+Job 214 enters CPU from queue at 5834.
+Job 379 entered simulation at 5850
+job 379 placed in cpu queue at 5850
+Job 214 finished at CPU at 5854
+Job 214 leaving simulation at 5854.
+Job 215 enters CPU from queue at 5854.
+Job 380 entered simulation at 5863
+job 380 placed in cpu queue at 5863
+Job 215 finished at CPU at 5874
+Job 215 placed directly into DISK 1 at 5874
+Job 124 enters CPU from queue at 5874.
+Job 124 finished at CPU at 5889
+Job 124 placed directly into DISK 2 at 5889
+Job 71 enters CPU from queue at 5889.
+Job 215 finished at DISK 1 at 5890
+job 215 placed in cpu queue at 5890
+Job 381 entered simulation at 5894
+job 381 placed in cpu queue at 5894
+Job 382 entered simulation at 5908
+job 382 placed in cpu queue at 5908
+Job 124 finished at DISK 2 at 5910
+job 124 placed in cpu queue at 5910
+Job 71 finished at CPU at 5910
+Job 71 placed directly into DISK 1 at 5910
+Job 216 enters CPU from queue at 5910.
+Job 71 finished at DISK 1 at 5920
+job 71 placed in cpu queue at 5920
+Job 383 entered simulation at 5923
+job 383 placed in cpu queue at 5923
+Job 216 finished at CPU at 5934
+Job 216 placed directly into DISK 1 at 5934
+Job 40 enters CPU from queue at 5934.
+Job 384 entered simulation at 5944
+job 384 placed in cpu queue at 5944
+Job 40 finished at CPU at 5954
+Job 40 placed directly into DISK 2 at 5954
+Job 217 enters CPU from queue at 5954.
+Job 216 finished at DISK 1 at 5956
+job 216 placed in cpu queue at 5956
+Job 40 finished at DISK 2 at 5968
+job 40 placed in cpu queue at 5968
+Job 385 entered simulation at 5970
+job 385 placed in cpu queue at 5970
+Job 217 finished at CPU at 5972
+Job 217 placed directly into DISK 1 at 5972
+Job 125 enters CPU from queue at 5972.
+Job 386 entered simulation at 5982
+job 386 placed in cpu queue at 5982
+Job 217 finished at DISK 1 at 5984
+job 217 placed in cpu queue at 5984
+Job 125 finished at CPU at 5986
+Job 125 placed directly into DISK 1 at 5986
+Job 218 enters CPU from queue at 5986.
+Job 218 finished at CPU at 5995
+Job 218 placed directly into DISK 2 at 5995
+Job 72 enters CPU from queue at 5995.
+Job 387 entered simulation at 6000
+job 387 placed in cpu queue at 6000
+Job 72 finished at CPU at 6001
+Job 72 placed into DISK 2 queue at 6001
+Job 219 enters CPU from queue at 6001.
+Job 125 finished at DISK 1 at 6001
+job 125 placed in cpu queue at 6001
+Job 388 entered simulation at 6014
+job 388 placed in cpu queue at 6014
+Job 219 finished at CPU at 6017
+Job 219 placed directly into DISK 1 at 6017
+Job 220 enters CPU from queue at 6017.
+Job 389 entered simulation at 6020
+job 389 placed in cpu queue at 6020
+Job 218 finished at DISK 2 at 6020
+job 218 placed in cpu queue at 6020
+Job 72 enters disk 3 from queue at 6020.
+Job 390 entered simulation at 6024
+job 390 placed in cpu queue at 6024
+Job 219 finished at DISK 1 at 6029
+job 219 placed in cpu queue at 6029
+Job 220 finished at CPU at 6036
+Job 220 placed directly into DISK 1 at 6036
+Job 221 enters CPU from queue at 6036.
+Job 72 finished at DISK 2 at 6038
+job 72 placed in cpu queue at 6038
+Job 221 finished at CPU at 6046
+Job 221 leaving simulation at 6046.
+Job 126 enters CPU from queue at 6046.
+Job 220 finished at DISK 1 at 6046
+job 220 placed in cpu queue at 6046
+Job 392 entered simulation at 6052
+job 392 placed in cpu queue at 6052
+Job 391 entered simulation at 6053
+job 391 placed in cpu queue at 6053
+Job 126 finished at CPU at 6071
+Job 126 placed directly into DISK 1 at 6071
+Job 127 enters CPU from queue at 6071.
+Job 126 finished at DISK 1 at 6085
+job 126 placed in cpu queue at 6085
+Job 393 entered simulation at 6086
+job 393 placed in cpu queue at 6086
+Job 127 finished at CPU at 6095
+Job 127 leaving simulation at 6095.
+Job 223 enters CPU from queue at 6095.
+Job 394 entered simulation at 6100
+job 394 placed in cpu queue at 6100
+Job 223 finished at CPU at 6105
+Job 223 placed directly into DISK 1 at 6105
+Job 222 enters CPU from queue at 6105.
+Job 223 finished at DISK 1 at 6112
+job 223 placed in cpu queue at 6112
+Job 395 entered simulation at 6121
+job 395 placed in cpu queue at 6121
+Job 222 finished at CPU at 6124
+Job 222 placed directly into DISK 1 at 6124
+Job 224 enters CPU from queue at 6124.
+Job 222 finished at DISK 1 at 6134
+job 222 placed in cpu queue at 6134
+Job 396 entered simulation at 6142
+job 396 placed in cpu queue at 6142
+Job 224 finished at CPU at 6144
+Job 224 leaving simulation at 6144.
+Job 74 enters CPU from queue at 6144.
+Job 397 entered simulation at 6153
+job 397 placed in cpu queue at 6153
+Job 74 finished at CPU at 6154
+Job 74 leaving simulation at 6154.
+Job 225 enters CPU from queue at 6154.
+Job 398 entered simulation at 6170
+job 398 placed in cpu queue at 6170
+Job 225 finished at CPU at 6173
+Job 225 placed directly into DISK 1 at 6173
+Job 226 enters CPU from queue at 6173.
+Job 226 finished at CPU at 6187
+Job 226 placed directly into DISK 2 at 6187
+Job 129 enters CPU from queue at 6187.
+Job 399 entered simulation at 6189
+job 399 placed in cpu queue at 6189
+Job 400 entered simulation at 6193
+job 400 placed in cpu queue at 6193
+Job 225 finished at DISK 1 at 6198
+job 225 placed in cpu queue at 6198
+Job 129 finished at CPU at 6203
+Job 129 placed directly into DISK 1 at 6203
+Job 227 enters CPU from queue at 6203.
+Job 226 finished at DISK 2 at 6206
+job 226 placed in cpu queue at 6206
+Job 401 entered simulation at 6206
+job 401 placed in cpu queue at 6206
+Job 227 finished at CPU at 6213
+Job 227 placed directly into DISK 2 at 6213
+Job 130 enters CPU from queue at 6213.
+Job 402 entered simulation at 6214
+job 402 placed in cpu queue at 6214
+Job 130 finished at CPU at 6221
+Job 130 leaving simulation at 6221.
+Job 131 enters CPU from queue at 6221.
+Job 403 entered simulation at 6224
+job 403 placed in cpu queue at 6224
+Job 129 finished at DISK 1 at 6225
+job 129 placed in cpu queue at 6225
+Job 227 finished at DISK 2 at 6238
+job 227 placed in cpu queue at 6238
+Job 131 finished at CPU at 6241
+Job 131 placed directly into DISK 1 at 6241
+Job 76 enters CPU from queue at 6241.
+Job 404 entered simulation at 6244
+job 404 placed in cpu queue at 6244
+Job 131 finished at DISK 1 at 6257
+job 131 placed in cpu queue at 6257
+Job 76 finished at CPU at 6265
+Job 76 placed directly into DISK 1 at 6265
+Job 228 enters CPU from queue at 6265.
+Job 228 finished at CPU at 6276
+Job 228 placed directly into DISK 2 at 6276
+Job 77 enters CPU from queue at 6276.
+Job 405 entered simulation at 6277
+job 405 placed in cpu queue at 6277
+Job 406 entered simulation at 6277
+job 406 placed in cpu queue at 6277
+Job 77 finished at CPU at 6285
+Job 77 placed into DISK 2 queue at 6285
+Job 229 enters CPU from queue at 6285.
+Job 76 finished at DISK 1 at 6286
+job 76 placed in cpu queue at 6286
+Job 228 finished at DISK 2 at 6289
+job 228 placed in cpu queue at 6289
+Job 77 enters disk 3 from queue at 6289.
+Job 229 finished at CPU at 6294
+Job 229 placed directly into DISK 1 at 6294
+Job 230 enters CPU from queue at 6294.
+Job 407 entered simulation at 6294
+job 407 placed in cpu queue at 6294
+Job 229 finished at DISK 1 at 6301
+job 229 placed in cpu queue at 6301
+Job 230 finished at CPU at 6309
+Job 230 placed directly into DISK 1 at 6309
+Job 132 enters CPU from queue at 6309.
+Job 408 entered simulation at 6310
+job 408 placed in cpu queue at 6310
+Job 77 finished at DISK 2 at 6314
+job 77 placed in cpu queue at 6314
+Job 230 finished at DISK 1 at 6321
+job 230 placed in cpu queue at 6321
+Job 409 entered simulation at 6328
+job 409 placed in cpu queue at 6328
+Job 132 finished at CPU at 6334
+Job 132 leaving simulation at 6334.
+Job 231 enters CPU from queue at 6334.
+Job 410 entered simulation at 6337
+job 410 placed in cpu queue at 6337
+Job 231 finished at CPU at 6359
+Job 231 leaving simulation at 6359.
+Job 44 enters CPU from queue at 6359.
+Job 44 finished at CPU at 6367
+Job 44 placed directly into DISK 1 at 6367
+Job 78 enters CPU from queue at 6367.
+Job 412 entered simulation at 6371
+job 412 placed in cpu queue at 6371
+Job 44 finished at DISK 1 at 6372
+job 44 placed in cpu queue at 6372
+Job 411 entered simulation at 6376
+job 411 placed in cpu queue at 6376
+Job 78 finished at CPU at 6379
+Job 78 leaving simulation at 6379.
+Job 232 enters CPU from queue at 6379.
+Job 232 finished at CPU at 6397
+Job 232 placed directly into DISK 1 at 6397
+Job 233 enters CPU from queue at 6397.
+Job 413 entered simulation at 6399
+job 413 placed in cpu queue at 6399
+Job 233 finished at CPU at 6405
+Job 233 placed directly into DISK 2 at 6405
+Job 234 enters CPU from queue at 6405.
+Job 232 finished at DISK 1 at 6406
+job 232 placed in cpu queue at 6406
+Job 234 finished at CPU at 6412
+Job 234 placed directly into DISK 1 at 6412
+Job 235 enters CPU from queue at 6412.
+Job 233 finished at DISK 2 at 6414
+job 233 placed in cpu queue at 6414
+Job 414 entered simulation at 6416
+job 414 placed in cpu queue at 6416
+Job 234 finished at DISK 1 at 6418
+job 234 placed in cpu queue at 6418
+Job 415 entered simulation at 6418
+job 415 placed in cpu queue at 6418
+Job 235 finished at CPU at 6419
+Job 235 placed directly into DISK 1 at 6419
+Job 79 enters CPU from queue at 6419.
+Job 416 entered simulation at 6428
+job 416 placed in cpu queue at 6428
+Job 79 finished at CPU at 6435
+Job 79 placed directly into DISK 2 at 6435
+Job 236 enters CPU from queue at 6435.
+Job 417 entered simulation at 6438
+job 417 placed in cpu queue at 6438
+Job 236 finished at CPU at 6440
+Job 236 placed into DISK 2 queue at 6440
+Job 135 enters CPU from queue at 6440.
+Job 235 finished at DISK 1 at 6441
+job 235 placed in cpu queue at 6441
+Job 135 finished at CPU at 6447
+Job 135 placed directly into DISK 1 at 6447
+Job 237 enters CPU from queue at 6447.
+Job 79 finished at DISK 2 at 6450
+job 79 placed in cpu queue at 6450
+Job 236 enters disk 3 from queue at 6450.
+Job 418 entered simulation at 6452
+job 418 placed in cpu queue at 6452
+Job 237 finished at CPU at 6452
+Job 237 leaving simulation at 6452.
+Job 45 enters CPU from queue at 6452.
+Job 135 finished at DISK 1 at 6459
+job 135 placed in cpu queue at 6459
+Job 419 entered simulation at 6460
+job 419 placed in cpu queue at 6460
+Job 421 entered simulation at 6463
+job 421 placed in cpu queue at 6463
+Job 420 entered simulation at 6464
+job 420 placed in cpu queue at 6464
+Job 236 finished at DISK 2 at 6466
+job 236 placed in cpu queue at 6466
+Job 45 finished at CPU at 6466
+Job 45 placed directly into DISK 1 at 6466
+Job 239 enters CPU from queue at 6466.
+Job 422 entered simulation at 6478
+job 422 placed in cpu queue at 6478
+Job 45 finished at DISK 1 at 6484
+job 45 placed in cpu queue at 6484
+Job 239 finished at CPU at 6485
+Job 239 leaving simulation at 6485.
+Job 238 enters CPU from queue at 6485.
+Job 423 entered simulation at 6499
+job 423 placed in cpu queue at 6499
+Job 238 finished at CPU at 6508
+Job 238 placed directly into DISK 1 at 6508
+Job 137 enters CPU from queue at 6508.
+Job 238 finished at DISK 1 at 6523
+job 238 placed in cpu queue at 6523
+Job 424 entered simulation at 6525
+job 424 placed in cpu queue at 6525
+Job 137 finished at CPU at 6528
+Job 137 placed directly into DISK 1 at 6528
+Job 240 enters CPU from queue at 6528.
+Job 137 finished at DISK 1 at 6539
+job 137 placed in cpu queue at 6539
+Job 425 entered simulation at 6545
+job 425 placed in cpu queue at 6545
+Job 240 finished at CPU at 6547
+Job 240 placed directly into DISK 1 at 6547
+Job 138 enters CPU from queue at 6547.
+Job 426 entered simulation at 6552
+job 426 placed in cpu queue at 6552
+Job 138 finished at CPU at 6558
+Job 138 placed directly into DISK 2 at 6558
+Job 241 enters CPU from queue at 6558.
+Job 240 finished at DISK 1 at 6563
+job 240 placed in cpu queue at 6563
+Job 427 entered simulation at 6566
+job 427 placed in cpu queue at 6566
+Job 241 finished at CPU at 6570
+Job 241 placed directly into DISK 1 at 6570
+Job 242 enters CPU from queue at 6570.
+Job 428 entered simulation at 6573
+job 428 placed in cpu queue at 6573
+Job 138 finished at DISK 2 at 6581
+job 138 placed in cpu queue at 6581
+Job 242 finished at CPU at 6582
+Job 242 placed directly into DISK 2 at 6582
+Job 47 enters CPU from queue at 6582.
+Job 241 finished at DISK 1 at 6590
+job 241 placed in cpu queue at 6590
+Job 429 entered simulation at 6598
+job 429 placed in cpu queue at 6598
+Job 242 finished at DISK 2 at 6598
+job 242 placed in cpu queue at 6598
+Job 47 finished at CPU at 6599
+Job 47 leaving simulation at 6599.
+Job 244 enters CPU from queue at 6599.
+Job 430 entered simulation at 6608
+job 430 placed in cpu queue at 6608
+Job 244 finished at CPU at 6609
+Job 244 placed directly into DISK 1 at 6609
+Job 243 enters CPU from queue at 6609.
+Job 431 entered simulation at 6618
+job 431 placed in cpu queue at 6618
+Job 244 finished at DISK 1 at 6620
+job 244 placed in cpu queue at 6620
+Job 243 finished at CPU at 6620
+Job 243 leaving simulation at 6620.
+Job 245 enters CPU from queue at 6620.
+Job 432 entered simulation at 6624
+job 432 placed in cpu queue at 6624
+Job 245 finished at CPU at 6642
+Job 245 placed directly into DISK 1 at 6642
+Job 81 enters CPU from queue at 6642.
+Job 245 finished at DISK 1 at 6649
+job 245 placed in cpu queue at 6649
+Job 433 entered simulation at 6654
+job 433 placed in cpu queue at 6654
+Job 81 finished at CPU at 6656
+Job 81 placed directly into DISK 1 at 6656
+Job 140 enters CPU from queue at 6656.
+Job 434 entered simulation at 6662
+job 434 placed in cpu queue at 6662
+Job 140 finished at CPU at 6663
+Job 140 placed directly into DISK 2 at 6663
+Job 246 enters CPU from queue at 6663.
+Job 435 entered simulation at 6669
+job 435 placed in cpu queue at 6669
+Job 246 finished at CPU at 6671
+Job 246 placed into DISK 2 queue at 6671
+Job 82 enters CPU from queue at 6671.
+Job 436 entered simulation at 6672
+job 436 placed in cpu queue at 6672
+Job 81 finished at DISK 1 at 6675
+job 81 placed in cpu queue at 6675
+Job 140 finished at DISK 2 at 6677
+job 140 placed in cpu queue at 6677
+Job 246 enters disk 3 from queue at 6677.
+Job 246 finished at DISK 2 at 6685
+job 246 placed in cpu queue at 6685
+Job 82 finished at CPU at 6686
+Job 82 placed directly into DISK 1 at 6686
+Job 247 enters CPU from queue at 6686.
+Job 437 entered simulation at 6691
+job 437 placed in cpu queue at 6691
+Job 82 finished at DISK 1 at 6696
+job 82 placed in cpu queue at 6696
+Job 247 finished at CPU at 6705
+Job 247 leaving simulation at 6705.
+Job 46 enters CPU from queue at 6705.
+Job 438 entered simulation at 6715
+job 438 placed in cpu queue at 6715
+Job 46 finished at CPU at 6729
+Job 46 placed directly into DISK 1 at 6729
+Job 248 enters CPU from queue at 6729.
+Job 439 entered simulation at 6746
+job 439 placed in cpu queue at 6746
+Job 46 finished at DISK 1 at 6748
+job 46 placed in cpu queue at 6748
+Job 248 finished at CPU at 6750
+Job 248 leaving simulation at 6750.
+Job 249 enters CPU from queue at 6750.
+Job 440 entered simulation at 6763
+job 440 placed in cpu queue at 6763
+Job 249 finished at CPU at 6772
+Job 249 placed directly into DISK 1 at 6772
+Job 83 enters CPU from queue at 6772.
+Job 441 entered simulation at 6787
+job 441 placed in cpu queue at 6787
+Job 249 finished at DISK 1 at 6792
+job 249 placed in cpu queue at 6792
+Job 83 finished at CPU at 6792
+Job 83 placed directly into DISK 1 at 6792
+Job 251 enters CPU from queue at 6792.
+Job 442 entered simulation at 6800
+job 442 placed in cpu queue at 6800
+Job 251 finished at CPU at 6805
+Job 251 placed directly into DISK 2 at 6805
+Job 250 enters CPU from queue at 6805.
+Job 443 entered simulation at 6807
+job 443 placed in cpu queue at 6807
+Job 83 finished at DISK 1 at 6811
+job 83 placed in cpu queue at 6811
+Job 251 finished at DISK 2 at 6816
+job 251 placed in cpu queue at 6816
+Job 250 finished at CPU at 6827
+Job 250 placed directly into DISK 1 at 6827
+Job 143 enters CPU from queue at 6827.
+Job 444 entered simulation at 6840
+job 444 placed in cpu queue at 6840
+Job 143 finished at CPU at 6844
+Job 143 placed directly into DISK 2 at 6844
+Job 252 enters CPU from queue at 6844.
+Job 250 finished at DISK 1 at 6845
+job 250 placed in cpu queue at 6845
+Job 143 finished at DISK 2 at 6853
+job 143 placed in cpu queue at 6853
+Job 445 entered simulation at 6856
+job 445 placed in cpu queue at 6856
+Job 252 finished at CPU at 6867
+Job 252 placed directly into DISK 1 at 6867
+Job 144 enters CPU from queue at 6867.
+Job 144 finished at CPU at 6881
+Job 144 placed directly into DISK 2 at 6881
+Job 253 enters CPU from queue at 6881.
+Job 446 entered simulation at 6885
+job 446 placed in cpu queue at 6885
+Job 447 entered simulation at 6885
+job 447 placed in cpu queue at 6885
+Job 144 finished at DISK 2 at 6888
+job 144 placed in cpu queue at 6888
+Job 252 finished at DISK 1 at 6891
+job 252 placed in cpu queue at 6891
+Job 253 finished at CPU at 6900
+Job 253 placed directly into DISK 1 at 6900
+Job 145 enters CPU from queue at 6900.
+Job 448 entered simulation at 6910
+job 448 placed in cpu queue at 6910
+Job 253 finished at DISK 1 at 6915
+job 253 placed in cpu queue at 6915
+Job 145 finished at CPU at 6922
+Job 145 placed directly into DISK 1 at 6922
+Job 254 enters CPU from queue at 6922.
+Job 254 finished at CPU at 6931
+Job 254 placed directly into DISK 2 at 6931
+Job 48 enters CPU from queue at 6931.
+Job 449 entered simulation at 6933
+job 449 placed in cpu queue at 6933
+Job 450 entered simulation at 6934
+job 450 placed in cpu queue at 6934
+Job 145 finished at DISK 1 at 6938
+job 145 placed in cpu queue at 6938
+Job 254 finished at DISK 2 at 6948
+job 254 placed in cpu queue at 6948
+Job 48 finished at CPU at 6954
+Job 48 placed directly into DISK 1 at 6954
+Job 255 enters CPU from queue at 6954.
+Job 255 finished at CPU at 6963
+Job 255 placed directly into DISK 2 at 6963
+Job 256 enters CPU from queue at 6963.
+Job 451 entered simulation at 6965
+job 451 placed in cpu queue at 6965
+Job 452 entered simulation at 6969
+job 452 placed in cpu queue at 6969
+Job 256 finished at CPU at 6970
+Job 256 leaving simulation at 6970.
+Job 257 enters CPU from queue at 6970.
+Job 48 finished at DISK 1 at 6974
+job 48 placed in cpu queue at 6974
+Job 257 finished at CPU at 6975
+Job 257 placed directly into DISK 1 at 6975
+Job 258 enters CPU from queue at 6975.
+Job 454 entered simulation at 6982
+job 454 placed in cpu queue at 6982
+Job 258 finished at CPU at 6985
+Job 258 placed into DISK 2 queue at 6985
+Job 147 enters CPU from queue at 6985.
+Job 255 finished at DISK 2 at 6985
+job 255 placed in cpu queue at 6985
+Job 258 enters disk 3 from queue at 6985.
+Job 453 entered simulation at 6987
+job 453 placed in cpu queue at 6987
+Job 147 finished at CPU at 6998
+Job 147 placed into DISK 2 queue at 6998
+Job 15 enters CPU from queue at 6998.
+Job 257 finished at DISK 1 at 6999
+job 257 placed in cpu queue at 6999
+Job 258 finished at DISK 2 at 7000
+job 258 placed in cpu queue at 7000
+Job 147 enters disk 3 from queue at 7000.
+Job 455 entered simulation at 7005
+job 455 placed in cpu queue at 7005
+Job 456 entered simulation at 7005
+job 456 placed in cpu queue at 7005
+Job 147 finished at DISK 2 at 7007
+job 147 placed in cpu queue at 7007
+Job 15 finished at CPU at 7013
+Job 15 placed directly into DISK 1 at 7013
+Job 259 enters CPU from queue at 7013.
+Job 457 entered simulation at 7018
+job 457 placed in cpu queue at 7018
+Job 259 finished at CPU at 7024
+Job 259 leaving simulation at 7024.
+Job 260 enters CPU from queue at 7024.
+Job 458 entered simulation at 7027
+job 458 placed in cpu queue at 7027
+Job 15 finished at DISK 1 at 7035
+job 15 placed in cpu queue at 7035
+Job 260 finished at CPU at 7048
+Job 260 placed directly into DISK 1 at 7048
+Job 149 enters CPU from queue at 7048.
+Job 459 entered simulation at 7058
+job 459 placed in cpu queue at 7058
+Job 260 finished at DISK 1 at 7070
+job 260 placed in cpu queue at 7070
+Job 149 finished at CPU at 7071
+Job 149 placed directly into DISK 1 at 7071
+Job 261 enters CPU from queue at 7071.
+Job 261 finished at CPU at 7081
+Job 261 placed directly into DISK 2 at 7081
+Job 148 enters CPU from queue at 7081.
+Job 460 entered simulation at 7082
+job 460 placed in cpu queue at 7082
+Job 149 finished at DISK 1 at 7082
+job 149 placed in cpu queue at 7082
+Job 461 entered simulation at 7089
+job 461 placed in cpu queue at 7089
+Job 261 finished at DISK 2 at 7091
+job 261 placed in cpu queue at 7091
+Job 148 finished at CPU at 7097
+Job 148 placed directly into DISK 1 at 7097
+Job 262 enters CPU from queue at 7097.
+Job 462 entered simulation at 7098
+job 462 placed in cpu queue at 7098
+Job 148 finished at DISK 1 at 7111
+job 148 placed in cpu queue at 7111
+Job 262 finished at CPU at 7115
+Job 262 placed directly into DISK 1 at 7115
+Job 263 enters CPU from queue at 7115.
+Job 263 finished at CPU at 7120
+Job 263 placed directly into DISK 2 at 7120
+Job 264 enters CPU from queue at 7120.
+Job 463 entered simulation at 7120
+job 463 placed in cpu queue at 7120
+Job 262 finished at DISK 1 at 7121
+job 262 placed in cpu queue at 7121
+Job 263 finished at DISK 2 at 7135
+job 263 placed in cpu queue at 7135
+Job 264 finished at CPU at 7136
+Job 264 placed directly into DISK 1 at 7136
+Job 49 enters CPU from queue at 7136.
+Job 464 entered simulation at 7136
+job 464 placed in cpu queue at 7136
+Job 49 finished at CPU at 7143
+Job 49 placed directly into DISK 2 at 7143
+Job 150 enters CPU from queue at 7143.
+Job 465 entered simulation at 7146
+job 465 placed in cpu queue at 7146
+Job 49 finished at DISK 2 at 7148
+job 49 placed in cpu queue at 7148
+Job 264 finished at DISK 1 at 7149
+job 264 placed in cpu queue at 7149
+Job 466 entered simulation at 7157
+job 466 placed in cpu queue at 7157
+Job 150 finished at CPU at 7160
+Job 150 placed directly into DISK 1 at 7160
+Job 265 enters CPU from queue at 7160.
+Job 467 entered simulation at 7165
+job 467 placed in cpu queue at 7165
+Job 265 finished at CPU at 7167
+Job 265 placed directly into DISK 2 at 7167
+Job 151 enters CPU from queue at 7167.
+Job 150 finished at DISK 1 at 7175
+job 150 placed in cpu queue at 7175
+Job 468 entered simulation at 7175
+job 468 placed in cpu queue at 7175
+Job 265 finished at DISK 2 at 7180
+job 265 placed in cpu queue at 7180
+Job 151 finished at CPU at 7187
+Job 151 placed directly into DISK 1 at 7187
+Job 87 enters CPU from queue at 7187.
+Job 469 entered simulation at 7195
+job 469 placed in cpu queue at 7195
+Job 151 finished at DISK 1 at 7197
+job 151 placed in cpu queue at 7197
+Job 87 finished at CPU at 7207
+Job 87 placed directly into DISK 1 at 7207
+Job 266 enters CPU from queue at 7207.
+Job 470 entered simulation at 7217
+job 470 placed in cpu queue at 7217
+Job 87 finished at DISK 1 at 7220
+job 87 placed in cpu queue at 7220
+Job 266 finished at CPU at 7220
+Job 266 placed directly into DISK 1 at 7220
+Job 267 enters CPU from queue at 7220.
+Job 471 entered simulation at 7223
+job 471 placed in cpu queue at 7223
+Job 266 finished at DISK 1 at 7234
+job 266 placed in cpu queue at 7234
+Job 267 finished at CPU at 7239
+Job 267 placed directly into DISK 1 at 7239
+Job 88 enters CPU from queue at 7239.
+Job 472 entered simulation at 7243
+job 472 placed in cpu queue at 7243
+Job 267 finished at DISK 1 at 7248
+job 267 placed in cpu queue at 7248
+Job 88 finished at CPU at 7263
+Job 88 placed directly into DISK 1 at 7263
+Job 268 enters CPU from queue at 7263.
+Job 473 entered simulation at 7266
+job 473 placed in cpu queue at 7266
+Job 88 finished at DISK 1 at 7268
+job 88 placed in cpu queue at 7268
+Job 268 finished at CPU at 7280
+Job 268 leaving simulation at 7280.
+Job 89 enters CPU from queue at 7280.
+Job 89 finished at CPU at 7289
+Job 89 placed directly into DISK 1 at 7289
+Job 269 enters CPU from queue at 7289.
+Job 475 entered simulation at 7292
+job 475 placed in cpu queue at 7292
+Job 474 entered simulation at 7296
+job 474 placed in cpu queue at 7296
+Job 89 finished at DISK 1 at 7308
+job 89 placed in cpu queue at 7308
+Job 269 finished at CPU at 7313
+Job 269 placed directly into DISK 1 at 7313
+Job 270 enters CPU from queue at 7313.
+Job 269 finished at DISK 1 at 7325
+job 269 placed in cpu queue at 7325
+Job 476 entered simulation at 7331
+job 476 placed in cpu queue at 7331
+Job 270 finished at CPU at 7336
+Job 270 leaving simulation at 7336.
+Job 153 enters CPU from queue at 7336.
+Job 153 finished at CPU at 7343
+Job 153 placed directly into DISK 1 at 7343
+Job 28 enters CPU from queue at 7343.
+Job 28 finished at CPU at 7348
+Job 28 placed directly into DISK 2 at 7348
+Job 271 enters CPU from queue at 7348.
+Job 477 entered simulation at 7349
+job 477 placed in cpu queue at 7349
+Job 479 entered simulation at 7349
+job 479 placed in cpu queue at 7349
+Job 271 finished at CPU at 7358
+Job 271 placed into DISK 2 queue at 7358
+Job 90 enters CPU from queue at 7358.
+Job 478 entered simulation at 7360
+job 478 placed in cpu queue at 7360
+Job 28 finished at DISK 2 at 7362
+job 28 placed in cpu queue at 7362
+Job 271 enters disk 3 from queue at 7362.
+Job 480 entered simulation at 7363
+job 480 placed in cpu queue at 7363
+Job 153 finished at DISK 1 at 7365
+job 153 placed in cpu queue at 7365
+Job 90 finished at CPU at 7367
+Job 90 placed directly into DISK 1 at 7367
+Job 272 enters CPU from queue at 7367.
+Job 271 finished at DISK 2 at 7376
+job 271 placed in cpu queue at 7376
+Job 272 finished at CPU at 7382
+Job 272 placed directly into DISK 2 at 7382
+Job 154 enters CPU from queue at 7382.
+Job 481 entered simulation at 7387
+job 481 placed in cpu queue at 7387
+Job 154 finished at CPU at 7390
+Job 154 placed into DISK 2 queue at 7390
+Job 273 enters CPU from queue at 7390.
+Job 90 finished at DISK 1 at 7390
+job 90 placed in cpu queue at 7390
+Job 482 entered simulation at 7398
+job 482 placed in cpu queue at 7398
+Job 272 finished at DISK 2 at 7398
+job 272 placed in cpu queue at 7398
+Job 154 enters disk 3 from queue at 7398.
+Job 483 entered simulation at 7405
+job 483 placed in cpu queue at 7405
+Job 273 finished at CPU at 7413
+Job 273 placed directly into DISK 1 at 7413
+Job 274 enters CPU from queue at 7413.
+Job 154 finished at DISK 2 at 7415
+job 154 placed in cpu queue at 7415
+Job 273 finished at DISK 1 at 7419
+job 273 placed in cpu queue at 7419
+Job 484 entered simulation at 7420
+job 484 placed in cpu queue at 7420
+Job 274 finished at CPU at 7427
+Job 274 leaving simulation at 7427.
+Job 91 enters CPU from queue at 7427.
+Job 91 finished at CPU at 7444
+Job 91 placed directly into DISK 1 at 7444
+Job 155 enters CPU from queue at 7444.
+Job 485 entered simulation at 7446
+job 485 placed in cpu queue at 7446
+Job 486 entered simulation at 7451
+job 486 placed in cpu queue at 7451
+Job 91 finished at DISK 1 at 7458
+job 91 placed in cpu queue at 7458
+Job 155 finished at CPU at 7468
+Job 155 placed directly into DISK 1 at 7468
+Job 275 enters CPU from queue at 7468.
+Job 155 finished at DISK 1 at 7481
+job 155 placed in cpu queue at 7481
+Job 487 entered simulation at 7484
+job 487 placed in cpu queue at 7484
+Job 275 finished at CPU at 7485
+Job 275 placed directly into DISK 1 at 7485
+Job 29 enters CPU from queue at 7485.
+Job 488 entered simulation at 7494
+job 488 placed in cpu queue at 7494
+Job 275 finished at DISK 1 at 7506
+job 275 placed in cpu queue at 7506
+Job 29 finished at CPU at 7510
+Job 29 leaving simulation at 7510.
+Job 156 enters CPU from queue at 7510.
+Job 489 entered simulation at 7529
+job 489 placed in cpu queue at 7529
+Job 156 finished at CPU at 7533
+Job 156 leaving simulation at 7533.
+Job 277 enters CPU from queue at 7533.
+Job 490 entered simulation at 7542
+job 490 placed in cpu queue at 7542
+Job 277 finished at CPU at 7555
+Job 277 placed directly into DISK 1 at 7555
+Job 276 enters CPU from queue at 7555.
+Job 491 entered simulation at 7560
+job 491 placed in cpu queue at 7560
+Job 277 finished at DISK 1 at 7572
+job 277 placed in cpu queue at 7572
+Job 276 finished at CPU at 7578
+Job 276 placed directly into DISK 1 at 7578
+Job 157 enters CPU from queue at 7578.
+Job 492 entered simulation at 7586
+job 492 placed in cpu queue at 7586
+Job 276 finished at DISK 1 at 7592
+job 276 placed in cpu queue at 7592
+Job 157 finished at CPU at 7595
+Job 157 placed directly into DISK 1 at 7595
+Job 278 enters CPU from queue at 7595.
+Job 493 entered simulation at 7606
+job 493 placed in cpu queue at 7606
+Job 278 finished at CPU at 7609
+Job 278 placed directly into DISK 2 at 7609
+Job 158 enters CPU from queue at 7609.
+Job 157 finished at DISK 1 at 7619
+job 157 placed in cpu queue at 7619
+Job 494 entered simulation at 7625
+job 494 placed in cpu queue at 7625
+Job 158 finished at CPU at 7634
+Job 158 placed directly into DISK 1 at 7634
+Job 279 enters CPU from queue at 7634.
+Job 278 finished at DISK 2 at 7634
+job 278 placed in cpu queue at 7634
+Job 279 finished at CPU at 7642
+Job 279 placed directly into DISK 2 at 7642
+Job 52 enters CPU from queue at 7642.
+Job 279 finished at DISK 2 at 7649
+job 279 placed in cpu queue at 7649
+Job 495 entered simulation at 7652
+job 495 placed in cpu queue at 7652
+Job 496 entered simulation at 7652
+job 496 placed in cpu queue at 7652
+Job 158 finished at DISK 1 at 7654
+job 158 placed in cpu queue at 7654
+Job 52 finished at CPU at 7661
+Job 52 placed directly into DISK 1 at 7661
+Job 281 enters CPU from queue at 7661.
+Job 497 entered simulation at 7671
+job 497 placed in cpu queue at 7671
+Job 281 finished at CPU at 7673
+Job 281 placed directly into DISK 2 at 7673
+Job 280 enters CPU from queue at 7673.
+Job 498 entered simulation at 7679
+job 498 placed in cpu queue at 7679
+Job 281 finished at DISK 2 at 7681
+job 281 placed in cpu queue at 7681
+Job 52 finished at DISK 1 at 7683
+job 52 placed in cpu queue at 7683
+Job 280 finished at CPU at 7697
+Job 280 placed directly into DISK 1 at 7697
+Job 92 enters CPU from queue at 7697.
+Job 499 entered simulation at 7700
+job 499 placed in cpu queue at 7700
+Job 92 finished at CPU at 7711
+Job 92 placed directly into DISK 2 at 7711
+Job 282 enters CPU from queue at 7711.
+Job 500 entered simulation at 7715
+job 500 placed in cpu queue at 7715
+Job 92 finished at DISK 2 at 7717
+job 92 placed in cpu queue at 7717
+Job 280 finished at DISK 1 at 7718
+job 280 placed in cpu queue at 7718
+Job 282 finished at CPU at 7726
+Job 282 placed directly into DISK 1 at 7726
+Job 160 enters CPU from queue at 7726.
+Job 501 entered simulation at 7743
+job 501 placed in cpu queue at 7743
+Job 160 finished at CPU at 7745
+Job 160 placed directly into DISK 2 at 7745
+Job 283 enters CPU from queue at 7745.
+Job 502 entered simulation at 7750
+job 502 placed in cpu queue at 7750
+Job 282 finished at DISK 1 at 7751
+job 282 placed in cpu queue at 7751
+Job 283 finished at CPU at 7763
+Job 283 placed directly into DISK 1 at 7763
+Job 159 enters CPU from queue at 7763.
+Job 160 finished at DISK 2 at 7763
+job 160 placed in cpu queue at 7763
+Job 159 finished at CPU at 7770
+Job 159 placed directly into DISK 2 at 7770
+Job 93 enters CPU from queue at 7770.
+Job 503 entered simulation at 7780
+job 503 placed in cpu queue at 7780
+Job 504 entered simulation at 7780
+job 504 placed in cpu queue at 7780
+Job 93 finished at CPU at 7781
+Job 93 placed into DISK 2 queue at 7781
+Job 285 enters CPU from queue at 7781.
+Job 283 finished at DISK 1 at 7784
+job 283 placed in cpu queue at 7784
+Job 159 finished at DISK 2 at 7791
+job 159 placed in cpu queue at 7791
+Job 93 enters disk 3 from queue at 7791.
+Job 285 finished at CPU at 7799
+Job 285 placed directly into DISK 1 at 7799
+Job 284 enters CPU from queue at 7799.
+Job 505 entered simulation at 7801
+job 505 placed in cpu queue at 7801
+Job 93 finished at DISK 2 at 7808
+job 93 placed in cpu queue at 7808
+Job 506 entered simulation at 7812
+job 506 placed in cpu queue at 7812
+Job 285 finished at DISK 1 at 7822
+job 285 placed in cpu queue at 7822
+Job 284 finished at CPU at 7822
+Job 284 placed directly into DISK 1 at 7822
+Job 161 enters CPU from queue at 7822.
+Job 284 finished at DISK 1 at 7833
+job 284 placed in cpu queue at 7833
+Job 507 entered simulation at 7841
+job 507 placed in cpu queue at 7841
+Job 161 finished at CPU at 7842
+Job 161 placed directly into DISK 1 at 7842
+Job 286 enters CPU from queue at 7842.
+Job 286 finished at CPU at 7849
+Job 286 placed directly into DISK 2 at 7849
+Job 162 enters CPU from queue at 7849.
+Job 508 entered simulation at 7851
+job 508 placed in cpu queue at 7851
+Job 509 entered simulation at 7852
+job 509 placed in cpu queue at 7852
+Job 161 finished at DISK 1 at 7852
+job 161 placed in cpu queue at 7852
+Job 162 finished at CPU at 7859
+Job 162 placed directly into DISK 1 at 7859
+Job 287 enters CPU from queue at 7859.
+Job 286 finished at DISK 2 at 7871
+job 286 placed in cpu queue at 7871
+Job 287 finished at CPU at 7871
+Job 287 placed directly into DISK 2 at 7871
+Job 94 enters CPU from queue at 7871.
+Job 510 entered simulation at 7876
+job 510 placed in cpu queue at 7876
+Job 162 finished at DISK 1 at 7882
+job 162 placed in cpu queue at 7882
+Job 511 entered simulation at 7884
+job 511 placed in cpu queue at 7884
+Job 287 finished at DISK 2 at 7885
+job 287 placed in cpu queue at 7885
+Job 94 finished at CPU at 7890
+Job 94 placed directly into DISK 1 at 7890
+Job 288 enters CPU from queue at 7890.
+Job 288 finished at CPU at 7897
+Job 288 placed directly into DISK 2 at 7897
+Job 54 enters CPU from queue at 7897.
+Job 288 finished at DISK 2 at 7903
+job 288 placed in cpu queue at 7903
+Job 513 entered simulation at 7907
+job 513 placed in cpu queue at 7907
+Job 512 entered simulation at 7908
+job 512 placed in cpu queue at 7908
+Job 54 finished at CPU at 7911
+Job 54 placed directly into DISK 2 at 7911
+Job 16 enters CPU from queue at 7911.
+Job 94 finished at DISK 1 at 7915
+job 94 placed in cpu queue at 7915
+Job 16 finished at CPU at 7917
+Job 16 placed directly into DISK 1 at 7917
+Job 163 enters CPU from queue at 7917.
+Job 515 entered simulation at 7919
+job 515 placed in cpu queue at 7919
+Job 54 finished at DISK 2 at 7922
+job 54 placed in cpu queue at 7922
+Job 514 entered simulation at 7923
+job 514 placed in cpu queue at 7923
+Job 163 finished at CPU at 7933
+Job 163 leaving simulation at 7933.
+Job 289 enters CPU from queue at 7933.
+Job 16 finished at DISK 1 at 7939
+job 16 placed in cpu queue at 7939
+Job 516 entered simulation at 7943
+job 516 placed in cpu queue at 7943
+Job 289 finished at CPU at 7951
+Job 289 placed directly into DISK 1 at 7951
+Job 164 enters CPU from queue at 7951.
+Job 517 entered simulation at 7960
+job 517 placed in cpu queue at 7960
+Job 289 finished at DISK 1 at 7965
+job 289 placed in cpu queue at 7965
+Job 164 finished at CPU at 7971
+Job 164 placed directly into DISK 1 at 7971
+Job 290 enters CPU from queue at 7971.
+Job 518 entered simulation at 7987
+job 518 placed in cpu queue at 7987
+Job 164 finished at DISK 1 at 7988
+job 164 placed in cpu queue at 7988
+Job 290 finished at CPU at 7992
+Job 290 placed directly into DISK 1 at 7992
+Job 96 enters CPU from queue at 7992.
+Job 290 finished at DISK 1 at 8001
+job 290 placed in cpu queue at 8001
+Job 96 finished at CPU at 8006
+Job 96 placed directly into DISK 1 at 8006
+Job 291 enters CPU from queue at 8006.
+Job 519 entered simulation at 8011
+job 519 placed in cpu queue at 8011
+Job 291 finished at CPU at 8011
+Job 291 leaving simulation at 8011.
+Job 292 enters CPU from queue at 8011.
+Job 520 entered simulation at 8013
+job 520 placed in cpu queue at 8013
+Job 292 finished at CPU at 8018
+Job 292 placed directly into DISK 2 at 8018
+Job 293 enters CPU from queue at 8018.
+Job 96 finished at DISK 1 at 8020
+job 96 placed in cpu queue at 8020
+Job 292 finished at DISK 2 at 8023
+job 292 placed in cpu queue at 8023
+Job 293 finished at CPU at 8024
+Job 293 placed directly into DISK 1 at 8024
+Job 165 enters CPU from queue at 8024.
+Job 521 entered simulation at 8027
+job 521 placed in cpu queue at 8027
+Job 523 entered simulation at 8028
+job 523 placed in cpu queue at 8028
+Job 522 entered simulation at 8032
+job 522 placed in cpu queue at 8032
+Job 165 finished at CPU at 8039
+Job 165 placed directly into DISK 2 at 8039
+Job 294 enters CPU from queue at 8039.
+Job 293 finished at DISK 1 at 8043
+job 293 placed in cpu queue at 8043
+Job 524 entered simulation at 8044
+job 524 placed in cpu queue at 8044
+Job 165 finished at DISK 2 at 8056
+job 165 placed in cpu queue at 8056
+Job 294 finished at CPU at 8060
+Job 294 placed directly into DISK 1 at 8060
+Job 166 enters CPU from queue at 8060.
+Job 525 entered simulation at 8067
+job 525 placed in cpu queue at 8067
+Job 294 finished at DISK 1 at 8070
+job 294 placed in cpu queue at 8070
+Job 166 finished at CPU at 8085
+Job 166 placed directly into DISK 1 at 8085
+Job 5 enters CPU from queue at 8085.
+Job 5 finished at CPU at 8092
+Job 5 placed directly into DISK 2 at 8092
+Job 295 enters CPU from queue at 8092.
+Job 166 finished at DISK 1 at 8101
+job 166 placed in cpu queue at 8101
+Job 5 finished at DISK 2 at 8103
+job 5 placed in cpu queue at 8103
+Job 526 entered simulation at 8105
+job 526 placed in cpu queue at 8105
+Job 295 finished at CPU at 8106
+Job 295 placed directly into DISK 1 at 8106
+Job 167 enters CPU from queue at 8106.
+Job 527 entered simulation at 8108
+job 527 placed in cpu queue at 8108
+Job 528 entered simulation at 8109
+job 528 placed in cpu queue at 8109
+Job 167 finished at CPU at 8128
+Job 167 placed directly into DISK 2 at 8128
+Job 296 enters CPU from queue at 8128.
+Job 295 finished at DISK 1 at 8129
+job 295 placed in cpu queue at 8129
+Job 529 entered simulation at 8139
+job 529 placed in cpu queue at 8139
+Job 296 finished at CPU at 8151
+Job 296 placed directly into DISK 1 at 8151
+Job 297 enters CPU from queue at 8151.
+Job 167 finished at DISK 2 at 8152
+job 167 placed in cpu queue at 8152
+Job 297 finished at CPU at 8160
+Job 297 placed directly into DISK 2 at 8160
+Job 55 enters CPU from queue at 8160.
+Job 530 entered simulation at 8163
+job 530 placed in cpu queue at 8163
+Job 531 entered simulation at 8169
+job 531 placed in cpu queue at 8169
+Job 296 finished at DISK 1 at 8175
+job 296 placed in cpu queue at 8175
+Job 297 finished at DISK 2 at 8179
+job 297 placed in cpu queue at 8179
+Job 55 finished at CPU at 8180
+Job 55 placed directly into DISK 1 at 8180
+Job 299 enters CPU from queue at 8180.
+Job 532 entered simulation at 8183
+job 532 placed in cpu queue at 8183
+Job 55 finished at DISK 1 at 8196
+job 55 placed in cpu queue at 8196
+Job 299 finished at CPU at 8198
+Job 299 placed directly into DISK 1 at 8198
+Job 298 enters CPU from queue at 8198.
+Job 533 entered simulation at 8199
+job 533 placed in cpu queue at 8199
+Job 298 finished at CPU at 8212
+Job 298 leaving simulation at 8212.
+Job 168 enters CPU from queue at 8212.
+Job 299 finished at DISK 1 at 8215
+job 299 placed in cpu queue at 8215
+Job 168 finished at CPU at 8228
+Job 168 leaving simulation at 8228.
+Job 97 enters CPU from queue at 8228.
+Job 534 entered simulation at 8232
+job 534 placed in cpu queue at 8232
+Job 535 entered simulation at 8237
+job 535 placed in cpu queue at 8237
+Job 97 finished at CPU at 8251
+Job 97 placed directly into DISK 1 at 8251
+Job 300 enters CPU from queue at 8251.
+Job 300 finished at CPU at 8262
+Job 300 placed directly into DISK 2 at 8262
+Job 169 enters CPU from queue at 8262.
+Job 536 entered simulation at 8264
+job 536 placed in cpu queue at 8264
+Job 97 finished at DISK 1 at 8269
+job 97 placed in cpu queue at 8269
+Job 300 finished at DISK 2 at 8272
+job 300 placed in cpu queue at 8272
+Job 537 entered simulation at 8275
+job 537 placed in cpu queue at 8275
+Job 169 finished at CPU at 8279
+Job 169 placed directly into DISK 1 at 8279
+Job 301 enters CPU from queue at 8279.
+Job 538 entered simulation at 8280
+job 538 placed in cpu queue at 8280
+Job 169 finished at DISK 1 at 8295
+job 169 placed in cpu queue at 8295
+Job 301 finished at CPU at 8296
+Job 301 leaving simulation at 8296.
+Job 302 enters CPU from queue at 8296.
+Job 302 finished at CPU at 8305
+Job 302 placed directly into DISK 1 at 8305
+Job 170 enters CPU from queue at 8305.
+Job 539 entered simulation at 8311
+job 539 placed in cpu queue at 8311
+Job 540 entered simulation at 8313
+job 540 placed in cpu queue at 8313
+Job 302 finished at DISK 1 at 8323
+job 302 placed in cpu queue at 8323
+Job 170 finished at CPU at 8330
+Job 170 placed directly into DISK 1 at 8330
+Job 98 enters CPU from queue at 8330.
+Job 170 finished at DISK 1 at 8337
+job 170 placed in cpu queue at 8337
+Job 98 finished at CPU at 8339
+Job 98 placed directly into DISK 1 at 8339
+Job 171 enters CPU from queue at 8339.
+Job 542 entered simulation at 8342
+job 542 placed in cpu queue at 8342
+Job 171 finished at CPU at 8345
+Job 171 leaving simulation at 8345.
+Job 303 enters CPU from queue at 8345.
+Job 541 entered simulation at 8348
+job 541 placed in cpu queue at 8348
+Job 98 finished at DISK 1 at 8348
+job 98 placed in cpu queue at 8348
+Job 303 finished at CPU at 8351
+Job 303 placed directly into DISK 1 at 8351
+Job 304 enters CPU from queue at 8351.
+Job 543 entered simulation at 8365
+job 543 placed in cpu queue at 8365
+Job 304 finished at CPU at 8369
+Job 304 placed directly into DISK 2 at 8369
+Job 99 enters CPU from queue at 8369.
+Job 544 entered simulation at 8370
+job 544 placed in cpu queue at 8370
+Job 545 entered simulation at 8372
+job 545 placed in cpu queue at 8372
+Job 303 finished at DISK 1 at 8374
+job 303 placed in cpu queue at 8374
+Job 99 finished at CPU at 8378
+Job 99 leaving simulation at 8378.
+Job 305 enters CPU from queue at 8378.
+Job 304 finished at DISK 2 at 8382
+job 304 placed in cpu queue at 8382
+Job 305 finished at CPU at 8383
+Job 305 placed directly into DISK 1 at 8383
+Job 30 enters CPU from queue at 8383.
+Job 305 finished at DISK 1 at 8389
+job 305 placed in cpu queue at 8389
+Job 546 entered simulation at 8392
+job 546 placed in cpu queue at 8392
+Job 547 entered simulation at 8401
+job 547 placed in cpu queue at 8401
+Job 30 finished at CPU at 8403
+Job 30 placed directly into DISK 1 at 8403
+Job 172 enters CPU from queue at 8403.
+Job 172 finished at CPU at 8418
+Job 172 placed directly into DISK 2 at 8418
+Job 306 enters CPU from queue at 8418.
+Job 548 entered simulation at 8418
+job 548 placed in cpu queue at 8418
+Job 30 finished at DISK 1 at 8420
+job 30 placed in cpu queue at 8420
+Job 549 entered simulation at 8422
+job 549 placed in cpu queue at 8422
+Job 172 finished at DISK 2 at 8439
+job 172 placed in cpu queue at 8439
+Job 306 finished at CPU at 8440
+Job 306 placed directly into DISK 1 at 8440
+Job 31 enters CPU from queue at 8440.
+Job 306 finished at DISK 1 at 8453
+job 306 placed in cpu queue at 8453
+Job 31 finished at CPU at 8453
+Job 31 placed directly into DISK 1 at 8453
+Job 307 enters CPU from queue at 8453.
+Job 550 entered simulation at 8456
+job 550 placed in cpu queue at 8456
+Job 551 entered simulation at 8464
+job 551 placed in cpu queue at 8464
+Job 31 finished at DISK 1 at 8470
+job 31 placed in cpu queue at 8470
+Job 307 finished at CPU at 8475
+Job 307 leaving simulation at 8475.
+Job 308 enters CPU from queue at 8475.
+Job 552 entered simulation at 8479
+job 552 placed in cpu queue at 8479
+Job 308 finished at CPU at 8495
+Job 308 leaving simulation at 8495.
+Job 173 enters CPU from queue at 8495.
+Job 173 finished at CPU at 8506
+Job 173 placed directly into DISK 1 at 8506
+Job 309 enters CPU from queue at 8506.
+Job 553 entered simulation at 8507
+job 553 placed in cpu queue at 8507
+Job 554 entered simulation at 8513
+job 554 placed in cpu queue at 8513
+Job 173 finished at DISK 1 at 8520
+job 173 placed in cpu queue at 8520
+Job 309 finished at CPU at 8524
+Job 309 leaving simulation at 8524.
+Job 100 enters CPU from queue at 8524.
+Job 555 entered simulation at 8532
+job 555 placed in cpu queue at 8532
+Job 100 finished at CPU at 8534
+Job 100 placed directly into DISK 1 at 8534
+Job 310 enters CPU from queue at 8534.
+Job 100 finished at DISK 1 at 8542
+job 100 placed in cpu queue at 8542
+Job 310 finished at CPU at 8542
+Job 310 placed directly into DISK 1 at 8542
+Job 175 enters CPU from queue at 8542.
+Job 556 entered simulation at 8543
+job 556 placed in cpu queue at 8543
+Job 557 entered simulation at 8552
+job 557 placed in cpu queue at 8552
+Job 175 finished at CPU at 8556
+Job 175 placed directly into DISK 2 at 8556
+Job 311 enters CPU from queue at 8556.
+Job 558 entered simulation at 8559
+job 558 placed in cpu queue at 8559
+Job 311 finished at CPU at 8564
+Job 311 placed into DISK 2 queue at 8564
+Job 312 enters CPU from queue at 8564.
+Job 310 finished at DISK 1 at 8565
+job 310 placed in cpu queue at 8565
+Job 175 finished at DISK 2 at 8573
+job 175 placed in cpu queue at 8573
+Job 311 enters disk 3 from queue at 8573.
+Job 559 entered simulation at 8578
+job 559 placed in cpu queue at 8578
+Job 312 finished at CPU at 8588
+Job 312 placed directly into DISK 1 at 8588
+Job 176 enters CPU from queue at 8588.
+Job 311 finished at DISK 2 at 8589
+job 311 placed in cpu queue at 8589
+Job 312 finished at DISK 1 at 8596
+job 312 placed in cpu queue at 8596
+Job 560 entered simulation at 8599
+job 560 placed in cpu queue at 8599
+Job 176 finished at CPU at 8608
+Job 176 placed directly into DISK 1 at 8608
+Job 314 enters CPU from queue at 8608.
+Job 561 entered simulation at 8627
+job 561 placed in cpu queue at 8627
+Job 314 finished at CPU at 8630
+Job 314 leaving simulation at 8630.
+Job 313 enters CPU from queue at 8630.
+Job 176 finished at DISK 1 at 8631
+job 176 placed in cpu queue at 8631
+Job 313 finished at CPU at 8640
+Job 313 placed directly into DISK 1 at 8640
+Job 101 enters CPU from queue at 8640.
+Job 562 entered simulation at 8642
+job 562 placed in cpu queue at 8642
+Job 313 finished at DISK 1 at 8652
+job 313 placed in cpu queue at 8652
+Job 563 entered simulation at 8659
+job 563 placed in cpu queue at 8659
+Job 101 finished at CPU at 8663
+Job 101 leaving simulation at 8663.
+Job 102 enters CPU from queue at 8663.
+Job 564 entered simulation at 8665
+job 564 placed in cpu queue at 8665
+Job 102 finished at CPU at 8668
+Job 102 placed directly into DISK 1 at 8668
+Job 177 enters CPU from queue at 8668.
+Job 565 entered simulation at 8670
+job 565 placed in cpu queue at 8670
+Job 102 finished at DISK 1 at 8687
+job 102 placed in cpu queue at 8687
+Job 177 finished at CPU at 8692
+Job 177 leaving simulation at 8692.
+Job 315 enters CPU from queue at 8692.
+Job 566 entered simulation at 8706
+job 566 placed in cpu queue at 8706
+Job 315 finished at CPU at 8710
+Job 315 placed directly into DISK 1 at 8710
+Job 316 enters CPU from queue at 8710.
+Job 567 entered simulation at 8716
+job 567 placed in cpu queue at 8716
+Job 316 finished at CPU at 8729
+Job 316 placed directly into DISK 2 at 8729
+Job 178 enters CPU from queue at 8729.
+Job 315 finished at DISK 1 at 8731
+job 315 placed in cpu queue at 8731
+Job 178 finished at CPU at 8735
+Job 178 leaving simulation at 8735.
+Job 103 enters CPU from queue at 8735.
+Job 316 finished at DISK 2 at 8739
+job 316 placed in cpu queue at 8739
+Job 568 entered simulation at 8742
+job 568 placed in cpu queue at 8742
+Job 103 finished at CPU at 8752
+Job 103 placed directly into DISK 1 at 8752
+Job 317 enters CPU from queue at 8752.
+Job 570 entered simulation at 8754
+job 570 placed in cpu queue at 8754
+Job 569 entered simulation at 8755
+job 569 placed in cpu queue at 8755
+Job 103 finished at DISK 1 at 8766
+job 103 placed in cpu queue at 8766
+Job 317 finished at CPU at 8776
+Job 317 placed directly into DISK 1 at 8776
+Job 318 enters CPU from queue at 8776.
+Job 571 entered simulation at 8778
+job 571 placed in cpu queue at 8778
+Job 317 finished at DISK 1 at 8791
+job 317 placed in cpu queue at 8791
+Job 318 finished at CPU at 8793
+Job 318 placed directly into DISK 1 at 8793
+Job 320 enters CPU from queue at 8793.
+Job 572 entered simulation at 8802
+job 572 placed in cpu queue at 8802
+Job 320 finished at CPU at 8803
+Job 320 placed directly into DISK 2 at 8803
+Job 180 enters CPU from queue at 8803.
+Job 318 finished at DISK 1 at 8808
+job 318 placed in cpu queue at 8808
+Job 180 finished at CPU at 8810
+Job 180 placed directly into DISK 1 at 8810
+Job 319 enters CPU from queue at 8810.
+Job 573 entered simulation at 8813
+job 573 placed in cpu queue at 8813
+Job 319 finished at CPU at 8817
+Job 319 placed into DISK 2 queue at 8817
+Job 321 enters CPU from queue at 8817.
+Job 180 finished at DISK 1 at 8821
+job 180 placed in cpu queue at 8821
+Job 574 entered simulation at 8824
+job 574 placed in cpu queue at 8824
+Job 575 entered simulation at 8825
+job 575 placed in cpu queue at 8825
+Job 320 finished at DISK 2 at 8827
+job 320 placed in cpu queue at 8827
+Job 319 enters disk 3 from queue at 8827.
+Job 321 finished at CPU at 8840
+Job 321 placed directly into DISK 1 at 8840
+Job 59 enters CPU from queue at 8840.
+Job 59 finished at CPU at 8845
+Job 59 placed into DISK 2 queue at 8845
+Job 322 enters CPU from queue at 8845.
+Job 319 finished at DISK 2 at 8851
+job 319 placed in cpu queue at 8851
+Job 59 enters disk 3 from queue at 8851.
+Job 321 finished at DISK 1 at 8857
+job 321 placed in cpu queue at 8857
+Job 576 entered simulation at 8860
+job 576 placed in cpu queue at 8860
+Job 322 finished at CPU at 8862
+Job 322 leaving simulation at 8862.
+Job 104 enters CPU from queue at 8862.
+Job 577 entered simulation at 8864
+job 577 placed in cpu queue at 8864
+Job 59 finished at DISK 2 at 8866
+job 59 placed in cpu queue at 8866
+Job 578 entered simulation at 8874
+job 578 placed in cpu queue at 8874
+Job 104 finished at CPU at 8884
+Job 104 placed directly into DISK 1 at 8884
+Job 323 enters CPU from queue at 8884.
+Job 323 finished at CPU at 8891
+Job 323 placed directly into DISK 2 at 8891
+Job 181 enters CPU from queue at 8891.
+Job 580 entered simulation at 8895
+job 580 placed in cpu queue at 8895
+Job 104 finished at DISK 1 at 8896
+job 104 placed in cpu queue at 8896
+Job 181 finished at CPU at 8897
+Job 181 leaving simulation at 8897.
+Job 17 enters CPU from queue at 8897.
+Job 579 entered simulation at 8901
+job 579 placed in cpu queue at 8901
+Job 17 finished at CPU at 8902
+Job 17 placed directly into DISK 1 at 8902
+Job 324 enters CPU from queue at 8902.
+Job 581 entered simulation at 8904
+job 581 placed in cpu queue at 8904
+Job 323 finished at DISK 2 at 8908
+job 323 placed in cpu queue at 8908
+Job 582 entered simulation at 8917
+job 582 placed in cpu queue at 8917
+Job 324 finished at CPU at 8919
+Job 324 placed directly into DISK 2 at 8919
+Job 325 enters CPU from queue at 8919.
+Job 583 entered simulation at 8920
+job 583 placed in cpu queue at 8920
+Job 17 finished at DISK 1 at 8927
+job 17 placed in cpu queue at 8927
+Job 324 finished at DISK 2 at 8929
+job 324 placed in cpu queue at 8929
+Job 325 finished at CPU at 8937
+Job 325 placed directly into DISK 1 at 8937
+Job 326 enters CPU from queue at 8937.
+Job 584 entered simulation at 8942
+job 584 placed in cpu queue at 8942
+Job 326 finished at CPU at 8955
+Job 326 placed directly into DISK 2 at 8955
+Job 105 enters CPU from queue at 8955.
+Job 325 finished at DISK 1 at 8962
+job 325 placed in cpu queue at 8962
+Job 326 finished at DISK 2 at 8965
+job 326 placed in cpu queue at 8965
+Job 585 entered simulation at 8972
+job 585 placed in cpu queue at 8972
+Job 105 finished at CPU at 8977
+Job 105 placed directly into DISK 1 at 8977
+Job 327 enters CPU from queue at 8977.
+Job 586 entered simulation at 8984
+job 586 placed in cpu queue at 8984
+Job 327 finished at CPU at 8995
+Job 327 placed directly into DISK 2 at 8995
+Job 328 enters CPU from queue at 8995.
+Job 105 finished at DISK 1 at 9000
+job 105 placed in cpu queue at 9000
+Job 327 finished at DISK 2 at 9000
+job 327 placed in cpu queue at 9000
+Job 587 entered simulation at 9005
+job 587 placed in cpu queue at 9005
+Job 328 finished at CPU at 9009
+Job 328 placed directly into DISK 1 at 9009
+Job 329 enters CPU from queue at 9009.
+Job 328 finished at DISK 1 at 9015
+job 328 placed in cpu queue at 9015
+Job 329 finished at CPU at 9025
+Job 329 placed directly into DISK 1 at 9025
+Job 185 enters CPU from queue at 9025.
+Job 588 entered simulation at 9028
+job 588 placed in cpu queue at 9028
+Job 185 finished at CPU at 9035
+Job 185 placed directly into DISK 2 at 9035
+Job 106 enters CPU from queue at 9035.
+Job 590 entered simulation at 9040
+job 590 placed in cpu queue at 9040
+Job 329 finished at DISK 1 at 9041
+job 329 placed in cpu queue at 9041
+Job 589 entered simulation at 9042
+job 589 placed in cpu queue at 9042
+Job 106 finished at CPU at 9051
+Job 106 leaving simulation at 9051.
+Job 330 enters CPU from queue at 9051.
+Job 591 entered simulation at 9057
+job 591 placed in cpu queue at 9057
+Job 185 finished at DISK 2 at 9058
+job 185 placed in cpu queue at 9058
+Job 330 finished at CPU at 9059
+Job 330 placed directly into DISK 1 at 9059
+Job 331 enters CPU from queue at 9059.
+Job 330 finished at DISK 1 at 9067
+job 330 placed in cpu queue at 9067
+Job 592 entered simulation at 9070
+job 592 placed in cpu queue at 9070
+Job 331 finished at CPU at 9083
+Job 331 leaving simulation at 9083.
+Job 332 enters CPU from queue at 9083.
+Job 593 entered simulation at 9090
+job 593 placed in cpu queue at 9090
+Job 332 finished at CPU at 9091
+Job 332 placed directly into DISK 1 at 9091
+Job 333 enters CPU from queue at 9091.
+Job 333 finished at CPU at 9100
+Job 333 placed directly into DISK 2 at 9100
+Job 334 enters CPU from queue at 9100.
+Job 594 entered simulation at 9103
+job 594 placed in cpu queue at 9103
+Job 595 entered simulation at 9115
+job 595 placed in cpu queue at 9115
+Job 332 finished at DISK 1 at 9115
+job 332 placed in cpu queue at 9115
+Job 334 finished at CPU at 9117
+Job 334 placed directly into DISK 1 at 9117
+Job 188 enters CPU from queue at 9117.
+Job 333 finished at DISK 2 at 9122
+job 333 placed in cpu queue at 9122
+Job 334 finished at DISK 1 at 9128
+job 334 placed in cpu queue at 9128
+Job 596 entered simulation at 9134
+job 596 placed in cpu queue at 9134
+Job 188 finished at CPU at 9138
+Job 188 placed directly into DISK 1 at 9138
+Job 335 enters CPU from queue at 9138.
+Job 597 entered simulation at 9149
+job 597 placed in cpu queue at 9149
+Job 335 finished at CPU at 9150
+Job 335 placed directly into DISK 2 at 9150
+Job 61 enters CPU from queue at 9150.
+Job 598 entered simulation at 9157
+job 598 placed in cpu queue at 9157
+Job 61 finished at CPU at 9162
+Job 61 leaving simulation at 9162.
+Job 336 enters CPU from queue at 9162.
+Job 188 finished at DISK 1 at 9163
+job 188 placed in cpu queue at 9163
+Job 599 entered simulation at 9173
+job 599 placed in cpu queue at 9173
+Job 335 finished at DISK 2 at 9174
+job 335 placed in cpu queue at 9174
+Job 336 finished at CPU at 9177
+Job 336 placed directly into DISK 1 at 9177
+Job 189 enters CPU from queue at 9177.
+Job 600 entered simulation at 9184
+job 600 placed in cpu queue at 9184
+Job 189 finished at CPU at 9196
+Job 189 placed directly into DISK 2 at 9196
+Job 337 enters CPU from queue at 9196.
+Job 336 finished at DISK 1 at 9199
+job 336 placed in cpu queue at 9199
+Job 601 entered simulation at 9210
+job 601 placed in cpu queue at 9210
+Job 337 finished at CPU at 9211
+Job 337 placed directly into DISK 1 at 9211
+Job 108 enters CPU from queue at 9211.
+Job 602 entered simulation at 9215
+job 602 placed in cpu queue at 9215
+Job 189 finished at DISK 2 at 9216
+job 189 placed in cpu queue at 9216
+Job 337 finished at DISK 1 at 9225
+job 337 placed in cpu queue at 9225
+Job 108 finished at CPU at 9234
+Job 108 placed directly into DISK 1 at 9234
+Job 338 enters CPU from queue at 9234.
+Job 603 entered simulation at 9243
+job 603 placed in cpu queue at 9243
+Job 108 finished at DISK 1 at 9253
+job 108 placed in cpu queue at 9253
+Job 338 finished at CPU at 9255
+Job 338 placed directly into DISK 1 at 9255
+Job 339 enters CPU from queue at 9255.
+Job 338 finished at DISK 1 at 9262
+job 338 placed in cpu queue at 9262
+Job 339 finished at CPU at 9263
+Job 339 placed directly into DISK 1 at 9263
+Job 190 enters CPU from queue at 9263.
+Job 339 finished at DISK 1 at 9270
+job 339 placed in cpu queue at 9270
+Job 190 finished at CPU at 9272
+Job 190 placed directly into DISK 1 at 9272
+Job 340 enters CPU from queue at 9272.
+Job 604 entered simulation at 9272
+job 604 placed in cpu queue at 9272
+Job 606 entered simulation at 9278
+job 606 placed in cpu queue at 9278
+Job 190 finished at DISK 1 at 9279
+job 190 placed in cpu queue at 9279
+Job 605 entered simulation at 9281
+job 605 placed in cpu queue at 9281
+Job 340 finished at CPU at 9281
+Job 340 placed directly into DISK 1 at 9281
+Job 62 enters CPU from queue at 9281.
+Job 607 entered simulation at 9295
+job 607 placed in cpu queue at 9295
+Job 340 finished at DISK 1 at 9301
+job 340 placed in cpu queue at 9301
+Job 62 finished at CPU at 9302
+Job 62 placed directly into DISK 1 at 9302
+Job 341 enters CPU from queue at 9302.
+Job 62 finished at DISK 1 at 9316
+job 62 placed in cpu queue at 9316
+Job 608 entered simulation at 9320
+job 608 placed in cpu queue at 9320
+Job 341 finished at CPU at 9327
+Job 341 leaving simulation at 9327.
+Job 192 enters CPU from queue at 9327.
+Job 609 entered simulation at 9339
+job 609 placed in cpu queue at 9339
+Job 192 finished at CPU at 9341
+Job 192 placed directly into DISK 1 at 9341
+Job 342 enters CPU from queue at 9341.
+Job 610 entered simulation at 9342
+job 610 placed in cpu queue at 9342
+Job 342 finished at CPU at 9355
+Job 342 placed directly into DISK 2 at 9355
+Job 343 enters CPU from queue at 9355.
+Job 342 finished at DISK 2 at 9363
+job 342 placed in cpu queue at 9363
+Job 192 finished at DISK 1 at 9364
+job 192 placed in cpu queue at 9364
+Job 611 entered simulation at 9375
+job 611 placed in cpu queue at 9375
+Job 343 finished at CPU at 9376
+Job 343 leaving simulation at 9376.
+Job 110 enters CPU from queue at 9376.
+Job 612 entered simulation at 9380
+job 612 placed in cpu queue at 9380
+Job 110 finished at CPU at 9399
+Job 110 placed directly into DISK 1 at 9399
+Job 344 enters CPU from queue at 9399.
+Job 613 entered simulation at 9403
+job 613 placed in cpu queue at 9403
+Job 110 finished at DISK 1 at 9409
+job 110 placed in cpu queue at 9409
+Job 344 finished at CPU at 9410
+Job 344 leaving simulation at 9410.
+Job 111 enters CPU from queue at 9410.
+Job 614 entered simulation at 9416
+job 614 placed in cpu queue at 9416
+Job 111 finished at CPU at 9419
+Job 111 placed directly into DISK 1 at 9419
+Job 345 enters CPU from queue at 9419.
+Job 615 entered simulation at 9421
+job 615 placed in cpu queue at 9421
+Job 111 finished at DISK 1 at 9434
+job 111 placed in cpu queue at 9434
+Job 345 finished at CPU at 9435
+Job 345 placed directly into DISK 1 at 9435
+Job 346 enters CPU from queue at 9435.
+Job 345 finished at DISK 1 at 9444
+job 345 placed in cpu queue at 9444
+Job 616 entered simulation at 9450
+job 616 placed in cpu queue at 9450
+Job 346 finished at CPU at 9453
+Job 346 leaving simulation at 9453.
+Job 347 enters CPU from queue at 9453.
+Job 347 finished at CPU at 9468
+Job 347 placed directly into DISK 1 at 9468
+Job 194 enters CPU from queue at 9468.
+Job 617 entered simulation at 9472
+job 617 placed in cpu queue at 9472
+Job 347 finished at DISK 1 at 9474
+job 347 placed in cpu queue at 9474
+Job 618 entered simulation at 9479
+job 618 placed in cpu queue at 9479
+Job 194 finished at CPU at 9489
+Job 194 placed directly into DISK 1 at 9489
+Job 195 enters CPU from queue at 9489.
+Job 195 finished at CPU at 9496
+Job 195 placed directly into DISK 2 at 9496
+Job 348 enters CPU from queue at 9496.
+Job 619 entered simulation at 9503
+job 619 placed in cpu queue at 9503
+Job 195 finished at DISK 2 at 9503
+job 195 placed in cpu queue at 9503
+Job 620 entered simulation at 9507
+job 620 placed in cpu queue at 9507
+Job 194 finished at DISK 1 at 9510
+job 194 placed in cpu queue at 9510
+Job 348 finished at CPU at 9518
+Job 348 placed directly into DISK 1 at 9518
+Job 349 enters CPU from queue at 9518.
+Job 621 entered simulation at 9530
+job 621 placed in cpu queue at 9530
+Job 349 finished at CPU at 9539
+Job 349 leaving simulation at 9539.
+Job 112 enters CPU from queue at 9539.
+Job 348 finished at DISK 1 at 9540
+job 348 placed in cpu queue at 9540
+Job 622 entered simulation at 9555
+job 622 placed in cpu queue at 9555
+Job 112 finished at CPU at 9562
+Job 112 placed directly into DISK 1 at 9562
+Job 350 enters CPU from queue at 9562.
+Job 112 finished at DISK 1 at 9572
+job 112 placed in cpu queue at 9572
+Job 350 finished at CPU at 9572
+Job 350 placed directly into DISK 1 at 9572
+Job 196 enters CPU from queue at 9572.
+Job 196 finished at CPU at 9578
+Job 196 placed directly into DISK 2 at 9578
+Job 34 enters CPU from queue at 9578.
+Job 623 entered simulation at 9579
+job 623 placed in cpu queue at 9579
+Job 625 entered simulation at 9583
+job 625 placed in cpu queue at 9583
+Job 196 finished at DISK 2 at 9587
+job 196 placed in cpu queue at 9587
+Job 350 finished at DISK 1 at 9588
+job 350 placed in cpu queue at 9588
+Job 624 entered simulation at 9592
+job 624 placed in cpu queue at 9592
+Job 34 finished at CPU at 9593
+Job 34 placed directly into DISK 1 at 9593
+Job 351 enters CPU from queue at 9593.
+Job 351 finished at CPU at 9598
+Job 351 leaving simulation at 9598.
+Job 352 enters CPU from queue at 9598.
+Job 626 entered simulation at 9601
+job 626 placed in cpu queue at 9601
+Job 627 entered simulation at 9608
+job 627 placed in cpu queue at 9608
+Job 34 finished at DISK 1 at 9610
+job 34 placed in cpu queue at 9610
+Job 352 finished at CPU at 9619
+Job 352 placed directly into DISK 1 at 9619
+Job 197 enters CPU from queue at 9619.
+Job 352 finished at DISK 1 at 9632
+job 352 placed in cpu queue at 9632
+Job 628 entered simulation at 9633
+job 628 placed in cpu queue at 9633
+Job 197 finished at CPU at 9635
+Job 197 placed directly into DISK 1 at 9635
+Job 353 enters CPU from queue at 9635.
+Job 629 entered simulation at 9649
+job 629 placed in cpu queue at 9649
+Job 353 finished at CPU at 9650
+Job 353 placed directly into DISK 2 at 9650
+Job 198 enters CPU from queue at 9650.
+Job 630 entered simulation at 9654
+job 630 placed in cpu queue at 9654
+Job 197 finished at DISK 1 at 9657
+job 197 placed in cpu queue at 9657
+Job 353 finished at DISK 2 at 9665
+job 353 placed in cpu queue at 9665
+Job 198 finished at CPU at 9667
+Job 198 placed directly into DISK 1 at 9667
+Job 199 enters CPU from queue at 9667.
+Job 631 entered simulation at 9680
+job 631 placed in cpu queue at 9680
+Job 199 finished at CPU at 9681
+Job 199 placed directly into DISK 2 at 9681
+Job 354 enters CPU from queue at 9681.
+Job 199 finished at DISK 2 at 9686
+job 199 placed in cpu queue at 9686
+Job 632 entered simulation at 9686
+job 632 placed in cpu queue at 9686
+Job 198 finished at DISK 1 at 9689
+job 198 placed in cpu queue at 9689
+Job 354 finished at CPU at 9700
+Job 354 placed directly into DISK 1 at 9700
+Job 355 enters CPU from queue at 9700.
+Job 633 entered simulation at 9711
+job 633 placed in cpu queue at 9711
+Job 355 finished at CPU at 9719
+Job 355 placed directly into DISK 2 at 9719
+Job 115 enters CPU from queue at 9719.
+Job 634 entered simulation at 9722
+job 634 placed in cpu queue at 9722
+Job 354 finished at DISK 1 at 9723
+job 354 placed in cpu queue at 9723
+Job 355 finished at DISK 2 at 9730
+job 355 placed in cpu queue at 9730
+Job 115 finished at CPU at 9735
+Job 115 placed directly into DISK 1 at 9735
+Job 19 enters CPU from queue at 9735.
+Job 635 entered simulation at 9740
+job 635 placed in cpu queue at 9740
+Job 115 finished at DISK 1 at 9747
+job 115 placed in cpu queue at 9747
+Job 19 finished at CPU at 9752
+Job 19 placed directly into DISK 1 at 9752
+Job 356 enters CPU from queue at 9752.
+Job 19 finished at DISK 1 at 9759
+job 19 placed in cpu queue at 9759
+Job 636 entered simulation at 9766
+job 636 placed in cpu queue at 9766
+Job 356 finished at CPU at 9775
+Job 356 placed directly into DISK 1 at 9775
+Job 357 enters CPU from queue at 9775.
+Job 637 entered simulation at 9782
+job 637 placed in cpu queue at 9782
+Job 356 finished at DISK 1 at 9787
+job 356 placed in cpu queue at 9787
+Job 357 finished at CPU at 9787
+Job 357 placed directly into DISK 1 at 9787
+Job 358 enters CPU from queue at 9787.
+Job 638 entered simulation at 9800
+job 638 placed in cpu queue at 9800
+Job 358 finished at CPU at 9802
+Job 358 placed directly into DISK 2 at 9802
+Job 200 enters CPU from queue at 9802.
+Job 639 entered simulation at 9803
+job 639 placed in cpu queue at 9803
+Job 357 finished at DISK 1 at 9811
+job 357 placed in cpu queue at 9811
+Job 200 finished at CPU at 9812
+Job 200 placed directly into DISK 1 at 9812
+Job 116 enters CPU from queue at 9812.
+Job 640 entered simulation at 9818
+job 640 placed in cpu queue at 9818
+Job 116 finished at CPU at 9821
+Job 116 placed into DISK 2 queue at 9821
+Job 359 enters CPU from queue at 9821.
+Job 358 finished at DISK 2 at 9827
+job 358 placed in cpu queue at 9827
+Job 116 enters disk 3 from queue at 9827.
+Job 200 finished at DISK 1 at 9836
+job 200 placed in cpu queue at 9836
+Job 641 entered simulation at 9838
+job 641 placed in cpu queue at 9838
+Job 116 finished at DISK 2 at 9844
+job 116 placed in cpu queue at 9844
+Job 359 finished at CPU at 9845
+Job 359 placed directly into DISK 1 at 9845
+Job 201 enters CPU from queue at 9845.
+Job 359 finished at DISK 1 at 9858
+job 359 placed in cpu queue at 9858
+Job 642 entered simulation at 9858
+job 642 placed in cpu queue at 9858
+Job 201 finished at CPU at 9864
+Job 201 placed directly into DISK 1 at 9864
+Job 360 enters CPU from queue at 9864.
+Job 201 finished at DISK 1 at 9875
+job 201 placed in cpu queue at 9875
+Job 643 entered simulation at 9875
+job 643 placed in cpu queue at 9875
+Job 360 finished at CPU at 9887
+Job 360 placed directly into DISK 1 at 9887
+Job 202 enters CPU from queue at 9887.
+Job 202 finished at CPU at 9895
+Job 202 leaving simulation at 9895.
+Job 361 enters CPU from queue at 9895.
+Job 644 entered simulation at 9895
+job 644 placed in cpu queue at 9895
+Job 360 finished at DISK 1 at 9907
+job 360 placed in cpu queue at 9907
+Job 645 entered simulation at 9910
+job 645 placed in cpu queue at 9910
+Job 361 finished at CPU at 9911
+Job 361 placed directly into DISK 1 at 9911
+Job 362 enters CPU from queue at 9911.
+Job 362 finished at CPU at 9921
+Job 362 placed directly into DISK 2 at 9921
+Job 204 enters CPU from queue at 9921.
+Job 646 entered simulation at 9924
+job 646 placed in cpu queue at 9924
+Job 361 finished at DISK 1 at 9926
+job 361 placed in cpu queue at 9926
+Job 647 entered simulation at 9928
+job 647 placed in cpu queue at 9928
+Job 362 finished at DISK 2 at 9930
+job 362 placed in cpu queue at 9930
+Job 204 finished at CPU at 9944
+Job 204 leaving simulation at 9944.
+Job 65 enters CPU from queue at 9944.
+Job 648 entered simulation at 9955
+job 648 placed in cpu queue at 9955
+Job 65 finished at CPU at 9966
+Job 65 placed directly into DISK 1 at 9966
+Job 363 enters CPU from queue at 9966.
+Job 649 entered simulation at 9973
+job 649 placed in cpu queue at 9973
+Job 363 finished at CPU at 9980
+Job 363 placed directly into DISK 2 at 9980
+Job 364 enters CPU from queue at 9980.
+Job 65 finished at DISK 1 at 9985
+job 65 placed in cpu queue at 9985
+Job 364 finished at CPU at 9999
+Job 364 placed directly into DISK 1 at 9999
+Job 205 enters CPU from queue at 9999.
+Job 363 finished at DISK 2 at 9999
+job 363 placed in cpu queue at 9999
+Job 650 entered simulation at 10000
+job 650 placed in cpu queue at 10000
 
 Simulation complete
