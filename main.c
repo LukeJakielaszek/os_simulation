@@ -149,12 +149,32 @@ int main(char argc, char ** argv){
 
 hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
 			int id){
+  // determines where to place job for disks
   if(d1->is_busy && d2->is_busy){
-    // append to smallest queue
+    // appends job to smallest queue
+    if(compare_qs(d1->queue, d2->queue)){
+      // append to d1
+      enqueue(d1->queue, id);
+    }else{
+      // append to d2
+      enqueue(d2->queue, id);
+    }
+      
   }else if(d1->is_busy == 0){
-    // append to d1 queue
+    // add job directly to d1
+    d1->is_busy = 1;
+    d2->cur_id = id;
+
+    // add fin time to heap
+    heap = create_job_fin(d1, heap, d1->min_time, d1->max_time);
+    
   }else{
-    // append to d2 queue
+    // add job directly to d2
+    d2->is_busy = 1;
+    d2->cur_id = id;
+
+    // add fin time to heap
+    heap = create_job_fin(d2, heap, d2->min_time, d2->max_time);
   }
 
   return heap;
