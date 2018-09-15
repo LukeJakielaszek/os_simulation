@@ -4,16 +4,37 @@
 #include "pqueue.h"
 #include "read_config.h"
 
-#define JOB_ARRIVES 0
+#define JOB_ENTERS 0
 #define JOB_FIN_CPU 1
 #define JOB_FIN_D1 2
 #define JOB_FIN_D2 3
 #define SIM_FIN 4
 
+// global job counter
+int num_jobs = 1;
+
+// global simulation time counter
+int sim_time = 0;
+
+typedef struct sub_system{
+  // current job id, -1 if not busy
+  int cur_id;
+
+  // 1 if handling process, 0 if not
+  int is_busy;
+
+  // tracks type of finish to add to heap
+  int fin_type;
+  
+}sub_system;
+
 // prototypes
 int gen_rand_int(int min, int max);
 int can_exit(double prob);
-void job_arrives(int id, int sim_time, FILE * log_file);
+hnode * job_arrives(int id, sub_system * cpu, hnode * root,
+		    FILE * log_file, int min_time, int max_time, int arr_min,
+		    int arr_max);
+sub_system * create_sub(int type);
 
 int main(char argc, char ** argv){
   // reads config values from txt file
@@ -43,20 +64,20 @@ int main(char argc, char ** argv){
   hnode * heap = create_heap();
 
   // creates fifo queue for cpu
-  qnode * cpu = make_queue();
+  qnode * cpu_q = make_queue();
 
   // creates fifo queue for disk1
-  qnode * disk1 = make_queue();
+  qnode * disk1_q = make_queue();
   
   // creates fifo queue for disk2
-  qnode * disk2 = make_queue();
+  qnode * disk2_q = make_queue();
 
   // initializes heap job1 and end time
-  heap = push(heap, 1, JOB_ARRIVES, INIT_TIME);
+  heap = push(heap, 1, JOB_ENTERS, INIT_TIME);
   heap = push(heap, -1, SIM_FIN, FIN_TIME);
 
   // initializes simulation timer
-  int sim_time = INIT_TIME;
+  sim_time = INIT_TIME;
 
   // opens log file
   FILE *log_file;
@@ -73,9 +94,20 @@ int main(char argc, char ** argv){
     printf("ERROR: Failed to open [%s]\n", argv[2]);
     exit(-1);
   }
-  
+
+  // creates cpu subsystem
+  sub_system * cpu = create_sub(JOB_FIN_CPU);
+
+  // creates disk1 subsystem
+  sub_system * disk1 = create_sub(JOB_FIN_D1);
+
+  // creates disk2 subsystem
+  sub_system * disk2 = create_sub(JOB_FIN_D2);
+
   // simulation loop
   while(1){
+    print_heap(heap);
+    
     // gets next process
     hnode * next_process = pop(heap);
 
@@ -85,20 +117,67 @@ int main(char argc, char ** argv){
     // calls handler function based on process type
     if(next_process->type == SIM_FIN){
       printf("SIMULATION COMPLETE\n");
+
+      // closes log file
+      fclose(log_file);
+      
       return 0;
-    }else if(next_process->type == JOB_ARRIVES){
+    }else if(next_process->type == JOB_ENTERS){
       // handles job arrival event
-      job_arrives(next_process->id, sim_time, log_file);
+      heap = job_arrives(next_process->id, cpu, heap, log_file,
+			 CPU_MIN, CPU_MAX, ARRIVE_MIN, ARRIVE_MAX);
     }
     
   }
-
-  // closes log file
-  fclose(log_file);
 }
 
-void job_arrives(int id, int sim_time, FILE * log_file){
+// adds job to the subsystem or its corresponding queue
+hnode * job_arrives(int id, sub_system * sub, hnode * heap,
+		    FILE * log_file, int min_time, int max_time, int arr_min,
+		    int arr_max){
+  if(sub->is_busy){
+
+  }else{
+    // if sub_system is not busy, add job directly to sub.
+    sub->cur_id = id;
+
+    // set sub_system to busy
+    sub->is_busy = 1;
+
+    //determines finished time for job
+    int fin_time;
+    if(sub->fin_type == JOB_FIN_CPU){
+      // for cpu subsystem
+      fin_time = gen_rand_int(min_time, max_time) + sim_time;
+      
+    }else if(sub->fin_type == JOB_FIN_D1){
+      // for d1 subsystem
+      fin_time = gen_rand_int(min_time, max_time) + sim_time;
+
+    }else{
+      // for d2 subsystem
+      fin_time = gen_rand_int(min_time, max_time) + sim_time;
+    }
+    
+    // pushes job finish time onto heap
+    heap = push(heap, sub->cur_id, sub->fin_type, fin_time);
+
+    // creates new job to add to heap
+    int arr_time = gen_rand_int(arr_min, arr_max);
+  }
   
+}
+
+sub_system * create_sub(int type){
+  sub_system * temp;
+
+  temp = (sub_system*)malloc(sizeof(sub_system));
+
+  temp->cur_id = -1;
+  temp->is_busy = 0;
+  temp->fin_type = type;
+
+  return temp;
 }
 
 // generates a random integer between a specified min and max
