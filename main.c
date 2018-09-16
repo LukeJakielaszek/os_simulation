@@ -17,19 +17,23 @@ int num_jobs = 1;
 int cpu_q_count = 0;
 int cpu_q_sum = 0;
 int cpu_q_max = 0;
+int cpu_busy = 0;
 
 // disk1 statistics
 int d1_q_count = 0;
 int d1_q_sum = 0;
 int d1_q_max = 0;
+int d1_busy = 0;
 
 // disk2 statistics
 int d2_q_count = 0;
 int d2_q_sum = 0;
 int d2_q_max = 0;
+int d2_busy = 0;
 
 // global simulation time counter
 int sim_time = 0;
+int time_end = 0;
 
 typedef struct sub_system{
   // current job id, -1 if not busy
@@ -110,6 +114,8 @@ int main(char argc, char ** argv){
   const int DISK1_MAX = (int)config_vals[9];
   const int DISK2_MIN = (int)config_vals[10];
   const int DISK2_MAX = (int)config_vals[11];
+
+  time_end = FIN_TIME;
   
   // frees config val array
   free(config_vals);
@@ -176,19 +182,25 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tAverage queue size %lf\n",
 	      ((double)cpu_q_sum)/cpu_q_count);      
       fprintf(log_file, "\tMax queue size %d\n", cpu_q_max);
+      fprintf(log_file, "\tUtilization %.3lf\n",
+	      ((double)cpu_busy) / (FIN_TIME-INIT_TIME));
 
       // D1 Statistics
       fprintf(log_file, "\nD1:\n");
       fprintf(log_file, "\tAverage queue size %lf\n",
 	      ((double)d1_q_sum)/d1_q_count);
       fprintf(log_file, "\tMax queue size %d\n", d1_q_max);
-
+      fprintf(log_file, "\tUtilization %.3lf\n",
+	      ((double)d1_busy) / (FIN_TIME-INIT_TIME));
+      
       // D2 Statistics
       fprintf(log_file, "\nD2:\n");
       fprintf(log_file, "\tAverage queue size %lf\n",
 	      ((double)d2_q_sum)/d2_q_count);
       fprintf(log_file, "\tMax queue size %d\n", d2_q_max);
-      
+      fprintf(log_file, "\tUtilization %.3lf\n",
+	      ((double)d2_busy) / (FIN_TIME-INIT_TIME));
+
       // frees allocated memory
       free(heap);
       free(cpu);
@@ -413,6 +425,22 @@ hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
   // pushes job finish time onto heap
   heap = push(heap, sub->cur_id, sub->fin_type, fin_time);
 
+  // calculates utilization of each server;
+  if(fin_time <= time_end){
+    if(sub->fin_type == JOB_FIN_CPU){
+      // for cpu
+      cpu_busy += fin_time - sim_time;
+    
+    }else if(sub->fin_type == JOB_FIN_D1){
+      // for d1
+      d1_busy += fin_time - sim_time;
+      
+    }else{
+      // for d2
+      d2_busy += fin_time - sim_time;
+    }
+  }
+  
   return heap;
 }
 

@@ -4168,11 +4168,14 @@ Statistical Data
 CPU:
 	Average queue size 130.961274
 	Max queue size 264
+	Utilization 0.999
 
 D1:
 	Average queue size 69.390123
 	Max queue size 139
+	Utilization 0.997
 
 D2:
 	Average queue size 70.120000
 	Max queue size 140
+	Utilization 0.993
