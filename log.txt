@@ -1,5 +1,17 @@
 Processed config file [config.txt]
-Initialized constants
+Initialized constants:
+	SEED 777
+	INIT_TIME 0
+	FIN_TIME 10000
+	ARRIVE_MIN 1
+	ARRIVE_MAX 20
+	QUIT_PROB 0.200000
+	CPU_MIN 5
+	CPU_MAX 25
+	DISK1_MIN 5
+	DISK1_MAX 25
+	DISK2_MIN 5
+	DISK2_MAX 25
 Initialized Heap
 Initialized Subsystems
 Running Simulation...
@@ -4324,4 +4336,4 @@ job 363 placed in cpu queue at 9999
 Job 650 entered simulation at 10000
 job 650 placed in cpu queue at 10000
 
-Simulation complete
+Simulation complete 10000

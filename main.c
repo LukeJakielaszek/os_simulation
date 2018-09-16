@@ -95,14 +95,26 @@ int main(char argc, char ** argv){
   const int DISK1_MAX = (int)config_vals[9];
   const int DISK2_MIN = (int)config_vals[10];
   const int DISK2_MAX = (int)config_vals[11];
-
+  
   // frees config val array
   free(config_vals);
 
   // initializes random number generators.
   srand(SEED);
 
-  fprintf(log_file, "Initialized constants\n");
+  fprintf(log_file, "Initialized constants:\n");
+  fprintf(log_file, "\tSEED %d\n", SEED);
+  fprintf(log_file, "\tINIT_TIME %d\n", INIT_TIME);
+  fprintf(log_file, "\tFIN_TIME %d\n", FIN_TIME);
+  fprintf(log_file, "\tARRIVE_MIN %d\n", ARRIVE_MIN);
+  fprintf(log_file, "\tARRIVE_MAX %d\n", ARRIVE_MAX);
+  fprintf(log_file, "\tQUIT_PROB %lf\n", QUIT_PROB);
+  fprintf(log_file, "\tCPU_MIN %d\n", CPU_MIN);
+  fprintf(log_file, "\tCPU_MAX %d\n", CPU_MAX);
+  fprintf(log_file, "\tDISK1_MIN %d\n", DISK1_MIN);
+  fprintf(log_file, "\tDISK1_MAX %d\n", DISK1_MAX);
+  fprintf(log_file, "\tDISK2_MIN %d\n", DISK2_MIN);
+  fprintf(log_file, "\tDISK2_MAX %d\n", DISK2_MAX);
   
   // creates heap for job time ordering
   hnode * heap = create_heap();
@@ -140,7 +152,7 @@ int main(char argc, char ** argv){
     
     // calls handler function based on process type
     if(next_process->type == SIM_FIN){
-      fprintf(log_file, "\nSimulation complete\n");
+      fprintf(log_file, "\nSimulation complete %d\n", sim_time);
 
       // frees allocated memory
       free(heap);
