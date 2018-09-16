@@ -19,6 +19,8 @@ int cpu_q_sum = 0;
 int cpu_q_max = 0;
 int cpu_busy = 0;
 int cpu_count = 0;
+int cpu_response = 0;
+int cpu_max_response = 0;
 
 // disk1 statistics
 int d1_q_count = 0;
@@ -26,6 +28,8 @@ int d1_q_sum = 0;
 int d1_q_max = 0;
 int d1_busy = 0;
 int d1_count = 0;
+int d1_response;
+int d1_max_response = 0;
 
 // disk2 statistics
 int d2_q_count = 0;
@@ -33,6 +37,8 @@ int d2_q_sum = 0;
 int d2_q_max = 0;
 int d2_busy = 0;
 int d2_count = 0;
+int d2_response;
+int d2_max_response = 0;
 
 // global simulation time counter
 int sim_time = 0;
@@ -56,7 +62,9 @@ typedef struct sub_system{
 
   // max time for a job to process
   int max_time;
-  
+
+  // queue to track response times of server
+  qnode * init_job_times;
 }sub_system;
 
 // prototypes
@@ -189,6 +197,9 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", cpu_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)cpu_busy) / (FIN_TIME-INIT_TIME));
+      fprintf(log_file, "\tAverage response time %lf seconds\n",
+	      ((double)cpu_response) / cpu_count);
+      fprintf(log_file, "\tMax response time %d seconds\n", cpu_max_response);
       fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
 	      throughput_time * ((double)cpu_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
@@ -200,6 +211,9 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", d1_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)d1_busy) / (FIN_TIME-INIT_TIME));
+      fprintf(log_file, "\tAverage response time %lf seconds\n",
+	      ((double)d1_response) / d1_count);
+      fprintf(log_file, "\tMax response time %d seconds\n", d1_max_response);
       fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
 	      throughput_time * ((double)d1_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
@@ -211,6 +225,9 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", d2_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)d2_busy) / (FIN_TIME-INIT_TIME));
+      fprintf(log_file, "\tAverage response time %lf seconds\n",
+	      ((double)d2_response) / d2_count);
+      fprintf(log_file, "\tMax response time %d seconds\n", d2_max_response);
       fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
 	      throughput_time * ((double)d2_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
@@ -318,6 +335,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
       int cur_q_count = count_queue(d1->queue);
       d1_q_count++;
       d1_q_sum += cur_q_count;
+
+      // tracks init times for d1
+      enqueue(d1->init_job_times, sim_time);
       
       // tracks cpu queue max
       if(cur_q_count > d1_q_max){
@@ -328,6 +348,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
       fprintf(log_file, "Job %d placed into DISK 1 queue at %d\n", id,
 	      sim_time);
     }else{
+      // tracks init times for d2
+      enqueue(d2->init_job_times, sim_time);
+      
       // append to d2
       enqueue(d2->queue, id);
 
@@ -347,6 +370,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
     }
       
   }else if(d1->is_busy == 0){
+    // tracks init times for d1
+    enqueue(d1->init_job_times, sim_time);
+
     // add job directly to d1
     d1->is_busy = 1;
     d1->cur_id = id;
@@ -357,6 +383,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
     fprintf(log_file, "Job %d placed directly into DISK 1 at %d\n",
 	    id, sim_time);
   }else{
+    // tracks init times for d2
+    enqueue(d2->init_job_times, sim_time);
+
     // add job directly to d2
     d2->is_busy = 1;
     d2->cur_id = id;
@@ -440,6 +469,9 @@ hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
   // pushes job finish time onto heap
   heap = push(heap, sub->cur_id, sub->fin_type, fin_time);
 
+  // gets response time
+  int response = fin_time - dequeue(sub->init_job_times);
+  
   // calculates utilization of each server and counts num jobs processed
   if(fin_time <= time_end){
     if(sub->fin_type == JOB_FIN_CPU){
@@ -447,17 +479,43 @@ hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
       cpu_busy += fin_time - sim_time;
 
       cpu_count++;
+
+      // average response
+      cpu_response += response;
+
+      // max response
+      if(response >= cpu_max_response){
+	cpu_max_response = response;
+      }
+      
       
     }else if(sub->fin_type == JOB_FIN_D1){
       // for d1
       d1_busy += fin_time - sim_time;
       d1_count++;
+
+      // average response
+      d1_response += response;
+
+      // max response
+      if(response >= d1_max_response){
+	d1_max_response = response;
+      }
       
     }else{
       // for d2
       d2_busy += fin_time - sim_time;
 
       d2_count++;
+
+      // average response
+      d2_response += response;
+
+      // max response
+      if(response >= d2_max_response){
+	d2_max_response = response;
+      }
+      
     }
   }
   
@@ -467,6 +525,9 @@ hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
 // adds job to the cpu or its corresponding queue
 hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
 		    FILE * log_file, int arr_min, int arr_max){
+  // tracks init times for cpu
+  enqueue(sub->init_job_times, sim_time);
+
   // places job in corresponding queue
   if(sub->is_busy){
     enqueue(sub->queue, id);
@@ -485,7 +546,7 @@ hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
     fprintf(log_file, "job %d placed in cpu queue at %d\n", id, sim_time);
   }else{
     fprintf(log_file, "job %d placed directly into cpu at %d\n", id, sim_time);
-    
+
     // add job directly to subsystem.
     sub->cur_id = id;
 
@@ -514,6 +575,10 @@ sub_system * create_sub(int type, int min_time, int max_time){
 
   temp = (sub_system*)malloc(sizeof(sub_system));
 
+  if(temp == NULL){
+    printf("ERROR: Failed to allocate subsystem.\n");
+    exit(-1);
+  }
   // creates fifo queue for subsystem  
   qnode * sub_q = make_queue();
 
@@ -523,6 +588,9 @@ sub_system * create_sub(int type, int min_time, int max_time){
   temp->queue = sub_q;
   temp->min_time = min_time;
   temp->max_time = max_time;
+
+  // creates init job time tracker for subsystem statistics  
+  temp->init_job_times = make_queue();
 
   return temp;
 }
