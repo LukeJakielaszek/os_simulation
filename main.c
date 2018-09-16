@@ -251,6 +251,8 @@ int main(char argc, char ** argv){
       
       // closes log file
       fclose(log_file);
+
+      printf("Simulation complete.\n");
       
       return 0;
     }else if(next_process->type == JOB_ENTERS){
