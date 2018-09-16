@@ -4,6 +4,7 @@
 #include "pqueue.h"
 #include "read_config.h"
 
+// define event type constants
 #define JOB_ENTERS 0
 #define JOB_FIN_CPU 1
 #define JOB_FIN_D1 2
@@ -84,18 +85,21 @@ hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
 		       hnode * heap, double quit_prob, int arr_min,
 		       int arr_max, FILE * log_file);
 
+// takes in a config file and log file
 int main(char argc, char ** argv){
   // opens log file
   FILE *log_file;
 
   // clears log_file
   log_file = fopen(argv[2], "w");
+  
   // prints error if log file fails to open
   if(log_file == NULL){
     printf("ERROR: Failed to open [%s]\n", argv[2]);
     exit(-1);
   }
-  
+
+  // closes log file for open in append
   fclose(log_file);
   
   // opens log file for append
@@ -110,6 +114,7 @@ int main(char argc, char ** argv){
   // reads config values from txt file
   double * config_vals = read_config(argv[1]);
 
+  // logs success
   fprintf(log_file, "Processed config file [%s]\n", argv[1]);
   
   // initializes config value constants
@@ -126,6 +131,7 @@ int main(char argc, char ** argv){
   const int DISK2_MIN = (int)config_vals[10];
   const int DISK2_MAX = (int)config_vals[11];
 
+  // for tracking time
   time_end = FIN_TIME;
   
   // frees config val array
@@ -134,6 +140,7 @@ int main(char argc, char ** argv){
   // initializes random number generators.
   srand(SEED);
 
+  // prints config file to log file
   fprintf(log_file, "Initialized constants:\n");
   fprintf(log_file, "\tSEED %d\n", SEED);
   fprintf(log_file, "\tINIT_TIME %d\n", INIT_TIME);
@@ -155,6 +162,7 @@ int main(char argc, char ** argv){
   heap = push(heap, num_jobs, JOB_ENTERS, INIT_TIME);
   heap = push(heap, -1, SIM_FIN, FIN_TIME);
 
+  // log successful heap
   fprintf(log_file, "Initialized Heap\n");
   
   // initializes simulation timer
@@ -170,8 +178,10 @@ int main(char argc, char ** argv){
   // creates disk2 subsystem
   sub_system * disk2 = create_sub(JOB_FIN_D2, DISK2_MIN, DISK2_MAX);
 
+  // log successful creation of subsystems
   fprintf(log_file, "Initialized Subsystems\n");
-  
+
+  // log simulation start
   fprintf(log_file, "Running Simulation...\n\n");
   
   // simulation loop
@@ -288,12 +298,16 @@ int main(char argc, char ** argv){
   }
 }
 
+// handles job finishing at a disk
+// retrieves next job from corresponding disk queue
 hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap,
 			FILE * log_file){
   if(isEmpty(disk->queue)){
+    // sits in idle
     disk->is_busy = 0;
     disk->cur_id = -1;
   }else{
+    // retrieves next job
     disk->cur_id = dequeue(disk->queue);
     disk->is_busy = 1;
 
@@ -322,6 +336,8 @@ hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap,
   return heap;
 }
 
+// handles job arriving at disk by appending to queue or inserting
+// job directly into disk
 hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
 			int id, FILE * log_file){
   // determines where to place job for disks
@@ -380,6 +396,7 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
     // add fin time to heap
     heap = create_job_fin(d1, heap, d1->min_time, d1->max_time);
 
+    // log event
     fprintf(log_file, "Job %d placed directly into DISK 1 at %d\n",
 	    id, sim_time);
   }else{
@@ -393,6 +410,7 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
     // add fin time to heap
     heap = create_job_fin(d2, heap, d2->min_time, d2->max_time);
 
+    // log event
     fprintf(log_file, "Job %d placed directly into DISK 2 at %d\n", id,
 	    sim_time);
   }
@@ -400,6 +418,9 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
   return heap;
 }
 
+// handles job finish at cpu event. Checks if job can exit. If not,
+// sends job to disk. Checks if a new job is waiting in cpu queue.
+// creates a new job to send to heap for linear job growth.
 hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
 		       hnode * heap, double quit_prob, int arr_min,
 		       int arr_max, FILE * log_file){
@@ -462,6 +483,9 @@ int compare_qs(qnode * q1, qnode * q2){
   }
 }
 
+// creates a job finish event for specific subsystem. finish time
+// is current system time + a random integer constrained by min and
+// max for the system.
 hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
 		       int max_time){
   int fin_time = gen_rand_int(min_time, max_time) + sim_time;
@@ -522,7 +546,7 @@ hnode * create_job_fin(sub_system * sub, hnode * heap, int min_time,
   return heap;
 }
 
-// adds job to the cpu or its corresponding queue
+// adds job to the cpu or the cpu queue.
 hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
 		    FILE * log_file, int arr_min, int arr_max){
   // tracks init times for cpu
@@ -570,6 +594,7 @@ hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
   return heap;
 }
 
+// creates a subsystem and initializes values. (CPU, Disk1, Disk2)
 sub_system * create_sub(int type, int min_time, int max_time){
   sub_system * temp;
 
@@ -602,6 +627,7 @@ int gen_rand_int(int min, int max){
 
 // returns 1 if generated number (1-100) is <= probability*100, 0 otherwise
 int can_exit(double prob){
+  // sanity check for probability, also handles obvious cases
   if(prob <= 0){
     return 0;
   }else if(prob > 1){
