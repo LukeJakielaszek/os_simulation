@@ -13,6 +13,21 @@
 // global job counter
 int num_jobs = 1;
 
+// cpu statistics
+int cpu_q_count = 0;
+int cpu_q_sum = 0;
+int cpu_q_max = 0;
+
+// disk1 statistics
+int d1_q_count = 0;
+int d1_q_sum = 0;
+int d1_q_max = 0;
+
+// disk2 statistics
+int d2_q_count = 0;
+int d2_q_sum = 0;
+int d2_q_max = 0;
+
 // global simulation time counter
 int sim_time = 0;
 
@@ -154,6 +169,26 @@ int main(char argc, char ** argv){
     if(next_process->type == SIM_FIN){
       fprintf(log_file, "\nSimulation complete %d\n", sim_time);
 
+      fprintf(log_file, "\nStatistical Data\n");
+
+      // CPU Statistics
+      fprintf(log_file, "\nCPU:\n");
+      fprintf(log_file, "\tAverage queue size %lf\n",
+	      ((double)cpu_q_sum)/cpu_q_count);      
+      fprintf(log_file, "\tMax queue size %d\n", cpu_q_max);
+
+      // D1 Statistics
+      fprintf(log_file, "\nD1:\n");
+      fprintf(log_file, "\tAverage queue size %lf\n",
+	      ((double)d1_q_sum)/d1_q_count);
+      fprintf(log_file, "\tMax queue size %d\n", d1_q_max);
+
+      // D2 Statistics
+      fprintf(log_file, "\nD2:\n");
+      fprintf(log_file, "\tAverage queue size %lf\n",
+	      ((double)d2_q_sum)/d2_q_count);
+      fprintf(log_file, "\tMax queue size %d\n", d2_q_max);
+      
       // frees allocated memory
       free(heap);
       free(cpu);
@@ -224,6 +259,20 @@ hnode * job_finish_disk(sub_system * disk, sub_system * cpu, hnode * heap,
     
     // add new job fin time to heap
     heap = create_job_fin(disk, heap, disk->min_time, disk->max_time);
+
+    // tracks disk queue statistics
+    if(disk->fin_type == JOB_FIN_D1){
+      // disk 1 average
+      int cur_q_count = count_queue(disk->queue);
+      d1_q_count++;
+      d1_q_sum += cur_q_count;
+    }else{
+      // disk 2 average
+      int cur_q_count = count_queue(disk->queue);
+      d2_q_count++;
+      d2_q_sum += cur_q_count;
+    }
+
   }
 
   return heap;
@@ -234,10 +283,20 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
   // determines where to place job for disks
   if(d1->is_busy && d2->is_busy){
     // appends job to smallest queue
-    if(compare_qs(d1->queue, d2->queue)){
+    if(compare_qs(d2->queue, d1->queue)){
       // append to d1
       enqueue(d1->queue, id);
 
+      // tracks d1 average
+      int cur_q_count = count_queue(d1->queue);
+      d1_q_count++;
+      d1_q_sum += cur_q_count;
+      
+      // tracks cpu queue max
+      if(cur_q_count > d1_q_max){
+	d1_q_max = cur_q_count;
+      }
+      
       // log event
       fprintf(log_file, "Job %d placed into DISK 1 queue at %d\n", id,
 	      sim_time);
@@ -245,6 +304,16 @@ hnode * job_arrive_disk(sub_system * d1, sub_system * d2, hnode * heap,
       // append to d2
       enqueue(d2->queue, id);
 
+      // tracks d2 average
+      int cur_q_count = count_queue(d2->queue);
+      d2_q_count++;
+      d2_q_sum += cur_q_count;
+      
+      // tracks cpu queue max
+      if(cur_q_count > d2_q_max){
+	d2_q_max = cur_q_count;
+      }
+      
       // log event
       fprintf(log_file, "Job %d placed into DISK 2 queue at %d\n", id,
 	      sim_time);
@@ -315,6 +384,11 @@ hnode * job_finish_cpu(sub_system * cpu, sub_system * d1, sub_system * d2,
 
     // pushes new job to heap, this will make jobs grow linearly
     heap = push(heap, num_jobs, JOB_ENTERS, arr_time);
+
+    // tracks cpu queue average
+    int cur_q_count = count_queue(cpu->queue);
+    cpu_q_count++;
+    cpu_q_sum += cur_q_count;
   }
 
   return heap;
@@ -349,6 +423,16 @@ hnode * job_arrives_cpu(int id, sub_system * sub, hnode * heap,
   if(sub->is_busy){
     enqueue(sub->queue, id);
 
+    // tracks cpu queue average
+    int cur_q_count = count_queue(sub->queue);
+    cpu_q_count++;
+    cpu_q_sum += cur_q_count;
+
+    // tracks cpu queue max
+    if(cur_q_count > cpu_q_max){
+      cpu_q_max = cur_q_count;
+    }
+    
     // logs enqueueing
     fprintf(log_file, "job %d placed in cpu queue at %d\n", id, sim_time);
   }else{
