@@ -1,0 +1,22 @@
+Disk times:
+     Av. Seek Time = 3 - 15 ms
+     Av. Rotational Latency = 5.5 ms
+     Av. Data Transfer Rate = varies -> 480 Mbps = .48 Mbpms
+     Therefore, Av. Disk Service Time ~ 9 - 21 ms for a MB
+
+CPU times
+    Estimated as being quicker than disk times since reading and writing
+    from disks is very slow.
+
+Inter-Arrival time
+    Estimated as being fairly consistent with CPU and DISK times as
+    events and processes would be created fairly often as a system runs.
+
+What I have learned:
+     As long as the queue for a subsystem is occupied, the subsystem will have
+     a high utilization. However, if the subsystem's queue fills faster than
+     it can process a job, the max-response time and average response
+     will increase to longer and longer times as the simulation runs. Ideally,
+     all subsystems would have relatively high utilizations with small queues.
+     Therefore the response time for all subsystems would be low and processes
+     would be processed as quickly and efficiently as possible.

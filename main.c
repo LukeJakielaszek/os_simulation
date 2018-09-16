@@ -207,10 +207,10 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", cpu_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)cpu_busy) / (FIN_TIME-INIT_TIME));
-      fprintf(log_file, "\tAverage response time %lf seconds\n",
+      fprintf(log_file, "\tAverage response time %lf ms\n",
 	      ((double)cpu_response) / cpu_count);
-      fprintf(log_file, "\tMax response time %d seconds\n", cpu_max_response);
-      fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
+      fprintf(log_file, "\tMax response time %d ms\n", cpu_max_response);
+      fprintf(log_file, "\tThroughput: %lf jobs every %d ms\n",
 	      throughput_time * ((double)cpu_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
       
@@ -221,10 +221,10 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", d1_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)d1_busy) / (FIN_TIME-INIT_TIME));
-      fprintf(log_file, "\tAverage response time %lf seconds\n",
+      fprintf(log_file, "\tAverage response time %lf mss\n",
 	      ((double)d1_response) / d1_count);
-      fprintf(log_file, "\tMax response time %d seconds\n", d1_max_response);
-      fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
+      fprintf(log_file, "\tMax response time %d ms\n", d1_max_response);
+      fprintf(log_file, "\tThroughput: %lf jobs every %d ms\n",
 	      throughput_time * ((double)d1_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
       
@@ -235,10 +235,10 @@ int main(char argc, char ** argv){
       fprintf(log_file, "\tMax queue size %d\n", d2_q_max);
       fprintf(log_file, "\tUtilization %lf\n",
 	      ((double)d2_busy) / (FIN_TIME-INIT_TIME));
-      fprintf(log_file, "\tAverage response time %lf seconds\n",
+      fprintf(log_file, "\tAverage response time %lf ms\n",
 	      ((double)d2_response) / d2_count);
       fprintf(log_file, "\tMax response time %d seconds\n", d2_max_response);
-      fprintf(log_file, "\tThroughput: %lf jobs every %d seconds\n",
+      fprintf(log_file, "\tThroughput: %lf jobs every %d ms\n",
 	      throughput_time * ((double)d2_count) / (FIN_TIME-INIT_TIME),
 	      throughput_time);
 
